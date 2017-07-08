@@ -17,6 +17,10 @@ build:
             code: yarn run test
 
         - script:
-            name: test
+            name: build
+            code: yarn run build
+
+        - script:
+            name: build storybook
             code: yarn run storybook:build
 

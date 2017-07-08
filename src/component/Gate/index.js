@@ -61,7 +61,10 @@ export class Gate extends React.Component {
         this.setState({ step: 2, pic: { happy: dataUrl } })
     }
 
-    submit = () => 0
+    submit = () => {
+        this.props.submit &&
+            this.props.submit({ name: this.state.name, pic: this.state.pic })
+    }
 
     render() {
         return (

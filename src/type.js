@@ -29,3 +29,23 @@ export type Card = {
 export type PlayerState = 'out' | 'inGame'
 
 export type PlayerMood = 'happy' | 'sad' | 'idle'
+
+export type Game = {
+    river: [Card, Card, Card | null, Card | null, Card | null],
+
+    bets: number[],
+
+    playerStates: playerState[],
+
+    playerMoods: PlayerMood[],
+
+    hands: Array<[Card, Card]>,
+}
+
+export type Table = {
+    id: string,
+
+    users: User[],
+
+    game: Game | null,
+}

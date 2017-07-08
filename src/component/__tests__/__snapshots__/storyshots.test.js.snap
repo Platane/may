@@ -3,6 +3,7 @@
 exports[`Storyshots Button default 1`] = `
 <div
   className="_47e2a032"
+  onClick={undefined}
 >
   <div
     className="_918d5541"
@@ -9245,6 +9246,7 @@ exports[`Storyshots Gate step 3 1`] = `
     >
       <div
         className="_47e2a032"
+        onClick={undefined}
       >
         <div
           className="_918d5541"

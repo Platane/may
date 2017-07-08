@@ -4,9 +4,10 @@ import style from './style.css'
 
 export type Props = {
     children: string,
+    onClick: () => void,
 }
 
-export const Button = ({ children }: Props) =>
-    <div className={style.container}>
+export const Button = ({ children, onClick }: Props) =>
+    <div className={style.container} onClick={onClick}>
         {children}
     </div>
