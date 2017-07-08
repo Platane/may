@@ -1,5 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Button default 1`] = `
+<div
+  className="_47e2a032"
+>
+  <div
+    className="_918d5541"
+  >
+    Hello
+  </div>
+</div>
+`;
+
 exports[`Storyshots Card all cards 1`] = `
 <div>
   <div
@@ -9051,6 +9063,292 @@ exports[`Storyshots Card size 1`] = `
 </div>
 `;
 
+exports[`Storyshots Gate step 1 1`] = `
+<div
+  style={
+    Object {
+      "bottom": 0,
+      "left": 0,
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="_70ad4e70"
+  >
+    <div
+      className="ff8d4a49"
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className="_918d5541"
+          >
+            Hi, what's your name ?
+          </div>
+          <input
+            className={undefined}
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value="timmy"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="ff8d4a49 _1b7484bb"
+    />
+    <div
+      className="ff8d4a49 _1b7484bb"
+    />
+    <div
+      className="ff8d4a49 _1b7484bb"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Gate step 2 1`] = `
+<div
+  style={
+    Object {
+      "bottom": 0,
+      "left": 0,
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="_70ad4e70"
+  >
+    <div
+      className="ff8d4a49 _91c56d22"
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className="_918d5541"
+        >
+          timmy
+        </div>
+      </div>
+    </div>
+    <div
+      className="ff8d4a49"
+    >
+      <div
+        className="_3ae6a74b"
+      >
+        <div
+          className="_918d5541"
+        >
+          Show your face
+        </div>
+        <div
+          className="_99edbece"
+        >
+          <div
+            className="_1e1ba9f5"
+          >
+            <div
+              className="_95359991"
+            >
+              <input
+                accept="image/*"
+                className="_89fafdae"
+                onChange={[Function]}
+                type="file"
+              />
+            </div>
+            <div
+              className="_446fa345"
+              style={
+                Object {
+                  "backgroundImage": "url(undefined)",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ff8d4a49 _1b7484bb"
+    />
+    <div
+      className="ff8d4a49 _1b7484bb"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Gate step 3 1`] = `
+<div
+  style={
+    Object {
+      "bottom": 0,
+      "left": 0,
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="_70ad4e70"
+  >
+    <div
+      className="ff8d4a49 _91c56d22"
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className="_918d5541"
+        >
+          timmy
+        </div>
+      </div>
+    </div>
+    <div
+      className="ff8d4a49 _91c56d22"
+    >
+      <div
+        className="_3ae6a74b"
+      >
+        <div
+          className="_99edbece"
+        >
+          <div
+            className="_446fa345"
+            style={
+              Object {
+                "backgroundImage": "url(undefined)",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="ff8d4a49"
+    >
+      <div
+        className="_47e2a032"
+      >
+        <div
+          className="_918d5541"
+        >
+          Submit
+        </div>
+      </div>
+    </div>
+    <div
+      className="ff8d4a49 _1b7484bb"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Gate with state 1`] = `
+<div
+  style={
+    Object {
+      "bottom": 0,
+      "left": 0,
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="_70ad4e70"
+  >
+    <div
+      className="ff8d4a49"
+    >
+      <div
+        className={undefined}
+      >
+        <div
+          className={undefined}
+        >
+          <div
+            className="_918d5541"
+          >
+            Hi, what's your name ?
+          </div>
+          <input
+            className={undefined}
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="ff8d4a49 _1b7484bb"
+    />
+    <div
+      className="ff8d4a49 _1b7484bb"
+    />
+    <div
+      className="ff8d4a49 _1b7484bb"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots ImageInput default 1`] = `
+<div
+  style={
+    Object {
+      "boxShadow": "0 0 0 2px tomato",
+      "height": 200,
+      "width": 200,
+    }
+  }
+>
+  <div
+    className="_1e1ba9f5"
+  >
+    <div
+      className="_95359991"
+    >
+      <input
+        accept="image/*"
+        className="_89fafdae"
+        onChange={[Function]}
+        type="file"
+      />
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundImage": "url(null)",
+          "backgroundSize": "cover",
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
 exports[`Storyshots Player default 1`] = `
 <div
   style={
@@ -10917,5 +11215,13 @@ exports[`Storyshots Table default 1`] = `
       </div>
     </div>
   </div>
+</div>
+`;
+
+exports[`Storyshots Text default 1`] = `
+<div
+  className="_918d5541"
+>
+  Hello
 </div>
 `;
