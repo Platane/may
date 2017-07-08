@@ -51,19 +51,32 @@ export const SimpleGate = (props: Props) =>
     </div>
 
 export class Gate extends React.Component {
-    state = { step: 0, name: '', pic: { idle: null } }
+    state = {
+        step: 0,
+        name: '',
+        pic: { happy: null },
+        picFile: { happy: null },
+    }
 
     setName = name => this.setState({ name })
 
     setStep = step => this.setState({ step })
 
-    setHappyFace = (dataUrl, binary) => {
-        this.setState({ step: 2, pic: { happy: dataUrl } })
+    setHappyFace = (dataUrl, binary, file) => {
+        this.setState({
+            step: 2,
+            pic: { happy: dataUrl },
+            picFile: { happy: file },
+        })
     }
 
     submit = () => {
         this.props.submit &&
-            this.props.submit({ name: this.state.name, pic: this.state.pic })
+            this.props.submit({
+                name: this.state.name,
+                pic: this.state.pic,
+                picFile: this.state.picFile,
+            })
     }
 
     render() {

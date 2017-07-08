@@ -16,13 +16,15 @@ export class ImageInput extends React.Component {
     onFile = async files => {
         this.setState({ waiting: true })
 
-        const dataUrl = await loadImage(files[0], 'dataUrl')
+        const file = files[0]
 
-        const binary = await loadImage(files[0], 'binary')
+        const dataUrl = await loadImage(file, 'dataUrl')
+
+        const binary = await loadImage(file, 'binary')
 
         this.setState({ waiting: false })
 
-        this.props.onChange(dataUrl, binary)
+        this.props.onChange(dataUrl, binary, file)
     }
 
     render() {
