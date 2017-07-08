@@ -1,0 +1,36 @@
+{
+    "presets": ["flow", "react"],
+    "plugins": [
+        "transform-class-properties",
+        "transform-es2015-modules-commonjs",
+        "transform-object-rest-spread"
+    ],
+    "env": {
+        "test": {
+            "plugins": [
+                [
+                    "css-modules-transform",
+                    {
+                        "generateScopedName": "[hash:8]",
+                        "extensions": [".css"]
+                    }
+                ],
+                "transform-assets-import-to-string"
+            ]
+        },
+        "production": {
+            "presets": [
+                [
+                    "env",
+                    {
+                        "targets": {
+                            "browsers": ["last 2 versions", "safari >= 7"]
+                        },
+                        "loose": true,
+                        "module": false
+                    }
+                ]
+            ]
+        }
+    }
+}
