@@ -1,0 +1,22 @@
+
+build:
+
+    box: node:8.1
+
+    steps:
+
+        - script:
+            name: install dependencies
+            code: |
+                npm install -g yarn --silent
+                export YARN_CACHE=$WERCKER_CACHE_DIR/yarn
+                HOME=$YARN_CACHE yarn --pure-lockfile
+
+        - script:
+            name: test
+            code: yarn run test
+
+        - script:
+            name: test
+            code: yarn run storybook:build
+
