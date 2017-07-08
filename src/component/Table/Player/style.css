@@ -1,0 +1,58 @@
+.center {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #333;
+}
+
+.container {
+    position: absolute;
+    height: 1px;
+    width: 300px;
+}
+
+.userCard {
+    width: 100px;
+    height: 100px;
+    transform: translate3d(-50px, -160px, 0);
+    background-color: #aaa;
+    position: relative;
+}
+.userCardPic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.userBar {
+    width: 2px;
+    height: 60px;
+    position: absolute;
+    left: -1px;
+    top: -60px;
+    background-color: #eee;
+}
+
+.handZone,
+.userZone,
+.probe {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.hand {
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    transform: translate3d(-90px, -50px, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
