@@ -5,11 +5,12 @@ import { ImageInput } from '../../ImageInput'
 import style from './style.css'
 
 export type Props = {
-    dataUrl: string,
+    pic: Object,
     minimized: boolean,
+    setHappyFace: (dataUrl: string, binary: string, file: File) => void,
 }
 
-export const Step2 = ({ pic, minimized, setHappyFace, setStep }: Props) =>
+export const Step2 = ({ pic, minimized, setHappyFace }: Props) =>
     <div className={style.container}>
         {!minimized && <Text>Show your face</Text>}
         {!minimized &&

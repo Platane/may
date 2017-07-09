@@ -3,13 +3,6 @@ import { defaultState, reduce } from './reducer'
 
 import { init as initUI } from './sideEffect/ui'
 
-import type { State } from './reducer'
-import type { Action } from './action'
-import type { Store as ReduxStore, Dispatch as ReduxDispatch } from 'redux'
-
-export type Store = ReduxStore<State, Action>
-export type Dispatch = ReduxDispatch<Action>
-
 let store
 {
     const crashReporter = store => next => action => {

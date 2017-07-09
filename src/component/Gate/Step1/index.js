@@ -6,6 +6,8 @@ import style from './style.css'
 export type Props = {
     name: string,
     minimized: boolean,
+    setName: (name: string) => void,
+    setStep: (_: any) => void,
 }
 
 export const Step1 = ({ name, minimized, setName, setStep }: Props) =>

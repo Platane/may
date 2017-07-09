@@ -2,6 +2,8 @@ import firebase from '../../util/firebase'
 import { genUid } from '../../util/uid'
 import { extname } from 'path'
 
+import type { User } from '../../type'
+
 type Action_Start = { type: 'register:start' }
 type Action_Success = { type: 'register:success', user: User, tableId: string }
 type Action_Failure = { type: 'register:failure' }
@@ -62,3 +64,5 @@ export const register = dispatch => async (
 }
 
 export type Action = Action_Start | Action_Success | Action_Failure
+
+const a: Action = { type: 'yolo' }

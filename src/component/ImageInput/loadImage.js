@@ -1,6 +1,6 @@
-export const isFileAcceptable = file => true
+export const isFileAcceptable = (file: File) => true
 
-export const loadImage = (file, type: 'binary' | 'dataurl') =>
+export const loadImage = (file: File, type: 'binary' | 'dataUrl') =>
     new Promise((resolve, reject) => {
         const rf = new FileReader()
 
@@ -9,7 +9,7 @@ export const loadImage = (file, type: 'binary' | 'dataurl') =>
 
         switch (type) {
             case 'binary':
-                rf.readAsBinaryString(file)
+                rf.readAsArrayBuffer(file)
                 break
 
             case 'dataUrl':

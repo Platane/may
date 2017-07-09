@@ -1,13 +1,16 @@
-export const chainReducer = (...reducers) => (state0, action) =>
+export const chainReducer = <State, Action>(
+    ...reducers: Array<(state: State, action: Action, state0: State) => State>
+) => (state0: State, action: Action): State =>
     reducers.reduce((state, reducer) => reducer(state, action, state0), state0)
 
-const isObject = a => !!(a && typeof a === 'object' && !Array.isArray(a))
+const isObject = (a: any): boolean =>
+    !!(a && typeof a === 'object' && !Array.isArray(a))
 
 export const set = (
-    source: Object,
+    source: any,
     path: (string | number)[],
     value: any
-): Object => {
+): any => {
     const [key, ...rest] = path
 
     if (!key)

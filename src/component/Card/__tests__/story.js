@@ -54,6 +54,7 @@ storiesOf('Card', module).add('size', () =>
                         style={{ display: 'inline-block', flexShrink: 0 }}
                     >
                         <Card
+                            hidden={false}
                             key={size + ' ' + i}
                             size={size}
                             card={cards[i]}

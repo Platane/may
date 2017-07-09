@@ -5,7 +5,8 @@ import { loadImage, isFileAcceptable } from './loadImage'
 import style from './style.css'
 
 export type Props = {
-    onChange: (dataUrl: string, binary: string) => void,
+    onChange: (dataUrl: string, binary: string, file: File) => void,
+    children: any,
 }
 
 export class ImageInput extends React.Component {
@@ -13,7 +14,7 @@ export class ImageInput extends React.Component {
 
     state = { waiting: false }
 
-    onFile = async files => {
+    onFile = async (files: File[]) => {
         this.setState({ waiting: true })
 
         const file = files[0]
@@ -24,7 +25,7 @@ export class ImageInput extends React.Component {
 
         this.setState({ waiting: false })
 
-        this.props.onChange(dataUrl, binary, file)
+        this.props.onChange(dataUrl.toString(), binary.toString(), file)
     }
 
     render() {

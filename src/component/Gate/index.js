@@ -58,11 +58,11 @@ export class Gate extends React.Component {
         picFile: { happy: null },
     }
 
-    setName = name => this.setState({ name })
+    setName = (name: string) => this.setState({ name })
 
-    setStep = step => this.setState({ step })
+    setStep = (step: 0 | 1 | 2 | 3) => this.setState({ step })
 
-    setHappyFace = (dataUrl, binary, file) => {
+    setHappyFace = (dataUrl: string, _, file: File) => {
         this.setState({
             step: 2,
             pic: { happy: dataUrl },

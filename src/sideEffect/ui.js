@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 import { App } from '../component/App/connected'
 
-export const init = store => {
+import type { Store } from '../reducer/type'
+
+export const init = (store: Store) => {
     const render = () =>
         ReactDOM.render(
             <Provider store={store}>

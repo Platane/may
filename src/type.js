@@ -35,7 +35,7 @@ export type Game = {
 
     bets: number[],
 
-    playerStates: playerState[],
+    playerStates: PlayerState[],
 
     playerMoods: PlayerMood[],
 

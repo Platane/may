@@ -3,8 +3,8 @@ import React from 'react'
 import style from './style.css'
 
 export type Props = {
-    children: string,
-    onClick: () => void,
+    children: any,
+    onClick?: () => void,
 }
 
 export const Button = ({ children, onClick }: Props) =>

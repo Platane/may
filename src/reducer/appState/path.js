@@ -1,6 +1,6 @@
 import { set } from '../../util/redux'
 
-import type { Action, State } from '../../type'
+import type { Action, State } from '../type'
 
 export const reduce = (state: State, action: Action): State => {
     if (action.type === 'register:success')
