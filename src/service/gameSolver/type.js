@@ -4,10 +4,22 @@ export type Action =
     | { type: 'raise', player: number, value: number }
     | { type: 'call', player: number }
     | { type: 'fold', player: number }
-    | { type: 'start' }
+
+export type Player = {
+    bet: number,
+    banks: number,
+    folded: boolean,
+    hand: [Card, Card],
+}
 
 export type Game_Running = {
     state: 'running',
+
+    river: [Card, Card, Card, Card, Card],
+
+    blind: number,
+
+    players: Player[],
 
     // 0 preflop
     // 2 flop
@@ -23,15 +35,6 @@ export type Game_Running = {
 
     // next player to do an action
     speaker: number,
-
-    river: [Card, Card, Card, Card, Card],
-
-    // for every player, the bet for this game
-    bets: number[],
-
-    // for every player, the two cards,
-    // or folded if the player have fold
-    hands: Array<[Card, Card] | 'folded'>,
 }
 
 export type Game_Over = {
@@ -39,19 +42,9 @@ export type Game_Over = {
 
     river: [Card, Card, Card, Card, Card],
 
-    bets: number[],
-
-    hands: Array<[Card, Card] | 'folded'>,
-
-    winner: number,
-}
-
-export type Table = {
-    users: User[],
-
-    banks: number[],
-
     blind: number,
 
-    game: Game_Over | Game_Running | null,
+    players: Player[],
+
+    winner: number,
 }

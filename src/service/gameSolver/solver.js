@@ -1,8 +1,9 @@
 import { initGame } from './initGame'
 import { chainReducer } from '../../util/redux'
+import { set, merge } from '../../util/redux'
 import { getWinner } from './handSolver'
 
-import type { Action, Game_Running, Game_Over, Table } from './type'
+import type { Action, Game_Running, Game_Over } from './type'
 
 /**
  * handle play action
@@ -10,7 +11,7 @@ import type { Action, Game_Running, Game_Over, Table } from './type'
  *
  */
 const reducePlay = (game: Game_Running, action: Action): Game_Running => {
-    const { speaker, hands, bets, turn } = game
+    const { speaker, players, turn } = game
 
     switch (action.type) {
         case 'fold':
@@ -23,37 +24,37 @@ const reducePlay = (game: Game_Running, action: Action): Game_Running => {
             let n = game.n
             do {
                 n++
-            } while (hands[n % bets.length] === 'folded')
+            } while (players[n % players.length].folded)
 
             const nextGame = {
                 ...game,
                 n,
-                speaker: n % bets.length,
+                speaker: n % players.length,
             }
 
-            const callValue = Math.max(...game.bets)
-
             if (action.type === 'fold')
-                return {
-                    ...nextGame,
-                    hands: game.hands.map(
-                        (hand, i) => (i === speaker ? 'folded' : hand)
-                    ),
-                }
-            else if (action.type === 'raise' && action.value >= callValue)
-                return {
-                    ...nextGame,
-                    bets: bets.map(
-                        (bet, i) => (i === speaker ? action.value : bet)
-                    ),
-                }
-            else
-                return {
-                    ...nextGame,
-                    bets: bets.map(
-                        (bet, i) => (i === speaker ? callValue : bet)
-                    ),
-                }
+                return set(nextGame, ['players', speaker, 'folded'], true)
+
+            // minimal value to bet
+            const callValue = Math.max(...players.map(({ bet }) => bet))
+
+            // target bet value
+            let bet =
+                action.type === 'raise' &&
+                action.value >= callValue + game.blind
+                    ? action.value
+                    : callValue
+
+            // new bank value
+            let bank = players[speaker].bank - (bet - players[speaker].bet)
+
+            // bank can not be negative
+            if (bank < 0) {
+                bet = bet + bank
+                bank = 0
+            }
+
+            return merge(nextGame, ['players', speaker], { bet, bank })
 
         default:
             return game
@@ -64,33 +65,13 @@ const reducePlay = (game: Game_Running, action: Action): Game_Running => {
  * handle start action
  *
  */
-const reduceStart = (table: Table, action: Action): Table => {
-    switch (action.type) {
-        case 'start':
-            if (
-                (!table.game || table.game.state === 'over') &&
-                table.users.length > 0
-            )
-                return {
-                    ...table,
-                    game: initGame(table.users.length, table.blind),
-                }
-        default:
-            return table
-    }
-}
-
-/**
- * handle start action
- *
- */
 const reduceEndTurn = (game: Game_Running): Game_Running => {
     if (
-        game.n >= game.bets.length &&
+        game.n >= game.players.length &&
         // for eavery player not folded, every bet are equals
-        game.bets
-            .filter((_, i) => game.hands[i] !== 'folded')
-            .every((x, i, arr) => x === arr[0])
+        game.players
+            .filter(player => !player.folded)
+            .every((x, i, arr) => x.bet === arr[0].bet)
     ) {
         return {
             ...game,
@@ -110,96 +91,32 @@ const reduceEndTurn = (game: Game_Running): Game_Running => {
 const reduceEndGame = (game: Game_Running): Game_Running | Game_Over => {
     let winner = -1
 
-    if (game.hands.filter(x => x !== 'folded').length <= 1)
-        winner = game.hands.findIndex(x => x !== 'folded')
+    if (game.players.filter(player => !player.folded).length <= 1)
+        winner = game.players.findIndex(player => !player.folded)
 
-    if (game.turn > 3) winner = getWinner(game.river, game.hands)
+    if (game.turn > 3)
+        winner = getWinner(
+            game.river,
+            game.players.map(player => (player.folded ? null : player.hand))
+        )
 
-    if (winner !== -1)
+    if (winner !== -1) {
+        const pot = game.players.reduce((sum, player) => sum + player.bet, 0)
+
         return {
+            blind: game.blind,
+            river: game.river,
             state: 'over',
             winner,
-            river: game.river,
-            bets: game.bets,
-            hands: game.hands,
+            players: set(
+                game.players,
+                [winner, 'bank'],
+                game.players[winner].bank + pot
+            ),
         }
+    }
 
     return game
 }
 
-const reduceGame = reducer => (table: Table, action: Action): Table => {
-    if (!table.game || table.game.state === 'over') return table
-
-    const newGame = reducer(table.game, action)
-
-    return newGame == table.game ? table : { ...table, game: newGame }
-}
-
-/**
- * place the money from the bet into the winner bank once the game is over
- *
- */
-const createWinRewardReducer = reducer => (
-    table: Table,
-    action: Action
-): Table => {
-    const newTable = reducer(table, action)
-
-    const winningRound =
-        newTable.game &&
-        table.game &&
-        newTable.game.state === 'over' &&
-        table.game.state === 'running'
-
-    if (winningRound)
-        return {
-            ...newTable,
-            banks: newTable.banks.map(
-                (bank, i) =>
-                    i === newTable.game.winner
-                        ? bank +
-                          newTable.game.bets.reduce((sum, x) => sum + x, 0)
-                        : bank
-            ),
-        }
-
-    return newTable
-}
-
-/**
- * take money from the bank to match the bet
- *
- */
-const createBankReducer = reducer => (table: Table, action: Action): Table => {
-    const newTable = reducer(table, action)
-
-    const newBanks = table.banks.map((bank, i) => {
-        const previousBet =
-            (table.game &&
-                table.game.state === 'running' &&
-                table.game.bets[i]) ||
-            0
-        const newBet = (newTable.game && newTable.game.bets[i]) || 0
-
-        const delta = newBet - previousBet
-
-        if (bank < delta) {
-            newTable.game.bets[i] = bank
-
-            return 0
-        }
-
-        return bank - delta
-    })
-
-    return { ...newTable, banks: newBanks }
-}
-
-export const reduce = createWinRewardReducer(
-    createBankReducer(
-        chainReducer(
-            reduceStart,
-            reduceGame(chainReducer(reducePlay, reduceEndTurn, reduceEndGame))
-        )
-    )
-)
+export const reduce = chainReducer(reducePlay, reduceEndTurn, reduceEndGame)

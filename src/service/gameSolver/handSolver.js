@@ -6,19 +6,15 @@ const cardToString = card =>
 
 export const getWinner = (
     river: [Card, Card, Card, Card, Card],
-    hands: Array<[Card, Card] | 'folded'>
+    hands: Array<[Card, Card] | null>
 ) => {
     const PSHands = hands
         .map(
             (hand, i) =>
-                hand === 'folded'
-                    ? null
-                    : {
-                          hand: Hand.solve(
-                              [...hand, ...river].map(cardToString)
-                          ),
-                          i,
-                      }
+                hand && {
+                    hand: Hand.solve([...hand, ...river].map(cardToString)),
+                    i,
+                }
         )
         .filter(Boolean)
 

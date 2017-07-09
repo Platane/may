@@ -8,15 +8,10 @@ const isObject = (a: any): boolean =>
 
 export const set = (
     source: any,
-    path: (string | number)[],
+    [key, ...rest]: (string | number)[],
     value: any
 ): any => {
-    const [key, ...rest] = path
-
-    if (!key)
-        return isObject(source) && isObject(value)
-            ? { ...source, ...value }
-            : value
+    if (!key && key !== 0) return value
 
     if (typeof key === 'number') {
         // array
@@ -36,3 +31,12 @@ export const set = (
         }
     }
 }
+
+const get = (source: any, [key, ...rest]: (string | number)[]) =>
+    !key && key !== 0 ? source : get((source || {})[key], rest)
+
+export const merge = (
+    source: any,
+    path: (string | number)[],
+    value: any
+): any => set(source, path, { ...(get(source, path) || {}), ...value })
