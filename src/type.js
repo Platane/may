@@ -47,5 +47,7 @@ export type Table = {
 
     users: User[],
 
+    waitingList: User[],
+
     game: Game | null,
 }

@@ -2,7 +2,8 @@ import firebase from '../../util/firebase'
 import { genUid } from '../../util/uid'
 import { extname } from 'path'
 
-type Action_Success = { type: 'register:success', user: User }
+type Action_Start = { type: 'register:start' }
+type Action_Success = { type: 'register:success', user: User, tableId: string }
 type Action_Failure = { type: 'register:failure' }
 
 const savePic = async (userId: string, picFile: Object) => {
@@ -28,7 +29,9 @@ const savePic = async (userId: string, picFile: Object) => {
 export const register = dispatch => async (
     { picFile, name },
     tableId: string
-): RegisterAction => {
+): void => {
+    dispatch({ type: 'register:start' })
+
     const ref = firebase.database().ref(`/table/${tableId}`)
 
     let table = (await ref.once('value')).val()
@@ -55,7 +58,7 @@ export const register = dispatch => async (
 
     await ref.update({ [`/users/${userId}`]: user })
 
-    dispatch({ type: 'register:success', user })
+    dispatch({ type: 'register:success', user, tableId })
 }
 
-export type Action = Action_Success | Action_Failure
+export type Action = Action_Start | Action_Success | Action_Failure
