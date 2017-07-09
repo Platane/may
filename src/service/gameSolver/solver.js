@@ -1,5 +1,6 @@
 import { initGame } from './initGame'
 import { chainReducer } from '../../util/redux'
+import { getWinner } from './handSolver'
 
 import type { Action, Game_Running, Game_Over, Table } from './type'
 
@@ -112,7 +113,7 @@ const reduceEndGame = (game: Game_Running): Game_Running | Game_Over => {
     if (game.hands.filter(x => x !== 'folded').length <= 1)
         winner = game.hands.findIndex(x => x !== 'folded')
 
-    if (game.turn > 3) winner = 0
+    if (game.turn > 3) winner = getWinner(game.river, game.hands)
 
     if (winner !== -1)
         return {

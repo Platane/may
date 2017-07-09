@@ -155,6 +155,28 @@ describe('win condition', () => {
         expect(table.game.state).toBe('over')
         expect(table.game.winner).toBe(2)
     })
+    it('should win at the end of the river', () => {
+        const table = apply(
+            initTable,
+            // preflop
+            { type: 'call', player: 2 },
+            { type: 'call', player: 0 },
+            // flop
+            { type: 'call', player: 0 },
+            { type: 'call', player: 1 },
+            { type: 'call', player: 2 },
+            // turn
+            { type: 'call', player: 0 },
+            { type: 'call', player: 1 },
+            { type: 'call', player: 2 },
+            // river
+            { type: 'call', player: 0 },
+            { type: 'call', player: 1 },
+            { type: 'call', player: 2 }
+        )
+        expect(table.game.state).toBe('over')
+        expect([0, 1, 2]).toContain(table.game.winner)
+    })
 })
 
 describe('bank', () => {

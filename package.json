@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "dependencies": {
         "firebase": "4.1.3",
+        "pokersolver": " 2.1.2",
         "prop-types": "15.5.10",
         "react": "15.6.1",
         "react-dom": "15.6.1",
@@ -38,7 +39,9 @@
     },
     "jest": {
         "verbose": true,
-        "testMatch": ["**/?(*.)(spec|test).js"]
+        "testMatch": [
+            "**/?(*.)(spec|test).js"
+        ]
     },
     "scripts": {
         "start": "webpack-dev-server --inline --devtool source-map -d",
