@@ -9064,6 +9064,155 @@ exports[`Storyshots Card size 1`] = `
 </div>
 `;
 
+exports[`Storyshots Dollar default 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "margin": 10,
+      }
+    }
+  >
+    <canvas />
+  </div>
+  <div
+    style={
+      Object {
+        "margin": 10,
+      }
+    }
+  >
+    <canvas />
+  </div>
+  <div
+    style={
+      Object {
+        "margin": 10,
+      }
+    }
+  >
+    <canvas />
+  </div>
+  <div
+    style={
+      Object {
+        "margin": 10,
+      }
+    }
+  >
+    <canvas />
+  </div>
+  <div
+    style={
+      Object {
+        "margin": 10,
+      }
+    }
+  >
+    <canvas />
+  </div>
+  <div
+    style={
+      Object {
+        "margin": 10,
+      }
+    }
+  >
+    <canvas />
+  </div>
+  <div
+    style={
+      Object {
+        "margin": 10,
+      }
+    }
+  >
+    <canvas />
+  </div>
+  <div
+    style={
+      Object {
+        "margin": 10,
+      }
+    }
+  >
+    <canvas />
+  </div>
+  <div
+    style={
+      Object {
+        "margin": 10,
+      }
+    }
+  >
+    <canvas />
+  </div>
+  <div
+    style={
+      Object {
+        "margin": 10,
+      }
+    }
+  >
+    <canvas />
+  </div>
+  <div
+    style={
+      Object {
+        "margin": 10,
+      }
+    }
+  >
+    <canvas />
+  </div>
+  <div
+    style={
+      Object {
+        "margin": 10,
+      }
+    }
+  >
+    <canvas />
+  </div>
+  <div
+    style={
+      Object {
+        "margin": 10,
+      }
+    }
+  >
+    <canvas />
+  </div>
+  <div
+    style={
+      Object {
+        "margin": 10,
+      }
+    }
+  >
+    <canvas />
+  </div>
+  <div
+    style={
+      Object {
+        "margin": 10,
+      }
+    }
+  >
+    <canvas />
+  </div>
+  <div
+    style={
+      Object {
+        "margin": 10,
+      }
+    }
+  >
+    <canvas />
+  </div>
+</div>
+`;
+
 exports[`Storyshots Gate step 1 1`] = `
 <div
   style={
