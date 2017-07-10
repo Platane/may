@@ -4,10 +4,12 @@ import style from './style.css'
 
 export type Props = { stash: Object[] }
 
-const bakeTransform = ({ size, position, direction, normal }) => ({
+const bakeTransform = ({ size, position, direction, normal, tint }, i) => ({
     transform: [
-        `translate3d(${position.x}px, ${position.y}px, ${position.z}px)`,
-        `rotate3d(0,0,1,${Math.atan2(direction.x, -direction.y)}rad)`,
+        `translate3d(${position.x + tint * 5 - 2.5}px, ${position.y +
+            tint * 5}px, ${position.z + i * 3}px)`,
+        `rotate3d(0,0,1,${Math.atan2(direction.x, -direction.y) +
+            tint * 0.1}rad)`,
     ].join(' '),
     width: size.height,
     height: size.width,
@@ -22,7 +24,7 @@ export const GameAction = ({ stash, onStartSwipe }: Props) =>
                 key={i}
                 className={style.dollarBill}
                 onMouseDown={event => onStartSwipe(i, event)}
-                style={bakeTransform(dollarBill)}
+                style={bakeTransform(dollarBill, i)}
             />
         )}
     </div>

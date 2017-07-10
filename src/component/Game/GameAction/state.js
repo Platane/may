@@ -9,6 +9,8 @@ export type Props = {
     n: number,
     width: number,
     height: number,
+    onSetBet: (bet: number) => void,
+    onFold: () => void,
 }
 
 const acc = (
@@ -42,6 +44,7 @@ const initStash = (length, width, height) => {
             point.normalize({ x: Math.random() - 0.5, y: -1, z: 0 }),
             LEG + 20
         ),
+        tint: Math.random(),
         normal: { x: 0, y: 0, z: 1 },
         direction: { x: 0, y: 1, z: 0 },
         size: {
@@ -137,9 +140,10 @@ export class GameAction extends React.Component {
 
         const k = point.scalar(point.normalize(u), motion.v)
 
-        if (l - LEG > this.props.height / 4 && k > 1) {
-            const vl = point.length(motion.v)
+        if (l - LEG > this.props.height / 4 && k > 2) {
+            // set initial velocity
             let v = motion.v
+            const vl = point.length(v)
 
             const VMAX = 25
             const VMIN = 15
@@ -152,15 +156,45 @@ export class GameAction extends React.Component {
                 type: 'launch',
                 v,
             }
+        } else if (position.y > anchor.y - LEG && k < 0) {
+            // set initial velocity
+            let v = point.scal(motion.v, 1)
+            v.y = v.y + 0.1
+
+            const vl = point.length(v)
+
+            const VMAX = 14
+            const VMIN = 5
+
+            if (vl > VMAX) v = point.scal(v, VMAX / vl)
+
+            if (vl < VMIN) v = point.scal(v, VMIN / vl)
+
+            nextMotion = {
+                type: 'fold',
+                v,
+            }
         } else {
             nextMotion = {
                 type: 'elastic_deck',
-                vL: 0,
+                vL: k,
                 vTheta: 0,
             }
         }
 
-        const stash = set(this.state.stash, [i, 'motion'], nextMotion)
+        let stash = this.state.stash
+
+        if (nextMotion.type === 'fold') {
+            this.props.onFold()
+
+            stash = stash.map(x => ({ ...x, motion: nextMotion }))
+        } else {
+            stash = set(stash, [i, 'motion'], nextMotion)
+
+            this.props.onSetBet(
+                stash.filter(x => x.motion.type === 'launch').length
+            )
+        }
 
         this.setState({ worldStartPoint: null, stash })
     }
@@ -169,7 +203,7 @@ export class GameAction extends React.Component {
         const anchor = getAnchor(this.props.width, this.props.height)
 
         const stash = this.state.stash.map(x => {
-            switch (x.motion && x.motion.type) {
+            switch (x.motion.type) {
                 case 'elastic_deck': {
                     const u = point.sub(x.position, anchor)
 
@@ -236,6 +270,26 @@ export class GameAction extends React.Component {
                         ...x,
                         position,
                         direction,
+                        motion: {
+                            ...x.motion,
+                            v,
+                        },
+                    }
+
+                    break
+                }
+                case 'fold': {
+                    const a = { x: 0, y: 0.2, z: -0.1 }
+                    const v = point.scal(point.add(x.motion.v, a), 0.95)
+
+                    const position = point.add(x.position, v)
+
+                    // const direction = point.lerp(x.direction, v, 0.8)
+
+                    x = {
+                        ...x,
+                        position,
+                        // direction,
                         motion: {
                             ...x.motion,
                             v,
