@@ -42,3 +42,19 @@
     background-size: cover;
     background-position: center;
 }
+.waitingForPlayers {
+    margin-top: 30px;
+    animation: opacityBlink 2000ms infinite linear;
+}
+
+@keyframes opacityBlink {
+    0% {
+        opacity: 0.4;
+    }
+    30% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.4;
+    }
+}

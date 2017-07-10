@@ -15,6 +15,7 @@ export const WaitingRoom = ({ start_at, users }: Props) =>
         <div className={style.timer}>
             <Timer date={start_at} total={30000} color="#fff" />
         </div>
+
         <div className={style.userList}>
             {users.map(user =>
                 <div key={user.id} className={style.user}>
@@ -30,4 +31,9 @@ export const WaitingRoom = ({ start_at, users }: Props) =>
                 </div>
             )}
         </div>
+
+        {users.length < 2 &&
+            <div className={style.waitingForPlayers}>
+                <Text color="light">waiting for players</Text>
+            </div>}
     </div>

@@ -2,8 +2,6 @@ import { set } from '../util/redux'
 
 import type { Action, State } from './type'
 
-const action: Action = { type: 'a ' }
-
 export const reduce = (state: State, action: Action): State => {
     switch (action.type) {
         case 'registerUser:success':

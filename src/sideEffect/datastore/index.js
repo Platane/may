@@ -105,7 +105,7 @@ const onUpdate = async (store, ref, update, table) => {
                         users: playersReady.map(player => player.user),
                         previous_played_table: table.previous_played_table,
                     })
-                } else {
+                } else if (shouldStartIn > 0) {
                     update(shouldStartIn)
                 }
             }
@@ -128,6 +128,7 @@ const onUpdate = async (store, ref, update, table) => {
 
                 update(shouldReportReadyIn)
             }
+            break
 
         case 'playing':
             let action = null
