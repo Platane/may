@@ -9064,38 +9064,6 @@ exports[`Storyshots Card size 1`] = `
 </div>
 `;
 
-exports[`Storyshots GameAction default 1`] = `
-<div
-  style={
-    Object {
-      "bottom": 0,
-      "left": 0,
-      "position": "fixed",
-      "right": 0,
-      "top": 0,
-    }
-  }
->
-  <div
-    className="cf2226d0"
-  >
-    <div
-      className="a05e2859"
-      onMouseDown={[Function]}
-      style={
-        Object {
-          "height": 200,
-          "left": -55,
-          "top": -100,
-          "transform": "translate3d(274.3066558454267px, 423.3593148053395px, 0px) rotate3d(0,0,1,0.11173074621097584rad)",
-          "width": 110,
-        }
-      }
-    />
-  </div>
-</div>
-`;
-
 exports[`Storyshots Gate step 1 1`] = `
 <div
   style={
