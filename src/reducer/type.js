@@ -9,11 +9,11 @@ export type Path = null | ['gate'] | ['table', string]
 export type State = {
     appState: {
         path: Path,
+
+        tableToJoin: string | null,
     },
 
     me: User | null,
-
-    table: Table | null,
 }
 
 // export type Store = ReduxStore<State, Action>

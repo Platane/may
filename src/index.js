@@ -2,6 +2,8 @@ import { createStore, applyMiddleware, compose } from 'redux'
 import { defaultState, reduce } from './reducer'
 
 import { init as initUI } from './sideEffect/ui'
+import { init as initDatastore } from './sideEffect/datastore'
+import { init as initlocalStorage } from './sideEffect/localStorage'
 
 let store
 {
@@ -31,4 +33,4 @@ let store
     store = createStore(reduce, defaultState, compose(...enhancers))
 }
 
-;[initUI].forEach(init => init(store))
+;[initUI, initDatastore, initlocalStorage].forEach(init => init(store))

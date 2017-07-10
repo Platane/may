@@ -1,9 +1,9 @@
 import { Gate as Component } from './index'
 import { connect } from 'react-redux'
-import { register } from '../../action/thunk/register'
+import { registerUser } from '../../action/thunk/registerUser'
 
 const mapDispatchToProps = dispatch => ({
-    submit: user => register(dispatch)(user, 'default'),
+    submit: user => registerUser(dispatch)(user),
 })
 
 export const Gate = connect(null, mapDispatchToProps)(Component)
