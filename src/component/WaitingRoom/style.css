@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #c1d37f;
+
+    align-items: center;
+    justify-content: center;
+}
+.timer {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 100px;
+    max-height: 100px;
+    width: 20%;
+    height: 20%;
+}
+
+.userList {
+    display: flex;
+    flex-direction: column;
+}
+.user {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+}
+.userName {
+    width: 200px;
+    margin-left: 10px;
+}
+.userPic {
+    width: 40px;
+    height: 40px;
+    border: solid 4px #fff;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}

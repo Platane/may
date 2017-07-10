@@ -40,7 +40,7 @@ type Table = Table_Waiting | Table_Playing
 
 const initWaitingTable = (): Table_Waiting => ({
     state: 'waiting',
-    start_at: Date.now() + 10000,
+    start_at: Date.now() + 30000,
     pending_players: {},
     previous_played_table: [],
 })

@@ -1,3 +1,9 @@
 .container {
     font-family: helvetica;
 }
+.color-light {
+    color: #fff;
+}
+.color-drak {
+    color: #ccc;
+}

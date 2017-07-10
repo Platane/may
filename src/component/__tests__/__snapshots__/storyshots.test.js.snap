@@ -11227,3 +11227,133 @@ exports[`Storyshots Text default 1`] = `
   Hello
 </div>
 `;
+
+exports[`Storyshots Timer default 1`] = `
+<div
+  style={
+    Object {
+      "height": 200,
+      "width": 200,
+    }
+  }
+>
+  <div
+    className="_60be3b49"
+  >
+    <svg
+      className="_34f89a5e"
+      viewBox="-110 -110 220 220"
+    >
+      <path
+        className="_7c7da8df"
+        d="M 0 -100A 100 100 0 1 1 -0.6283143965558805 -99.99802608561372"
+        stroke="tomato"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Storyshots WaitingRoom default 1`] = `
+<div
+  style={
+    Object {
+      "bottom": 0,
+      "left": 0,
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="_21d7e014"
+  >
+    <div
+      className="_8c9f213f"
+    >
+      <div
+        className="_60be3b49"
+      >
+        <svg
+          className="_34f89a5e"
+          viewBox="-110 -110 220 220"
+        >
+          <path
+            className="_7c7da8df"
+            d="M 0 -100A 100 100 0 1 1 -0.6283143965558805 -99.99802608561372"
+            stroke="#fff"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="_214add5d"
+    >
+      <div
+        className="_5d3d4833"
+      >
+        <div
+          className="c2966631"
+          style={
+            Object {
+              "backgroundImage": "url(avatar_1.png)",
+            }
+          }
+        />
+        <div
+          className="_7986eea2"
+        >
+          <div
+            className="_918d5541 d31f1810"
+          >
+            tim
+          </div>
+        </div>
+      </div>
+      <div
+        className="_5d3d4833"
+      >
+        <div
+          className="c2966631"
+          style={
+            Object {
+              "backgroundImage": "url(avatar_2.png)",
+            }
+          }
+        />
+        <div
+          className="_7986eea2"
+        >
+          <div
+            className="_918d5541 d31f1810"
+          >
+            jean luc
+          </div>
+        </div>
+      </div>
+      <div
+        className="_5d3d4833"
+      >
+        <div
+          className="c2966631"
+          style={
+            Object {
+              "backgroundImage": "url(avatar_3.png)",
+            }
+          }
+        />
+        <div
+          className="_7986eea2"
+        >
+          <div
+            className="_918d5541 d31f1810"
+          >
+            jean luc
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
