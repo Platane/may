@@ -32,6 +32,16 @@
                 ]
             ],
             "plugins": [
+                [
+                    "transform-runtime",
+                    {
+                        "helpers": false,
+                        "polyfill": false,
+                        "regenerator": true,
+                        "moduleName": "babel-runtime"
+                    }
+                ],
+                "transform-async-to-generator",
                 "transform-class-properties",
                 "transform-es2015-modules-commonjs",
                 "transform-object-rest-spread"
