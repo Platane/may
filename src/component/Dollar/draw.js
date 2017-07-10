@@ -1,36 +1,12 @@
 import { imageLoader } from '../../util/imageLoader'
-
+import { selectPic } from './loading'
 import type { User } from '../../type'
 
 const DOLLAR_URL = require('../../asset/image/100dollar.jpg')
+const GLASSES_URL = require('../../asset/image/glasses.png')
 
 imageLoader.load(DOLLAR_URL)
-
-const selectPic = (
-    user: User,
-    state: 'sad' | 'standard' | 'happy' | 'yolo' = 'standard'
-): string | null =>
-    (state === 'sad' && user.pic.sad) ||
-    (state === 'happy' && user.pic.happy) ||
-    (state === 'yolo' && user.pic.happy) ||
-    user.pic.idle ||
-    null
-
-export const ready = (
-    user: User,
-    state: 'sad' | 'standard' | 'happy' | 'yolo' = 'standard'
-) => {
-    const url = selectPic(user, state)
-    return !url || !!imageLoader.syncGet(url)
-}
-
-export const load = (
-    user: User,
-    state: 'sad' | 'standard' | 'happy' | 'yolo' = 'standard'
-) => {
-    const url = selectPic(user, state)
-    return !url ? Promise.resolve() : imageLoader.load(url)
-}
+imageLoader.load(GLASSES_URL)
 
 export const draw = (
     canvas,
@@ -94,5 +70,11 @@ export const draw = (
     }
 
     ctx.restore()
+
+    const glassesImg = imageLoader.syncGet(GLASSES_URL)
+
+    if (state === 'yolo')
+        ctx.drawImage(glassesImg, 258, 110, 364 * 0.6, 59 * 0.6)
+
     ctx.restore()
 }

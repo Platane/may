@@ -1,5 +1,6 @@
 import React from 'react'
-import { draw, load, ready } from './draw'
+import { draw } from './draw'
+import { load, ready } from './loading'
 import type { User } from '../../type'
 
 // import style from './style.css'
