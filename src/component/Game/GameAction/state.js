@@ -73,7 +73,10 @@ export class GameAction extends React.Component {
 
         const anchor = getAnchor(this.props.width, this.props.height)
 
-        const stash = set(this.state.stash, [i, 'motion'], null)
+        const stash = set(this.state.stash, [i, 'motion'], {
+            type: 'dragged',
+            v: { x: 0, y: 0, z: 0 },
+        })
 
         const { position } = this.state.stash[i]
 
@@ -93,24 +96,71 @@ export class GameAction extends React.Component {
 
         if (!worldStartPoint) return
 
+        const { motion } = this.state.stash[i]
+
         const u = point.sub(worldPoint, anchor)
 
         const l = point.length(u)
-        const v = point.normalize(u)
+        const direction = point.normalize(u)
 
-        const position = point.addScal(anchor, v, l)
+        const position = point.addScal(anchor, direction, l)
 
-        const stash = merge(this.state.stash, [i], { position, direction: v })
+        const v = point.lerp(
+            point.sub(position, this.state.stash[i].position),
+            motion.v,
+            0.8
+        )
+
+        const stash = merge(this.state.stash, [i], {
+            position,
+            direction,
+            motion: { ...motion, v },
+        })
 
         this.setState({ stash })
     }
 
     onMouseUp = (event: MouseEvent) => {
-        const stash = set(this.state.stash, [this.state.i, 'motion'], {
-            type: 'elastic_deck',
-            vL: 0,
-            vTheta: 0,
-        })
+        const { i, worldStartPoint } = this.state
+
+        if (!worldStartPoint) return
+
+        const anchor = getAnchor(this.props.width, this.props.height)
+
+        const { position, motion } = this.state.stash[i]
+
+        const u = point.sub(position, anchor)
+
+        const l = point.length(u)
+
+        let nextMotion = null
+
+        const k = point.scalar(point.normalize(u), motion.v)
+
+        if (l - LEG > this.props.height / 4 && k > 1) {
+            const vl = point.length(motion.v)
+            let v = motion.v
+
+            const VMAX = 25
+            const VMIN = 15
+
+            if (vl > VMAX) v = point.scal(v, VMAX / vl)
+
+            if (vl < VMIN) v = point.scal(v, VMIN / vl)
+
+            nextMotion = {
+                type: 'launch',
+                v,
+            }
+        } else {
+            nextMotion = {
+                type: 'elastic_deck',
+                vL: 0,
+                vTheta: 0,
+            }
+        }
+
+        const stash = set(this.state.stash, [i, 'motion'], nextMotion)
 
         this.setState({ worldStartPoint: null, stash })
     }
@@ -120,7 +170,7 @@ export class GameAction extends React.Component {
 
         const stash = this.state.stash.map(x => {
             switch (x.motion && x.motion.type) {
-                case 'elastic_deck':
+                case 'elastic_deck': {
                     const u = point.sub(x.position, anchor)
 
                     // compute new heta
@@ -163,6 +213,37 @@ export class GameAction extends React.Component {
                             vL,
                         },
                     }
+
+                    break
+                }
+
+                case 'dragged': {
+                    // fade velocity
+                    x = set(x, ['motion', 'v'], point.scal(x.motion.v, 0.8))
+
+                    break
+                }
+
+                case 'launch': {
+                    const a = { x: 0, y: -0.2, z: -0.1 }
+                    const v = point.scal(point.add(x.motion.v, a), 0.95)
+
+                    const position = point.add(x.position, v)
+
+                    const direction = point.lerp(x.direction, v, 0.8)
+
+                    x = {
+                        ...x,
+                        position,
+                        direction,
+                        motion: {
+                            ...x.motion,
+                            v,
+                        },
+                    }
+
+                    break
+                }
             }
 
             return x
