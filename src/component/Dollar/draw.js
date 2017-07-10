@@ -48,6 +48,9 @@ export const draw = (
     const ctx = canvas.getContext('2d')
     ctx.clearRect(0, 0, canvas.width, canvas.height)
 
+    ctx.save()
+    ctx.scale(size / 800, size / 800)
+
     const dollarImg = imageLoader.syncGet(DOLLAR_URL)
 
     dollarImg && ctx.drawImage(dollarImg, 0, 0, 800, 336)
@@ -57,26 +60,39 @@ export const draw = (
     ctx.ellipse(355, 165, 124, 145, 0.1, 0, Math.PI * 2, false)
     ctx.clip()
 
-    ctx.beginPath()
-    ctx.rect(0, 0, 999, 999)
-    ctx.fillStyle = '#fcfee6'
-    ctx.fill()
-
     if (img) {
+        ctx.beginPath()
+        ctx.rect(0, 0, 999, 999)
+        ctx.fillStyle = '#fcfee6'
+        ctx.fill()
+
         const w = img.naturalWidth
         const h = img.naturalHeight
 
-        const xw = 250
+        const xw = 252
         const xh = 290
 
-        const r = Math.max(w / xw, h / xh)
+        const r = Math.min(w / xw, h / xh)
 
-        const fw = r * w
-        const fh = h * w
+        const fw = r * xw
+        const fh = r * xh
 
-        ctx.globalAlpha = 0.7
-        ctx.drawImage(img, 230, 20, xw, xh)
+        ctx.globalCompositeOperation = 'luminosity'
+        ctx.drawImage(img, (w - fw) / 2, (h - fh) / 2, fw, fh, 228, 20, xw, xh)
+
+        ctx.globalCompositeOperation = 'lighter'
+        ctx.beginPath()
+        ctx.rect(0, 0, 999, 999)
+        ctx.fillStyle = 'hsl(64, 42%, 20%)'
+        ctx.fill()
+
+        ctx.globalCompositeOperation = 'soft-light'
+        ctx.beginPath()
+        ctx.rect(0, 0, 999, 999)
+        ctx.fillStyle = 'hsl(64, 42%, 94%)'
+        ctx.fill()
     }
 
+    ctx.restore()
     ctx.restore()
 }

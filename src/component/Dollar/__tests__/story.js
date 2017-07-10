@@ -17,10 +17,14 @@ const user = {
 
 storiesOf('Dollar', module).add('default', () =>
     <div>
-        {[user, ...users].map(user =>
-            ['happy', 'sad', 'standard', 'yolo'].map(state =>
+        {[user, ...users].map((user, i) =>
+            ['happy', 'sad', 'standard', 'yolo'].map((state, j) =>
                 <div key={user.id + state} style={{ margin: 10 }}>
-                    <Dollar user={user} state={state} />
+                    <Dollar
+                        user={user}
+                        state={state}
+                        size={800 * Math.pow(0.9, i * 4 + j)}
+                    />
                 </div>
             )
         )}

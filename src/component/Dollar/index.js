@@ -48,7 +48,12 @@ export class Dollar extends React.Component {
 
     render() {
         if (this.refs.canvas) {
-            draw(this.refs.canvas, this.props.user, this.props.state)
+            draw(
+                this.refs.canvas,
+                this.props.user,
+                this.props.state,
+                this.props.size
+            )
         } else if (typeof requestAnimationFrame !== 'undefined') {
             this._timeout = requestAnimationFrame(() => this.forceUpdate())
         }
