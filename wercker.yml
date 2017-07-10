@@ -22,5 +22,16 @@ build:
 
         - script:
             name: build storybook
-            code: yarn run storybook:build
+            code: |
+                yarn run storybook:build
+                mv storybook-static dist/storybook
 
+deploy:
+
+    box: node:8.1
+
+    steps:
+
+        - takuma7/gh-pages:
+            token: $GH_TOKEN
+            basedir: dist
