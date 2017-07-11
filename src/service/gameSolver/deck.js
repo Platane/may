@@ -21,8 +21,14 @@ export const cards: Card[] = [].concat(
     ...colors.map(color => values.map(value => ({ color, value })))
 )
 
+const shuffle = arr =>
+    arr
+        .map((_, i) => ({ value: Math.random(), i }))
+        .sort((a, b) => (a.value < b.value ? 1 : -1))
+        .map(({ i }) => arr[i])
+
 export const createDeck = () => {
-    const deck = cards.slice().sort((a, b) => (Math.random() > 0.5 ? 1 : -1))
+    const deck = shuffle(cards)
 
     return (): Card => deck.shift()
 }

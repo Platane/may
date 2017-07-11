@@ -4,6 +4,6 @@ import { Timer } from '../index'
 
 storiesOf('Timer', module).add('default', () =>
     <div style={{ width: 200, height: 200 }}>
-        <Timer total={10000} date={0} color="tomato" />
+        <Timer total={10000} date={Date.now() + 7000} color="tomato" />
     </div>
 )
