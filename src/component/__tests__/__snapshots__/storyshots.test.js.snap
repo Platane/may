@@ -9249,43 +9249,6 @@ exports[`Storyshots Dollar default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Game default 1`] = `
-<div
-  style={
-    Object {
-      "bottom": 0,
-      "left": 0,
-      "position": "fixed",
-      "right": 0,
-      "top": 0,
-    }
-  }
->
-  <div
-    className="_1c2e8e2f"
-  >
-    0
-  </div>
-  <input
-    max={9}
-    min={0}
-    onChange={[Function]}
-    step={1}
-    style={
-      Object {
-        "left": 10,
-        "position": "fixed",
-        "right": 10,
-        "top": 10,
-        "width": "calc( 100% - 20px )",
-      }
-    }
-    type="range"
-    value={0}
-  />
-</div>
-`;
-
 exports[`Storyshots Gate step 1 1`] = `
 <div
   style={

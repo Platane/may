@@ -29,11 +29,15 @@ const getAnchor = (width, height): Point => ({
     z: 0,
 })
 
-const getWorldPoint = (event: MouseEvent | TouchEvent): Point => ({
-    x: event.clientX,
-    y: event.clientY,
-    z: 0,
-})
+const getWorldPoint = (event: MouseEvent | TouchEvent): Point => {
+    const m = (event.touches && event.touches[0]) || event
+
+    return {
+        x: m.clientX,
+        y: m.clientY,
+        z: 0,
+    }
+}
 
 const initStash = (length, width, height) => {
     const c = getAnchor(width, height)
@@ -47,7 +51,7 @@ const initStash = (length, width, height) => {
         tint: Math.random(),
         normal: { x: 0, y: 0, z: 1 },
         direction: { x: 0, y: 1, z: 0 },
-        size: 300,
+        size: 330,
         motion: {
             type: 'elastic_deck',
             vL: 0,
@@ -67,8 +71,7 @@ export class GameAction extends React.Component {
         }
     }
 
-    onStartSwipe = (i: number, event: MouseEvent) => {
-        const grabPoint = { x: 55, y: 100 }
+    onStartSwipe = (i: number, event: MouseEvent | TouchEvent) => {
         const dragging = getWorldPoint(event)
 
         const anchor = getAnchor(this.props.width, this.props.height)
@@ -84,16 +87,18 @@ export class GameAction extends React.Component {
             point.distance(position, anchor) - point.distance(dragging, anchor)
 
         this.setState({ dragging, i, stash, sl })
+
+        event.preventDefault()
     }
 
-    onMouseMove = (event: MouseEvent) => {
-        const anchor = getAnchor(this.props.width, this.props.height)
-
-        const worldPoint = getWorldPoint(event)
-
+    onMouseMove = (event: MouseEvent | TouchEvent) => {
         const { i, dragging, sl } = this.state
 
         if (!dragging) return
+
+        const anchor = getAnchor(this.props.width, this.props.height)
+
+        const worldPoint = getWorldPoint(event)
 
         const { motion } = this.state.stash[i]
 
@@ -137,7 +142,7 @@ export class GameAction extends React.Component {
         this.setState({ stash })
     }
 
-    onMouseUp = (event: MouseEvent) => {
+    onMouseUp = (event: MouseEvent | TouchEvent) => {
         const { i, dragging } = this.state
 
         if (!dragging) return
@@ -335,7 +340,7 @@ export class GameAction extends React.Component {
             window.addEventListener('mousemove', this.onMouseMove)
             window.addEventListener('touchmove', this.onMouseMove)
             window.addEventListener('mouseup', this.onMouseUp)
-            window.addEventListener('touchup', this.onMouseUp)
+            window.addEventListener('touchend', this.onMouseUp)
         }
     }
 
@@ -347,7 +352,7 @@ export class GameAction extends React.Component {
             window.removeEventListener('mouvemove', this.onMouseMove)
             window.removeEventListener('touchmove', this.onMouseMove)
             window.removeEventListener('mouveup', this.onMouseUp)
-            window.removeEventListener('touchup', this.onMouseUp)
+            window.removeEventListener('touchend', this.onMouseUp)
         }
     }
 

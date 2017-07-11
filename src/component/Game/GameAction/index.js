@@ -25,6 +25,7 @@ export const GameAction = ({ stash, onStartSwipe }: Props) =>
                 key={i}
                 className={style.dollarBill}
                 onMouseDown={event => onStartSwipe(i, event)}
+                onTouchStart={event => onStartSwipe(i, event)}
                 style={bakeTransform(dollarBill, i)}
             >
                 <Dollar size={dollarBill.size} />
