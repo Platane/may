@@ -5,7 +5,7 @@ import type { User } from '../../type'
 
 // import style from './style.css'
 
-export type Props = { size: number, user: User }
+export type Props = { size: number, user: User | null }
 
 export class Dollar extends React.Component {
     state = { ready: false }
@@ -15,6 +15,8 @@ export class Dollar extends React.Component {
     shouldComponentUpdate(nextProps, nextState) {
         return (
             this.state.ready !== nextState.ready ||
+            this.props.state !== nextProps.state ||
+            this.props.size !== nextProps.size ||
             this.props.user !== nextProps.user
         )
     }

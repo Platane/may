@@ -47,10 +47,7 @@ const initStash = (length, width, height) => {
         tint: Math.random(),
         normal: { x: 0, y: 0, z: 1 },
         direction: { x: 0, y: 1, z: 0 },
-        size: {
-            width: 200,
-            height: 110,
-        },
+        size: 300,
         motion: {
             type: 'elastic_deck',
             vL: 0,
@@ -72,7 +69,7 @@ export class GameAction extends React.Component {
 
     onStartSwipe = (i: number, event: MouseEvent) => {
         const grabPoint = { x: 55, y: 100 }
-        const worldStartPoint = getWorldPoint(event)
+        const dragging = getWorldPoint(event)
 
         const anchor = getAnchor(this.props.width, this.props.height)
 
@@ -84,10 +81,9 @@ export class GameAction extends React.Component {
         const { position } = this.state.stash[i]
 
         const sl =
-            point.distance(position, anchor) -
-            point.distance(worldStartPoint, anchor)
+            point.distance(position, anchor) - point.distance(dragging, anchor)
 
-        this.setState({ worldStartPoint, i, stash, sl })
+        this.setState({ dragging, i, stash, sl })
     }
 
     onMouseMove = (event: MouseEvent) => {
@@ -95,9 +91,9 @@ export class GameAction extends React.Component {
 
         const worldPoint = getWorldPoint(event)
 
-        const { i, worldStartPoint, sl } = this.state
+        const { i, dragging, sl } = this.state
 
-        if (!worldStartPoint) return
+        if (!dragging) return
 
         const { motion } = this.state.stash[i]
 
@@ -114,19 +110,37 @@ export class GameAction extends React.Component {
             0.8
         )
 
-        const stash = merge(this.state.stash, [i], {
+        const stash_ = merge(this.state.stash, [i], {
             position,
             direction,
             motion: { ...motion, v },
         })
 
+        // perturb a little the other bill
+        const disturb = point.length(v)
+        const stash = stash_.map(
+            x =>
+                x.motion.type === 'elastic_deck'
+                    ? {
+                          ...x,
+                          motion: {
+                              ...x.motion,
+                              vL: x.motion.vL - disturb * 0.1 * Math.random(),
+                              vTheta:
+                                  x.motion.vTheta +
+                                  disturb * (x.tint - 0.5) * 0.0003,
+                          },
+                      }
+                    : x
+        )
+
         this.setState({ stash })
     }
 
     onMouseUp = (event: MouseEvent) => {
-        const { i, worldStartPoint } = this.state
+        const { i, dragging } = this.state
 
-        if (!worldStartPoint) return
+        if (!dragging) return
 
         const anchor = getAnchor(this.props.width, this.props.height)
 
@@ -185,9 +199,14 @@ export class GameAction extends React.Component {
         let stash = this.state.stash
 
         if (nextMotion.type === 'fold') {
-            this.props.onFold()
+            stash = stash.map(
+                x =>
+                    x.motion.type === 'launch'
+                        ? x
+                        : { ...x, motion: nextMotion }
+            )
 
-            stash = stash.map(x => ({ ...x, motion: nextMotion }))
+            this.props.onFold()
         } else {
             stash = set(stash, [i, 'motion'], nextMotion)
 
@@ -196,7 +215,7 @@ export class GameAction extends React.Component {
             )
         }
 
-        this.setState({ worldStartPoint: null, stash })
+        this.setState({ dragging: null, stash })
     }
 
     loop = () => {

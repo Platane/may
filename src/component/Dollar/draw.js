@@ -1,12 +1,6 @@
 import { imageLoader } from '../../util/imageLoader'
-import { selectPic } from './loading'
+import { selectPic, DOLLAR_URL, GLASSES_URL } from './loading'
 import type { User } from '../../type'
-
-const DOLLAR_URL = require('../../asset/image/100dollar.jpg')
-const GLASSES_URL = require('../../asset/image/glasses.png')
-
-imageLoader.load(DOLLAR_URL)
-imageLoader.load(GLASSES_URL)
 
 export const draw = (
     canvas,
@@ -73,7 +67,7 @@ export const draw = (
 
     const glassesImg = imageLoader.syncGet(GLASSES_URL)
 
-    if (state === 'yolo')
+    if (glassesImg && state === 'yolo')
         ctx.drawImage(glassesImg, 258, 110, 364 * 0.6, 59 * 0.6)
 
     ctx.restore()
