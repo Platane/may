@@ -24,7 +24,7 @@ type Table_Playing = {
     game: Game_Running,
 
     game0: Game_Running,
-    actions: Action[],
+    actions: Array<{ date: number, action: Action }>,
 
     tic: number,
 
@@ -150,7 +150,7 @@ const onUpdate = async (store, ref, update, table) => {
             if (action) {
                 const newTable = {
                     game: solveGame(table.game, action),
-                    actions: [...table.actions, action],
+                    actions: [...table.actions, { date: Date.now(), action }],
                 }
 
                 if (newTable.game.state === 'over') {

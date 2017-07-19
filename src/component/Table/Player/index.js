@@ -2,17 +2,12 @@ import React from 'react'
 import { Card } from '../../Card'
 import style from './style.css'
 
-import type {
-    User,
-    PlayerState,
-    PlayerMood,
-    Card as Card_type,
-} from '../../../type'
+import type { User, PlayerMood, Card as Card_type } from '../../../type'
 
 export type Props = {
     user: User,
     bet: number,
-    state: PlayerState,
+    folded: boolean,
     mood: PlayerMood,
     hand: [Card_type, Card_type] | null,
     angle: number,

@@ -1,1 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.cards {
+    position: relative;
+}
+
+.card,
+.players {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

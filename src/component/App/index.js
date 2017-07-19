@@ -1,11 +1,12 @@
 import React from 'react'
 import { Gate } from '../Gate/connected'
 import { WaitingRoom } from '../WaitingRoom/connected'
+import { Game } from '../Game/connected'
 
 import style from './style.css'
 
 export const App = ({ page }) =>
     ('gate' === page && <Gate />) ||
-    ('table' === page && <div>table</div>) ||
+    ('table' === page && <Game />) ||
     ('waitingRoom' === page && <WaitingRoom />) ||
     null

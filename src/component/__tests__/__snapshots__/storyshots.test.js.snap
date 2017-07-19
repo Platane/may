@@ -9249,6 +9249,1325 @@ exports[`Storyshots Dollar default 1`] = `
 </div>
 `;
 
+exports[`Storyshots Game default 1`] = `
+<div
+  style={
+    Object {
+      "bottom": 0,
+      "left": 0,
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="_1c2e8e2f"
+  >
+    <div
+      className="b8c8d630"
+      style={
+        Object {
+          "height": 800,
+          "width": 800,
+        }
+      }
+    >
+      <div
+        className="cedb11c3"
+      >
+        <div
+          className="_64f4f9df"
+          style={
+            Object {
+              "transform": "translate3d(-112.5px,0,0)",
+            }
+          }
+        >
+          <div
+            className="_618a7448"
+            style={
+              Object {
+                "borderRadius": 3.125,
+                "color": "red",
+                "fontSize": 5,
+                "transform": "rotate3d(0,1,0,180deg)",
+                "width": 35.714285714285715,
+              }
+            }
+          >
+            <div
+              className="_1a551c97"
+            />
+            <div
+              className="e944ccdb"
+              style={
+                Object {
+                  "color": "red",
+                  "fontSize": 5,
+                }
+              }
+            >
+              <div
+                className="_5579c775"
+              >
+                <div
+                  className="_6f18aa94"
+                >
+                  1
+                </div>
+                <div
+                  className="_1f89333a"
+                >
+                  ♦️
+                </div>
+              </div>
+              <div
+                className="_6cb51e18"
+              >
+                <div
+                  className="_6f18aa94"
+                >
+                  1
+                </div>
+                <div
+                  className="_1f89333a"
+                >
+                  ♦️
+                </div>
+              </div>
+            </div>
+            <div
+              className="b47108b9"
+            >
+              <div
+                className="_2fba2d91"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="_64f4f9df"
+          style={
+            Object {
+              "transform": "translate3d(-67.5px,0,0)",
+            }
+          }
+        >
+          <div
+            className="_618a7448"
+            style={
+              Object {
+                "borderRadius": 3.125,
+                "color": "red",
+                "fontSize": 5,
+                "transform": "rotate3d(0,1,0,180deg)",
+                "width": 35.714285714285715,
+              }
+            }
+          >
+            <div
+              className="_1a551c97"
+            />
+            <div
+              className="e944ccdb"
+              style={
+                Object {
+                  "color": "red",
+                  "fontSize": 5,
+                }
+              }
+            >
+              <div
+                className="_5579c775"
+              >
+                <div
+                  className="_6f18aa94"
+                >
+                  1
+                </div>
+                <div
+                  className="_1f89333a"
+                >
+                  ♦️
+                </div>
+              </div>
+              <div
+                className="_6cb51e18"
+              >
+                <div
+                  className="_6f18aa94"
+                >
+                  1
+                </div>
+                <div
+                  className="_1f89333a"
+                >
+                  ♦️
+                </div>
+              </div>
+            </div>
+            <div
+              className="b47108b9"
+            >
+              <div
+                className="_2fba2d91"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="_64f4f9df"
+          style={
+            Object {
+              "transform": "translate3d(-22.5px,0,0)",
+            }
+          }
+        >
+          <div
+            className="_618a7448"
+            style={
+              Object {
+                "borderRadius": 3.125,
+                "color": "red",
+                "fontSize": 5,
+                "transform": "rotate3d(0,1,0,180deg)",
+                "width": 35.714285714285715,
+              }
+            }
+          >
+            <div
+              className="_1a551c97"
+            />
+            <div
+              className="e944ccdb"
+              style={
+                Object {
+                  "color": "red",
+                  "fontSize": 5,
+                }
+              }
+            >
+              <div
+                className="_5579c775"
+              >
+                <div
+                  className="_6f18aa94"
+                >
+                  1
+                </div>
+                <div
+                  className="_1f89333a"
+                >
+                  ♦️
+                </div>
+              </div>
+              <div
+                className="_6cb51e18"
+              >
+                <div
+                  className="_6f18aa94"
+                >
+                  1
+                </div>
+                <div
+                  className="_1f89333a"
+                >
+                  ♦️
+                </div>
+              </div>
+            </div>
+            <div
+              className="b47108b9"
+            >
+              <div
+                className="_2fba2d91"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="_64f4f9df"
+          style={
+            Object {
+              "transform": "translate3d(22.5px,0,0)",
+            }
+          }
+        >
+          <div
+            className="_618a7448"
+            style={
+              Object {
+                "borderRadius": 3.125,
+                "color": "red",
+                "fontSize": 5,
+                "transform": "rotate3d(0,1,0,180deg)",
+                "width": 35.714285714285715,
+              }
+            }
+          >
+            <div
+              className="_1a551c97"
+            />
+            <div
+              className="e944ccdb"
+              style={
+                Object {
+                  "color": "red",
+                  "fontSize": 5,
+                }
+              }
+            >
+              <div
+                className="_5579c775"
+              >
+                <div
+                  className="_6f18aa94"
+                >
+                  1
+                </div>
+                <div
+                  className="_1f89333a"
+                >
+                  ♦️
+                </div>
+              </div>
+              <div
+                className="_6cb51e18"
+              >
+                <div
+                  className="_6f18aa94"
+                >
+                  1
+                </div>
+                <div
+                  className="_1f89333a"
+                >
+                  ♦️
+                </div>
+              </div>
+            </div>
+            <div
+              className="b47108b9"
+            >
+              <div
+                className="_2fba2d91"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="_64f4f9df"
+          style={
+            Object {
+              "transform": "translate3d(67.5px,0,0)",
+            }
+          }
+        >
+          <div
+            className="_618a7448"
+            style={
+              Object {
+                "borderRadius": 3.125,
+                "color": "red",
+                "fontSize": 5,
+                "transform": "rotate3d(0,1,0,180deg)",
+                "width": 35.714285714285715,
+              }
+            }
+          >
+            <div
+              className="_1a551c97"
+            />
+            <div
+              className="e944ccdb"
+              style={
+                Object {
+                  "color": "red",
+                  "fontSize": 5,
+                }
+              }
+            >
+              <div
+                className="_5579c775"
+              >
+                <div
+                  className="_6f18aa94"
+                >
+                  1
+                </div>
+                <div
+                  className="_1f89333a"
+                >
+                  ♦️
+                </div>
+              </div>
+              <div
+                className="_6cb51e18"
+              >
+                <div
+                  className="_6f18aa94"
+                >
+                  1
+                </div>
+                <div
+                  className="_1f89333a"
+                >
+                  ♦️
+                </div>
+              </div>
+            </div>
+            <div
+              className="b47108b9"
+            >
+              <div
+                className="_2fba2d91"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="_0cd69d66"
+      >
+        <div
+          style={
+            Object {
+              "transform": "translate3d(400px,400px,0)",
+            }
+          }
+        >
+          <div
+            className="_3e21e449"
+          >
+            <div
+              className="_4860da57"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-77deg) translate3d(200px,0,0) rotate3d(0,0,1,90deg)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+              <div
+                className="bcb1748e"
+              >
+                <div
+                  className={undefined}
+                >
+                  <div
+                    className="_618a7448"
+                    style={
+                      Object {
+                        "borderRadius": 5.625,
+                        "color": "red",
+                        "fontSize": 9,
+                        "transform": "rotate3d(0,1,0,0deg)",
+                        "width": 64.28571428571429,
+                      }
+                    }
+                  >
+                    <div
+                      className="_1a551c97"
+                    />
+                    <div
+                      className="e944ccdb"
+                      style={
+                        Object {
+                          "color": "red",
+                          "fontSize": 9,
+                        }
+                      }
+                    >
+                      <div
+                        className="_5579c775"
+                      >
+                        <div
+                          className="_6f18aa94"
+                        >
+                          3
+                        </div>
+                        <div
+                          className="_1f89333a"
+                        >
+                          ♦️
+                        </div>
+                      </div>
+                      <div
+                        className="_6cb51e18"
+                      >
+                        <div
+                          className="_6f18aa94"
+                        >
+                          3
+                        </div>
+                        <div
+                          className="_1f89333a"
+                        >
+                          ♦️
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="_3ec8c844"
+                    >
+                      <div
+                        className="_2fba2d91"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    className="_618a7448"
+                    style={
+                      Object {
+                        "borderRadius": 5.625,
+                        "color": "red",
+                        "fontSize": 9,
+                        "transform": "rotate3d(0,1,0,0deg)",
+                        "width": 64.28571428571429,
+                      }
+                    }
+                  >
+                    <div
+                      className="_1a551c97"
+                    />
+                    <div
+                      className="e944ccdb"
+                      style={
+                        Object {
+                          "color": "red",
+                          "fontSize": 9,
+                        }
+                      }
+                    >
+                      <div
+                        className="_5579c775"
+                      >
+                        <div
+                          className="_6f18aa94"
+                        >
+                          6
+                        </div>
+                        <div
+                          className="_1f89333a"
+                        >
+                          ♦️
+                        </div>
+                      </div>
+                      <div
+                        className="_6cb51e18"
+                      >
+                        <div
+                          className="_6f18aa94"
+                        >
+                          6
+                        </div>
+                        <div
+                          className="_1f89333a"
+                        >
+                          ♦️
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="_3ec8c844"
+                    >
+                      <div
+                        className="_2fba2d91"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="_34a3d0c2"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-77deg) translate3d(246.15384615384616px,0,0) rotate3d(0,0,1,77deg)",
+                }
+              }
+            >
+              <div
+                className="_77d7ea2e"
+              />
+              <div
+                className="_686b25e2"
+              />
+              <div
+                className="_36b12ddd"
+              >
+                <div
+                  className="_03596b4a"
+                  style={
+                    Object {
+                      "backgroundImage": "url(avatar_1.png)",
+                    }
+                  }
+                />
+              </div>
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-77deg) translate3d(0px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-77deg) translate3d(30.76923076923077px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-77deg) translate3d(61.53846153846154px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-77deg) translate3d(92.3076923076923px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-77deg) translate3d(123.07692307692308px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-77deg) translate3d(153.84615384615384px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-77deg) translate3d(184.6153846153846px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-77deg) translate3d(215.38461538461536px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-77deg) translate3d(246.15384615384616px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-77deg) translate3d(276.9230769230769px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "transform": "translate3d(400px,400px,0)",
+            }
+          }
+        >
+          <div
+            className="_3e21e449"
+          >
+            <div
+              className="_4860da57"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-197deg) translate3d(200px,0,0) rotate3d(0,0,1,90deg)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+              <div
+                className="bcb1748e"
+              >
+                <div
+                  className={undefined}
+                >
+                  <div
+                    className="_618a7448"
+                    style={
+                      Object {
+                        "borderRadius": 5.625,
+                        "color": "black",
+                        "fontSize": 9,
+                        "transform": "rotate3d(0,1,0,0deg)",
+                        "width": 64.28571428571429,
+                      }
+                    }
+                  >
+                    <div
+                      className="_1a551c97"
+                    />
+                    <div
+                      className="e944ccdb"
+                      style={
+                        Object {
+                          "color": "black",
+                          "fontSize": 9,
+                        }
+                      }
+                    >
+                      <div
+                        className="_5579c775"
+                      >
+                        <div
+                          className="_6f18aa94"
+                        >
+                          10
+                        </div>
+                        <div
+                          className="_1f89333a"
+                        >
+                          ♣️
+                        </div>
+                      </div>
+                      <div
+                        className="_6cb51e18"
+                      >
+                        <div
+                          className="_6f18aa94"
+                        >
+                          10
+                        </div>
+                        <div
+                          className="_1f89333a"
+                        >
+                          ♣️
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="_3ec8c844"
+                    >
+                      <div
+                        className="_2fba2d91"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    className="_618a7448"
+                    style={
+                      Object {
+                        "borderRadius": 5.625,
+                        "color": "red",
+                        "fontSize": 9,
+                        "transform": "rotate3d(0,1,0,0deg)",
+                        "width": 64.28571428571429,
+                      }
+                    }
+                  >
+                    <div
+                      className="_1a551c97"
+                    />
+                    <div
+                      className="e944ccdb"
+                      style={
+                        Object {
+                          "color": "red",
+                          "fontSize": 9,
+                        }
+                      }
+                    >
+                      <div
+                        className="_5579c775"
+                      >
+                        <div
+                          className="_6f18aa94"
+                        >
+                          10
+                        </div>
+                        <div
+                          className="_1f89333a"
+                        >
+                          ♥️
+                        </div>
+                      </div>
+                      <div
+                        className="_6cb51e18"
+                      >
+                        <div
+                          className="_6f18aa94"
+                        >
+                          10
+                        </div>
+                        <div
+                          className="_1f89333a"
+                        >
+                          ♥️
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="_3ec8c844"
+                    >
+                      <div
+                        className="_2fba2d91"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="_34a3d0c2"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-197deg) translate3d(246.15384615384616px,0,0) rotate3d(0,0,1,197deg)",
+                }
+              }
+            >
+              <div
+                className="_77d7ea2e"
+              />
+              <div
+                className="_686b25e2"
+              />
+              <div
+                className="_36b12ddd"
+              >
+                <div
+                  className="_03596b4a"
+                  style={
+                    Object {
+                      "backgroundImage": "url(avatar_2.png)",
+                    }
+                  }
+                />
+              </div>
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-197deg) translate3d(0px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-197deg) translate3d(30.76923076923077px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-197deg) translate3d(61.53846153846154px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-197deg) translate3d(92.3076923076923px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-197deg) translate3d(123.07692307692308px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-197deg) translate3d(153.84615384615384px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-197deg) translate3d(184.6153846153846px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-197deg) translate3d(215.38461538461536px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-197deg) translate3d(246.15384615384616px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-197deg) translate3d(276.9230769230769px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "transform": "translate3d(400px,400px,0)",
+            }
+          }
+        >
+          <div
+            className="_3e21e449"
+          >
+            <div
+              className="_4860da57"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-317deg) translate3d(200px,0,0) rotate3d(0,0,1,90deg)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+              <div
+                className="bcb1748e"
+              >
+                <div
+                  className={undefined}
+                >
+                  <div
+                    className="_618a7448"
+                    style={
+                      Object {
+                        "borderRadius": 5.625,
+                        "color": "black",
+                        "fontSize": 9,
+                        "transform": "rotate3d(0,1,0,0deg)",
+                        "width": 64.28571428571429,
+                      }
+                    }
+                  >
+                    <div
+                      className="_1a551c97"
+                    />
+                    <div
+                      className="e944ccdb"
+                      style={
+                        Object {
+                          "color": "black",
+                          "fontSize": 9,
+                        }
+                      }
+                    >
+                      <div
+                        className="_5579c775"
+                      >
+                        <div
+                          className="_6f18aa94"
+                        >
+                          K
+                        </div>
+                        <div
+                          className="_1f89333a"
+                        >
+                          ♠️
+                        </div>
+                      </div>
+                      <div
+                        className="_6cb51e18"
+                      >
+                        <div
+                          className="_6f18aa94"
+                        >
+                          K
+                        </div>
+                        <div
+                          className="_1f89333a"
+                        >
+                          ♠️
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="_3ec8c844"
+                    >
+                      <div
+                        className="_2fba2d91"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    className="_618a7448"
+                    style={
+                      Object {
+                        "borderRadius": 5.625,
+                        "color": "black",
+                        "fontSize": 9,
+                        "transform": "rotate3d(0,1,0,0deg)",
+                        "width": 64.28571428571429,
+                      }
+                    }
+                  >
+                    <div
+                      className="_1a551c97"
+                    />
+                    <div
+                      className="e944ccdb"
+                      style={
+                        Object {
+                          "color": "black",
+                          "fontSize": 9,
+                        }
+                      }
+                    >
+                      <div
+                        className="_5579c775"
+                      >
+                        <div
+                          className="_6f18aa94"
+                        >
+                          7
+                        </div>
+                        <div
+                          className="_1f89333a"
+                        >
+                          ♠️
+                        </div>
+                      </div>
+                      <div
+                        className="_6cb51e18"
+                      >
+                        <div
+                          className="_6f18aa94"
+                        >
+                          7
+                        </div>
+                        <div
+                          className="_1f89333a"
+                        >
+                          ♠️
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="_3ec8c844"
+                    >
+                      <div
+                        className="_2fba2d91"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="_34a3d0c2"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-317deg) translate3d(246.15384615384616px,0,0) rotate3d(0,0,1,317deg)",
+                }
+              }
+            >
+              <div
+                className="_77d7ea2e"
+              />
+              <div
+                className="_686b25e2"
+              />
+              <div
+                className="_36b12ddd"
+              >
+                <div
+                  className="_03596b4a"
+                  style={
+                    Object {
+                      "backgroundImage": "url(avatar_3.png)",
+                    }
+                  }
+                />
+              </div>
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-317deg) translate3d(0px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-317deg) translate3d(30.76923076923077px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-317deg) translate3d(61.53846153846154px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-317deg) translate3d(92.3076923076923px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-317deg) translate3d(123.07692307692308px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-317deg) translate3d(153.84615384615384px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-317deg) translate3d(184.6153846153846px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-317deg) translate3d(215.38461538461536px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-317deg) translate3d(246.15384615384616px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+            <div
+              className="bc32777e"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,-317deg) translate3d(276.9230769230769px,0,0)",
+                }
+              }
+            >
+              <div
+                className="_686b25e2"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <input
+    max={11}
+    min={0}
+    onChange={[Function]}
+    step={1}
+    style={
+      Object {
+        "left": 10,
+        "position": "fixed",
+        "right": 10,
+        "top": 10,
+        "width": "calc( 100% - 20px )",
+      }
+    }
+    type="range"
+    value={0}
+  />
+</div>
+`;
+
 exports[`Storyshots Gate step 1 1`] = `
 <div
   style={
@@ -10478,7 +11797,7 @@ exports[`Storyshots Player rotate 1`] = `
 exports[`Storyshots Table default 1`] = `
 <div>
   <div
-    className={undefined}
+    className="b8c8d630"
     style={
       Object {
         "height": 800,
@@ -10487,917 +11806,1275 @@ exports[`Storyshots Table default 1`] = `
     }
   >
     <div
-      style={
-        Object {
-          "transform": "translate3d(400px,400px,0)",
-        }
-      }
+      className="cedb11c3"
     >
       <div
-        className="_3e21e449"
+        className="_64f4f9df"
+        style={
+          Object {
+            "transform": "translate3d(-112.5px,0,0)",
+          }
+        }
       >
         <div
-          className="_4860da57"
+          className="_618a7448"
           style={
             Object {
-              "transform": "rotate3d(0,0,1,-77deg) translate3d(200px,0,0) rotate3d(0,0,1,90deg)",
+              "borderRadius": 3.125,
+              "color": "red",
+              "fontSize": 5,
+              "transform": "rotate3d(0,1,0,0deg)",
+              "width": 35.714285714285715,
             }
           }
         >
           <div
-            className="_686b25e2"
+            className="_1a551c97"
           />
           <div
-            className="bcb1748e"
+            className="e944ccdb"
+            style={
+              Object {
+                "color": "red",
+                "fontSize": 5,
+              }
+            }
           >
             <div
-              className={undefined}
+              className="_5579c775"
             >
               <div
-                className="_618a7448"
-                style={
-                  Object {
-                    "borderRadius": 5.625,
-                    "color": "black",
-                    "fontSize": 9,
-                    "transform": "rotate3d(0,1,0,180deg)",
-                    "width": 64.28571428571429,
-                  }
-                }
+                className="_6f18aa94"
               >
-                <div
-                  className="_1a551c97"
-                />
-                <div
-                  className="e944ccdb"
-                  style={
-                    Object {
-                      "color": "black",
-                      "fontSize": 9,
-                    }
-                  }
-                >
-                  <div
-                    className="_5579c775"
-                  >
-                    <div
-                      className="_6f18aa94"
-                    >
-                      1
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♠️
-                    </div>
-                  </div>
-                  <div
-                    className="_6cb51e18"
-                  >
-                    <div
-                      className="_6f18aa94"
-                    >
-                      1
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♠️
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="b47108b9"
-                >
-                  <div
-                    className="_2fba2d91"
-                  />
-                </div>
+                1
+              </div>
+              <div
+                className="_1f89333a"
+              >
+                ♦️
               </div>
             </div>
             <div
-              className={undefined}
+              className="_6cb51e18"
             >
               <div
-                className="_618a7448"
-                style={
-                  Object {
-                    "borderRadius": 5.625,
-                    "color": "black",
-                    "fontSize": 9,
-                    "transform": "rotate3d(0,1,0,180deg)",
-                    "width": 64.28571428571429,
-                  }
-                }
+                className="_6f18aa94"
               >
-                <div
-                  className="_1a551c97"
-                />
-                <div
-                  className="e944ccdb"
-                  style={
-                    Object {
-                      "color": "black",
-                      "fontSize": 9,
-                    }
-                  }
-                >
-                  <div
-                    className="_5579c775"
-                  >
-                    <div
-                      className="_6f18aa94"
-                    >
-                      1
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♠️
-                    </div>
-                  </div>
-                  <div
-                    className="_6cb51e18"
-                  >
-                    <div
-                      className="_6f18aa94"
-                    >
-                      1
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♠️
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="b47108b9"
-                >
-                  <div
-                    className="_2fba2d91"
-                  />
-                </div>
+                1
+              </div>
+              <div
+                className="_1f89333a"
+              >
+                ♦️
               </div>
             </div>
           </div>
-        </div>
-        <div
-          className="_34a3d0c2"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-77deg) translate3d(246.15384615384616px,0,0) rotate3d(0,0,1,77deg)",
-            }
-          }
-        >
           <div
-            className="_77d7ea2e"
-          />
-          <div
-            className="_686b25e2"
-          />
-          <div
-            className="_36b12ddd"
+            className="_3ec8c844"
           >
             <div
-              className="_03596b4a"
-              style={
-                Object {
-                  "backgroundImage": "url(avatar_1.png)",
-                }
-              }
+              className="_2fba2d91"
             />
           </div>
         </div>
+      </div>
+      <div
+        className="_64f4f9df"
+        style={
+          Object {
+            "transform": "translate3d(-67.5px,0,0)",
+          }
+        }
+      >
         <div
-          className="bc32777e"
+          className="_618a7448"
           style={
             Object {
-              "transform": "rotate3d(0,0,1,-77deg) translate3d(0px,0,0)",
+              "borderRadius": 3.125,
+              "color": "red",
+              "fontSize": 5,
+              "transform": "rotate3d(0,1,0,0deg)",
+              "width": 35.714285714285715,
             }
           }
         >
           <div
-            className="_686b25e2"
+            className="_1a551c97"
           />
+          <div
+            className="e944ccdb"
+            style={
+              Object {
+                "color": "red",
+                "fontSize": 5,
+              }
+            }
+          >
+            <div
+              className="_5579c775"
+            >
+              <div
+                className="_6f18aa94"
+              >
+                2
+              </div>
+              <div
+                className="_1f89333a"
+              >
+                ♦️
+              </div>
+            </div>
+            <div
+              className="_6cb51e18"
+            >
+              <div
+                className="_6f18aa94"
+              >
+                2
+              </div>
+              <div
+                className="_1f89333a"
+              >
+                ♦️
+              </div>
+            </div>
+          </div>
+          <div
+            className="_3ec8c844"
+          >
+            <div
+              className="_2fba2d91"
+            />
+          </div>
         </div>
+      </div>
+      <div
+        className="_64f4f9df"
+        style={
+          Object {
+            "transform": "translate3d(-22.5px,0,0)",
+          }
+        }
+      >
         <div
-          className="bc32777e"
+          className="_618a7448"
           style={
             Object {
-              "transform": "rotate3d(0,0,1,-77deg) translate3d(30.76923076923077px,0,0)",
+              "borderRadius": 3.125,
+              "color": "red",
+              "fontSize": 5,
+              "transform": "rotate3d(0,1,0,0deg)",
+              "width": 35.714285714285715,
             }
           }
         >
           <div
-            className="_686b25e2"
+            className="_1a551c97"
           />
+          <div
+            className="e944ccdb"
+            style={
+              Object {
+                "color": "red",
+                "fontSize": 5,
+              }
+            }
+          >
+            <div
+              className="_5579c775"
+            >
+              <div
+                className="_6f18aa94"
+              >
+                3
+              </div>
+              <div
+                className="_1f89333a"
+              >
+                ♦️
+              </div>
+            </div>
+            <div
+              className="_6cb51e18"
+            >
+              <div
+                className="_6f18aa94"
+              >
+                3
+              </div>
+              <div
+                className="_1f89333a"
+              >
+                ♦️
+              </div>
+            </div>
+          </div>
+          <div
+            className="_3ec8c844"
+          >
+            <div
+              className="_2fba2d91"
+            />
+          </div>
         </div>
+      </div>
+      <div
+        className="_64f4f9df"
+        style={
+          Object {
+            "transform": "translate3d(22.5px,0,0)",
+          }
+        }
+      >
         <div
-          className="bc32777e"
+          className="_618a7448"
           style={
             Object {
-              "transform": "rotate3d(0,0,1,-77deg) translate3d(61.53846153846154px,0,0)",
+              "borderRadius": 3.125,
+              "color": "red",
+              "fontSize": 5,
+              "transform": "rotate3d(0,1,0,0deg)",
+              "width": 35.714285714285715,
             }
           }
         >
           <div
-            className="_686b25e2"
+            className="_1a551c97"
           />
+          <div
+            className="e944ccdb"
+            style={
+              Object {
+                "color": "red",
+                "fontSize": 5,
+              }
+            }
+          >
+            <div
+              className="_5579c775"
+            >
+              <div
+                className="_6f18aa94"
+              >
+                4
+              </div>
+              <div
+                className="_1f89333a"
+              >
+                ♦️
+              </div>
+            </div>
+            <div
+              className="_6cb51e18"
+            >
+              <div
+                className="_6f18aa94"
+              >
+                4
+              </div>
+              <div
+                className="_1f89333a"
+              >
+                ♦️
+              </div>
+            </div>
+          </div>
+          <div
+            className="_3ec8c844"
+          >
+            <div
+              className="_2fba2d91"
+            />
+          </div>
         </div>
+      </div>
+      <div
+        className="_64f4f9df"
+        style={
+          Object {
+            "transform": "translate3d(67.5px,0,0)",
+          }
+        }
+      >
         <div
-          className="bc32777e"
+          className="_618a7448"
           style={
             Object {
-              "transform": "rotate3d(0,0,1,-77deg) translate3d(92.3076923076923px,0,0)",
+              "borderRadius": 3.125,
+              "color": "red",
+              "fontSize": 5,
+              "transform": "rotate3d(0,1,0,0deg)",
+              "width": 35.714285714285715,
             }
           }
         >
           <div
-            className="_686b25e2"
+            className="_1a551c97"
           />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-77deg) translate3d(123.07692307692308px,0,0)",
-            }
-          }
-        >
           <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-77deg) translate3d(153.84615384615384px,0,0)",
+            className="e944ccdb"
+            style={
+              Object {
+                "color": "red",
+                "fontSize": 5,
+              }
             }
-          }
-        >
+          >
+            <div
+              className="_5579c775"
+            >
+              <div
+                className="_6f18aa94"
+              >
+                5
+              </div>
+              <div
+                className="_1f89333a"
+              >
+                ♦️
+              </div>
+            </div>
+            <div
+              className="_6cb51e18"
+            >
+              <div
+                className="_6f18aa94"
+              >
+                5
+              </div>
+              <div
+                className="_1f89333a"
+              >
+                ♦️
+              </div>
+            </div>
+          </div>
           <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-77deg) translate3d(184.6153846153846px,0,0)",
-            }
-          }
-        >
-          <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-77deg) translate3d(215.38461538461536px,0,0)",
-            }
-          }
-        >
-          <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-77deg) translate3d(246.15384615384616px,0,0)",
-            }
-          }
-        >
-          <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-77deg) translate3d(276.9230769230769px,0,0)",
-            }
-          }
-        >
-          <div
-            className="_686b25e2"
-          />
+            className="_3ec8c844"
+          >
+            <div
+              className="_2fba2d91"
+            />
+          </div>
         </div>
       </div>
     </div>
     <div
-      style={
-        Object {
-          "transform": "translate3d(400px,400px,0)",
-        }
-      }
+      className="_0cd69d66"
     >
       <div
-        className="_3e21e449"
+        style={
+          Object {
+            "transform": "translate3d(400px,400px,0)",
+          }
+        }
       >
         <div
-          className="_4860da57"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-197deg) translate3d(200px,0,0) rotate3d(0,0,1,90deg)",
-            }
-          }
+          className="_3e21e449"
         >
           <div
-            className="_686b25e2"
-          />
-          <div
-            className="bcb1748e"
+            className="_4860da57"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-77deg) translate3d(200px,0,0) rotate3d(0,0,1,90deg)",
+              }
+            }
           >
             <div
-              className={undefined}
+              className="_686b25e2"
+            />
+            <div
+              className="bcb1748e"
             >
               <div
-                className="_618a7448"
-                style={
-                  Object {
-                    "borderRadius": 5.625,
-                    "color": "black",
-                    "fontSize": 9,
-                    "transform": "rotate3d(0,1,0,180deg)",
-                    "width": 64.28571428571429,
-                  }
-                }
+                className={undefined}
               >
                 <div
-                  className="_1a551c97"
-                />
-                <div
-                  className="e944ccdb"
+                  className="_618a7448"
                   style={
                     Object {
-                      "color": "black",
+                      "borderRadius": 5.625,
+                      "color": "red",
                       "fontSize": 9,
+                      "transform": "rotate3d(0,1,0,0deg)",
+                      "width": 64.28571428571429,
                     }
                   }
                 >
                   <div
-                    className="_5579c775"
-                  >
-                    <div
-                      className="_6f18aa94"
-                    >
-                      1
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♠️
-                    </div>
-                  </div>
-                  <div
-                    className="_6cb51e18"
-                  >
-                    <div
-                      className="_6f18aa94"
-                    >
-                      1
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♠️
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="b47108b9"
-                >
-                  <div
-                    className="_2fba2d91"
+                    className="_1a551c97"
                   />
+                  <div
+                    className="e944ccdb"
+                    style={
+                      Object {
+                        "color": "red",
+                        "fontSize": 9,
+                      }
+                    }
+                  >
+                    <div
+                      className="_5579c775"
+                    >
+                      <div
+                        className="_6f18aa94"
+                      >
+                        1
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♦️
+                      </div>
+                    </div>
+                    <div
+                      className="_6cb51e18"
+                    >
+                      <div
+                        className="_6f18aa94"
+                      >
+                        1
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♦️
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="_3ec8c844"
+                  >
+                    <div
+                      className="_2fba2d91"
+                    />
+                  </div>
                 </div>
               </div>
-            </div>
-            <div
-              className={undefined}
-            >
               <div
-                className="_618a7448"
-                style={
-                  Object {
-                    "borderRadius": 5.625,
-                    "color": "black",
-                    "fontSize": 9,
-                    "transform": "rotate3d(0,1,0,180deg)",
-                    "width": 64.28571428571429,
-                  }
-                }
+                className={undefined}
               >
                 <div
-                  className="_1a551c97"
-                />
-                <div
-                  className="e944ccdb"
+                  className="_618a7448"
                   style={
                     Object {
-                      "color": "black",
+                      "borderRadius": 5.625,
+                      "color": "red",
                       "fontSize": 9,
+                      "transform": "rotate3d(0,1,0,0deg)",
+                      "width": 64.28571428571429,
                     }
                   }
                 >
                   <div
-                    className="_5579c775"
-                  >
-                    <div
-                      className="_6f18aa94"
-                    >
-                      1
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♠️
-                    </div>
-                  </div>
-                  <div
-                    className="_6cb51e18"
-                  >
-                    <div
-                      className="_6f18aa94"
-                    >
-                      1
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♠️
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="b47108b9"
-                >
-                  <div
-                    className="_2fba2d91"
+                    className="_1a551c97"
                   />
+                  <div
+                    className="e944ccdb"
+                    style={
+                      Object {
+                        "color": "red",
+                        "fontSize": 9,
+                      }
+                    }
+                  >
+                    <div
+                      className="_5579c775"
+                    >
+                      <div
+                        className="_6f18aa94"
+                      >
+                        1
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♦️
+                      </div>
+                    </div>
+                    <div
+                      className="_6cb51e18"
+                    >
+                      <div
+                        className="_6f18aa94"
+                      >
+                        1
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♦️
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="_3ec8c844"
+                  >
+                    <div
+                      className="_2fba2d91"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          className="_34a3d0c2"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-197deg) translate3d(246.15384615384616px,0,0) rotate3d(0,0,1,197deg)",
+          <div
+            className="_34a3d0c2"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-77deg) translate3d(246.15384615384616px,0,0) rotate3d(0,0,1,77deg)",
+              }
             }
-          }
-        >
-          <div
-            className="_77d7ea2e"
-          />
-          <div
-            className="_686b25e2"
-          />
-          <div
-            className="_36b12ddd"
           >
             <div
-              className="_03596b4a"
-              style={
-                Object {
-                  "backgroundImage": "url(avatar_2.png)",
+              className="_77d7ea2e"
+            />
+            <div
+              className="_686b25e2"
+            />
+            <div
+              className="_36b12ddd"
+            >
+              <div
+                className="_03596b4a"
+                style={
+                  Object {
+                    "backgroundImage": "url(avatar_1.png)",
+                  }
                 }
+              />
+            </div>
+          </div>
+          <div
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-77deg) translate3d(0px,0,0)",
               }
+            }
+          >
+            <div
+              className="_686b25e2"
             />
           </div>
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-197deg) translate3d(0px,0,0)",
-            }
-          }
-        >
           <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-197deg) translate3d(30.76923076923077px,0,0)",
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-77deg) translate3d(30.76923076923077px,0,0)",
+              }
             }
-          }
-        >
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
           <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-197deg) translate3d(61.53846153846154px,0,0)",
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-77deg) translate3d(61.53846153846154px,0,0)",
+              }
             }
-          }
-        >
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
           <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-197deg) translate3d(92.3076923076923px,0,0)",
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-77deg) translate3d(92.3076923076923px,0,0)",
+              }
             }
-          }
-        >
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
           <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-197deg) translate3d(123.07692307692308px,0,0)",
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-77deg) translate3d(123.07692307692308px,0,0)",
+              }
             }
-          }
-        >
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
           <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-197deg) translate3d(153.84615384615384px,0,0)",
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-77deg) translate3d(153.84615384615384px,0,0)",
+              }
             }
-          }
-        >
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
           <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-197deg) translate3d(184.6153846153846px,0,0)",
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-77deg) translate3d(184.6153846153846px,0,0)",
+              }
             }
-          }
-        >
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
           <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-197deg) translate3d(215.38461538461536px,0,0)",
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-77deg) translate3d(215.38461538461536px,0,0)",
+              }
             }
-          }
-        >
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
           <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-197deg) translate3d(246.15384615384616px,0,0)",
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-77deg) translate3d(246.15384615384616px,0,0)",
+              }
             }
-          }
-        >
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
           <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-197deg) translate3d(276.9230769230769px,0,0)",
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-77deg) translate3d(276.9230769230769px,0,0)",
+              }
             }
-          }
-        >
-          <div
-            className="_686b25e2"
-          />
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
         </div>
       </div>
-    </div>
-    <div
-      style={
-        Object {
-          "transform": "translate3d(400px,400px,0)",
-        }
-      }
-    >
       <div
-        className="_3e21e449"
+        style={
+          Object {
+            "transform": "translate3d(400px,400px,0)",
+          }
+        }
       >
         <div
-          className="_4860da57"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-317deg) translate3d(200px,0,0) rotate3d(0,0,1,90deg)",
-            }
-          }
+          className="_3e21e449"
         >
           <div
-            className="_686b25e2"
-          />
-          <div
-            className="bcb1748e"
+            className="_4860da57"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-197deg) translate3d(200px,0,0) rotate3d(0,0,1,90deg)",
+              }
+            }
           >
             <div
-              className={undefined}
+              className="_686b25e2"
+            />
+            <div
+              className="bcb1748e"
             >
               <div
-                className="_618a7448"
-                style={
-                  Object {
-                    "borderRadius": 5.625,
-                    "color": "black",
-                    "fontSize": 9,
-                    "transform": "rotate3d(0,1,0,180deg)",
-                    "width": 64.28571428571429,
-                  }
-                }
+                className={undefined}
               >
                 <div
-                  className="_1a551c97"
-                />
-                <div
-                  className="e944ccdb"
+                  className="_618a7448"
                   style={
                     Object {
-                      "color": "black",
+                      "borderRadius": 5.625,
+                      "color": "red",
                       "fontSize": 9,
+                      "transform": "rotate3d(0,1,0,0deg)",
+                      "width": 64.28571428571429,
                     }
                   }
                 >
                   <div
-                    className="_5579c775"
-                  >
-                    <div
-                      className="_6f18aa94"
-                    >
-                      1
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♠️
-                    </div>
-                  </div>
-                  <div
-                    className="_6cb51e18"
-                  >
-                    <div
-                      className="_6f18aa94"
-                    >
-                      1
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♠️
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="b47108b9"
-                >
-                  <div
-                    className="_2fba2d91"
+                    className="_1a551c97"
                   />
+                  <div
+                    className="e944ccdb"
+                    style={
+                      Object {
+                        "color": "red",
+                        "fontSize": 9,
+                      }
+                    }
+                  >
+                    <div
+                      className="_5579c775"
+                    >
+                      <div
+                        className="_6f18aa94"
+                      >
+                        1
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♦️
+                      </div>
+                    </div>
+                    <div
+                      className="_6cb51e18"
+                    >
+                      <div
+                        className="_6f18aa94"
+                      >
+                        1
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♦️
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="_3ec8c844"
+                  >
+                    <div
+                      className="_2fba2d91"
+                    />
+                  </div>
                 </div>
               </div>
-            </div>
-            <div
-              className={undefined}
-            >
               <div
-                className="_618a7448"
-                style={
-                  Object {
-                    "borderRadius": 5.625,
-                    "color": "black",
-                    "fontSize": 9,
-                    "transform": "rotate3d(0,1,0,180deg)",
-                    "width": 64.28571428571429,
-                  }
-                }
+                className={undefined}
               >
                 <div
-                  className="_1a551c97"
-                />
-                <div
-                  className="e944ccdb"
+                  className="_618a7448"
                   style={
                     Object {
-                      "color": "black",
+                      "borderRadius": 5.625,
+                      "color": "red",
                       "fontSize": 9,
+                      "transform": "rotate3d(0,1,0,0deg)",
+                      "width": 64.28571428571429,
                     }
                   }
                 >
                   <div
-                    className="_5579c775"
-                  >
-                    <div
-                      className="_6f18aa94"
-                    >
-                      1
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♠️
-                    </div>
-                  </div>
-                  <div
-                    className="_6cb51e18"
-                  >
-                    <div
-                      className="_6f18aa94"
-                    >
-                      1
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♠️
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="b47108b9"
-                >
-                  <div
-                    className="_2fba2d91"
+                    className="_1a551c97"
                   />
+                  <div
+                    className="e944ccdb"
+                    style={
+                      Object {
+                        "color": "red",
+                        "fontSize": 9,
+                      }
+                    }
+                  >
+                    <div
+                      className="_5579c775"
+                    >
+                      <div
+                        className="_6f18aa94"
+                      >
+                        1
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♦️
+                      </div>
+                    </div>
+                    <div
+                      className="_6cb51e18"
+                    >
+                      <div
+                        className="_6f18aa94"
+                      >
+                        1
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♦️
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="_3ec8c844"
+                  >
+                    <div
+                      className="_2fba2d91"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          className="_34a3d0c2"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-317deg) translate3d(246.15384615384616px,0,0) rotate3d(0,0,1,317deg)",
+          <div
+            className="_34a3d0c2"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-197deg) translate3d(246.15384615384616px,0,0) rotate3d(0,0,1,197deg)",
+              }
             }
-          }
-        >
-          <div
-            className="_77d7ea2e"
-          />
-          <div
-            className="_686b25e2"
-          />
-          <div
-            className="_36b12ddd"
           >
             <div
-              className="_03596b4a"
-              style={
-                Object {
-                  "backgroundImage": "url(avatar_3.png)",
+              className="_77d7ea2e"
+            />
+            <div
+              className="_686b25e2"
+            />
+            <div
+              className="_36b12ddd"
+            >
+              <div
+                className="_03596b4a"
+                style={
+                  Object {
+                    "backgroundImage": "url(avatar_2.png)",
+                  }
                 }
+              />
+            </div>
+          </div>
+          <div
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-197deg) translate3d(0px,0,0)",
               }
+            }
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
+          <div
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-197deg) translate3d(30.76923076923077px,0,0)",
+              }
+            }
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
+          <div
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-197deg) translate3d(61.53846153846154px,0,0)",
+              }
+            }
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
+          <div
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-197deg) translate3d(92.3076923076923px,0,0)",
+              }
+            }
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
+          <div
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-197deg) translate3d(123.07692307692308px,0,0)",
+              }
+            }
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
+          <div
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-197deg) translate3d(153.84615384615384px,0,0)",
+              }
+            }
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
+          <div
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-197deg) translate3d(184.6153846153846px,0,0)",
+              }
+            }
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
+          <div
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-197deg) translate3d(215.38461538461536px,0,0)",
+              }
+            }
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
+          <div
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-197deg) translate3d(246.15384615384616px,0,0)",
+              }
+            }
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
+          <div
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-197deg) translate3d(276.9230769230769px,0,0)",
+              }
+            }
+          >
+            <div
+              className="_686b25e2"
             />
           </div>
         </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-317deg) translate3d(0px,0,0)",
-            }
+      </div>
+      <div
+        style={
+          Object {
+            "transform": "translate3d(400px,400px,0)",
           }
+        }
+      >
+        <div
+          className="_3e21e449"
         >
           <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-317deg) translate3d(30.76923076923077px,0,0)",
+            className="_4860da57"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-317deg) translate3d(200px,0,0) rotate3d(0,0,1,90deg)",
+              }
             }
-          }
-        >
+          >
+            <div
+              className="_686b25e2"
+            />
+            <div
+              className="bcb1748e"
+            >
+              <div
+                className={undefined}
+              >
+                <div
+                  className="_618a7448"
+                  style={
+                    Object {
+                      "borderRadius": 5.625,
+                      "color": "red",
+                      "fontSize": 9,
+                      "transform": "rotate3d(0,1,0,0deg)",
+                      "width": 64.28571428571429,
+                    }
+                  }
+                >
+                  <div
+                    className="_1a551c97"
+                  />
+                  <div
+                    className="e944ccdb"
+                    style={
+                      Object {
+                        "color": "red",
+                        "fontSize": 9,
+                      }
+                    }
+                  >
+                    <div
+                      className="_5579c775"
+                    >
+                      <div
+                        className="_6f18aa94"
+                      >
+                        1
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♦️
+                      </div>
+                    </div>
+                    <div
+                      className="_6cb51e18"
+                    >
+                      <div
+                        className="_6f18aa94"
+                      >
+                        1
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♦️
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="_3ec8c844"
+                  >
+                    <div
+                      className="_2fba2d91"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className={undefined}
+              >
+                <div
+                  className="_618a7448"
+                  style={
+                    Object {
+                      "borderRadius": 5.625,
+                      "color": "red",
+                      "fontSize": 9,
+                      "transform": "rotate3d(0,1,0,0deg)",
+                      "width": 64.28571428571429,
+                    }
+                  }
+                >
+                  <div
+                    className="_1a551c97"
+                  />
+                  <div
+                    className="e944ccdb"
+                    style={
+                      Object {
+                        "color": "red",
+                        "fontSize": 9,
+                      }
+                    }
+                  >
+                    <div
+                      className="_5579c775"
+                    >
+                      <div
+                        className="_6f18aa94"
+                      >
+                        1
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♦️
+                      </div>
+                    </div>
+                    <div
+                      className="_6cb51e18"
+                    >
+                      <div
+                        className="_6f18aa94"
+                      >
+                        1
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♦️
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="_3ec8c844"
+                  >
+                    <div
+                      className="_2fba2d91"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-317deg) translate3d(61.53846153846154px,0,0)",
+            className="_34a3d0c2"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-317deg) translate3d(246.15384615384616px,0,0) rotate3d(0,0,1,317deg)",
+              }
             }
-          }
-        >
+          >
+            <div
+              className="_77d7ea2e"
+            />
+            <div
+              className="_686b25e2"
+            />
+            <div
+              className="_36b12ddd"
+            >
+              <div
+                className="_03596b4a"
+                style={
+                  Object {
+                    "backgroundImage": "url(avatar_3.png)",
+                  }
+                }
+              />
+            </div>
+          </div>
           <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-317deg) translate3d(92.3076923076923px,0,0)",
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-317deg) translate3d(0px,0,0)",
+              }
             }
-          }
-        >
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
           <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-317deg) translate3d(123.07692307692308px,0,0)",
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-317deg) translate3d(30.76923076923077px,0,0)",
+              }
             }
-          }
-        >
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
           <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-317deg) translate3d(153.84615384615384px,0,0)",
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-317deg) translate3d(61.53846153846154px,0,0)",
+              }
             }
-          }
-        >
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
           <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-317deg) translate3d(184.6153846153846px,0,0)",
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-317deg) translate3d(92.3076923076923px,0,0)",
+              }
             }
-          }
-        >
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
           <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-317deg) translate3d(215.38461538461536px,0,0)",
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-317deg) translate3d(123.07692307692308px,0,0)",
+              }
             }
-          }
-        >
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
           <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-317deg) translate3d(246.15384615384616px,0,0)",
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-317deg) translate3d(153.84615384615384px,0,0)",
+              }
             }
-          }
-        >
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
           <div
-            className="_686b25e2"
-          />
-        </div>
-        <div
-          className="bc32777e"
-          style={
-            Object {
-              "transform": "rotate3d(0,0,1,-317deg) translate3d(276.9230769230769px,0,0)",
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-317deg) translate3d(184.6153846153846px,0,0)",
+              }
             }
-          }
-        >
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
           <div
-            className="_686b25e2"
-          />
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-317deg) translate3d(215.38461538461536px,0,0)",
+              }
+            }
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
+          <div
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-317deg) translate3d(246.15384615384616px,0,0)",
+              }
+            }
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
+          <div
+            className="bc32777e"
+            style={
+              Object {
+                "transform": "rotate3d(0,0,1,-317deg) translate3d(276.9230769230769px,0,0)",
+              }
+            }
+          >
+            <div
+              className="_686b25e2"
+            />
+          </div>
         </div>
       </div>
     </div>
