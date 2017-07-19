@@ -73,10 +73,14 @@ const reduceEndTurn = (game: Game_Running): Game_Running => {
             .filter(player => !player.folded)
             .every((x, i, arr) => x.bet === arr[0].bet)
     ) {
+        let n = 0
+
+        while (game.players[n].folded) n++
+
         return {
             ...game,
-            n: 0,
-            speaker: 0,
+            n,
+            speaker: n % game.players.length,
             turn: game.turn + 1,
         }
     }

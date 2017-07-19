@@ -113,6 +113,15 @@ describe('turn', () => {
         expect(game.turn).toBe(1)
         expect(game.speaker).toBe(0)
     })
+    it('should start the new turn with the second player if the first one is folded', () => {
+        const game = apply(
+            game0,
+            { type: 'raise', player: 2, value: 2 },
+            { type: 'fold', player: 0 }
+        )
+        expect(game.turn).toBe(1)
+        expect(game.speaker).toBe(1)
+    })
 })
 
 describe('win condition', () => {
