@@ -11,9 +11,8 @@ const hideCards = (river, turn) =>
         hiddenCard,
         hiddenCard,
     ]) ||
-    (turn === 1 && [river[0], river[1], hiddenCard, hiddenCard, hiddenCard]) ||
-    (turn === 2 && [river[0], river[1], river[2], hiddenCard, hiddenCard]) ||
-    (turn === 3 && [river[0], river[1], river[2], river[3], hiddenCard]) ||
+    (turn === 1 && [river[0], river[1], river[2], hiddenCard, hiddenCard]) ||
+    (turn === 2 && [river[0], river[1], river[2], river[3], hiddenCard]) ||
     river
 
 export const toHiddenGame = (
@@ -32,7 +31,10 @@ export const toHiddenGame = (
 
         bank,
 
-        hand: users[i].id === meId ? hand : [hiddenCard, hiddenCard],
+        hand:
+            users[i].id === meId || game.state === 'over'
+                ? hand
+                : [hiddenCard, hiddenCard],
 
         bet,
 

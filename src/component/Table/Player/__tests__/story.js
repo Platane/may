@@ -25,11 +25,13 @@ class Container extends React.Component {
                 />
                 <div style={{ transform: 'translate3d(300px,300px,0)' }}>
                     <Player
-                        hand={[cards[0], cards[13]]}
-                        user={users[0]}
-                        mood="happy"
-                        bet={10}
-                        state="inGame"
+                        player={{
+                            ...users[0],
+                            hand: [cards[0], cards[13]],
+                            mood: 'happy',
+                            bet: 10,
+                            folded: false,
+                        }}
                         angle={this.state.angle}
                         length={300}
                     />
@@ -39,31 +41,4 @@ class Container extends React.Component {
     }
 }
 
-storiesOf('Player', module)
-    .add('default', () =>
-        <div style={{ transform: 'translate3d(0,300px,0)' }}>
-            <Player
-                hand={null}
-                user={users[0]}
-                mood="happy"
-                angle={0}
-                length={300}
-                bet={10}
-                state="inGame"
-            />
-        </div>
-    )
-    .add('rotate', () =>
-        <div style={{ transform: 'translate3d(0,300px,0)' }}>
-            <Player
-                hand={null}
-                user={users[0]}
-                mood="happy"
-                angle={-45}
-                length={300}
-                bet={10}
-                state="inGame"
-            />
-        </div>
-    )
-    .add('dynamic rotate', () => <Container />)
+storiesOf('Player', module).add('dynamic rotate', () => <Container />)

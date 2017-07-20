@@ -10,13 +10,14 @@ storiesOf('Table', module).add('default', () =>
         <Table
             size={800}
             cards={cards.slice(0, 5)}
-            players={users.map(_ => ({
-                hand: [cards[0], cards[0]],
+            players={users.slice(0, 3).map((user, i) => ({
+                ...user,
+                hand: [cards[i * 3], cards[i * 3 + 1]],
+                mood: 'happy',
                 bank: 10,
                 bet: 10,
                 folded: false,
             }))}
-            users={users}
         />
     </div>
 )

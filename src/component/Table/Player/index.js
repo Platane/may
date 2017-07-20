@@ -1,15 +1,22 @@
 import React from 'react'
-import { Card } from '../../Card'
+import { Hand } from './Hand'
 import style from './style.css'
 
-import type { User, PlayerMood, Card as Card_type } from '../../../type'
+import type {
+    User,
+    PlayerMood,
+    Card as Card_type,
+    Card_hidden,
+} from '../../../type'
 
 export type Props = {
-    user: User,
-    bet: number,
-    folded: boolean,
-    mood: PlayerMood,
-    hand: [Card_type, Card_type] | null,
+    player: {
+        ...User,
+        bet: number,
+        folded: boolean,
+        mood: PlayerMood,
+        hand: [Card_type | Card_hidden, Card_type | Card_hidden],
+    },
     angle: number,
     length: number,
 }
@@ -19,38 +26,23 @@ const l = {
     hand: 0.65,
 }
 
-const blankCard: Card_type = {
-    color: 'spade',
-    value: '1',
-}
-
-export const Player = ({ user, mood, angle, hand, length }: Props) =>
+export const Player = ({ player, angle, length }: Props) =>
     <div className={style.container}>
-        <div
-            className={style.handZone}
-            style={{
-                transform: `rotate3d(0,0,1,${-angle}deg) translate3d(${length *
-                    l.hand}px,0,0) rotate3d(0,0,1,90deg)`,
-            }}
-        >
-            <div className={style.center} />
-            <div className={style.hand}>
-                <div className={style.handCard}>
-                    <Card
-                        hidden={hand === null}
-                        card={hand ? hand[0] : blankCard}
-                        size={90}
-                    />
-                </div>
-                <div className={style.handCard}>
-                    <Card
-                        hidden={hand === null}
-                        card={hand ? hand[1] : blankCard}
-                        size={90}
-                    />
-                </div>
-            </div>
-        </div>
+        <Hand
+            card={player.hand[0]}
+            dir={1}
+            length={length}
+            angle={angle}
+            folded={player.folded}
+        />
+
+        <Hand
+            card={player.hand[1]}
+            dir={-1}
+            length={length}
+            angle={angle}
+            folded={player.folded}
+        />
 
         <div
             className={style.userZone}
@@ -66,7 +58,10 @@ export const Player = ({ user, mood, angle, hand, length }: Props) =>
             <div className={style.userCard}>
                 <div
                     className={style.userCardPic}
-                    style={{ backgroundImage: `url(${user.pic[mood]})` }}
+                    style={{
+                        backgroundImage: `url(${player.pic[player.mood]})`,
+                        border: `solid 3px ${player.folded ? '#fff' : '#aaa'}`,
+                    }}
                 />
             </div>
         </div>

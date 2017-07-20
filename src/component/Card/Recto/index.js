@@ -27,7 +27,7 @@ export const Recto = ({ card, size }: Props) =>
         className={style.container}
         style={{
             color: color[card.color],
-            fontSize: size === 'auto' ? 18 : size / 10,
+            fontSize: size === 'auto' ? 18 : size / 6,
         }}
     >
         <div className={style.top}>

@@ -4,6 +4,7 @@ import { action } from '@storybook/addon-actions'
 import { Game } from '../index'
 import { reduce } from '../../../service/gameSolver/solver'
 import { initGame } from '../../../service/gameSolver/initGame'
+import { toHiddenGame } from '../../../service/gameSolver/toHiddenGame'
 import { users } from '../../../__fixtures__/users'
 import { cards } from '../../../__fixtures__/cards'
 
@@ -30,6 +31,9 @@ const actions = [
 
     { type: 'call', player: 1 },
     { type: 'call', player: 2 },
+
+    { type: 'call', player: 1 },
+    { type: 'call', player: 2 },
 ]
 
 class Container extends React.Component {
@@ -38,9 +42,13 @@ class Container extends React.Component {
     setK = k => this.setState({ k })
 
     render() {
-        const game = this.props.actions
+        const gl = this.props.actions
             .slice(0, this.state.k)
             .reduce((game, action) => reduce(game, action), this.props.game0)
+
+        const game = toHiddenGame('a', users, gl)
+
+        if (!game) return null
 
         return (
             <div
@@ -52,7 +60,7 @@ class Container extends React.Component {
                     right: 0,
                 }}
             >
-                <Game game={game} users={users} />
+                <Game game={game} size={800} />
                 <input
                     type="range"
                     value={this.state.k}

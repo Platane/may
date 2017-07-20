@@ -9,7 +9,10 @@ import style from './style.css'
 
 export type Props = {
     game: Game_type,
+    size: number,
 }
 
-export const Game = ({ game }: Props) =>
-    <div className={style.container}>game</div>
+export const Game = ({ game, size }: Props) =>
+    <div className={style.container}>
+        <Table players={game.players} cards={game.cards} size={size} />
+    </div>
