@@ -7,6 +7,6 @@ import style from './style.css'
 
 export const App = ({ page }) =>
     ('gate' === page && <Gate />) ||
-    ('table' === page && <Game />) ||
+    ('table' === page && <Game size={600} />) ||
     ('waitingRoom' === page && <WaitingRoom />) ||
     null

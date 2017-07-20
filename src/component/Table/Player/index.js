@@ -1,6 +1,7 @@
 import React from 'react'
 import { Hand } from './Hand'
 import { UserCard } from './UserCard'
+import { BetStash } from './BetStash'
 import style from './style.css'
 
 import type { Player as Player_type } from '../../../type'
@@ -30,6 +31,13 @@ export const Player = ({ player, angle, length }: Props) =>
         />
 
         <UserCard player={player} length={length} angle={angle} />
+
+        <BetStash
+            bet={player.bet}
+            length={length}
+            angle={angle}
+            seed={Math.floor(angle * 17)}
+        />
 
         {Array.from({ length: 10 }).map((_, i, arr) =>
             <div

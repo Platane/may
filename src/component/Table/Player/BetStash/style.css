@@ -1,0 +1,99 @@
+.container {
+    left: 0;
+    top: 0;
+    position: absolute;
+    transform-style: preserve-3d;
+}
+.token {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #264653;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    transform-style: preserve-3d;
+}
+
+.tokenWrapper {
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: throw1 500ms linear;
+}
+.tokenWrapper:nth-child(3n + 1) {
+    animation-name: throw2;
+}
+.tokenWrapper:nth-child(3n + 2) {
+    animation-name: throw3;
+}
+
+@keyframes throw1 {
+    0% {
+        transform: translate3d(180px, 0, 0);
+        opacity: 0;
+    }
+    20% {
+        transform: translate3d(120px, 0, 40px);
+        opacity: 1;
+    }
+    40% {
+        transform: translate3d(60px, 0, 40px);
+        opacity: 1;
+    }
+    60% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+@keyframes throw2 {
+    0% {
+        transform: translate3d(200px, 0, 0);
+        opacity: 0;
+    }
+    20% {
+        transform: translate3d(200px, 0, 0);
+        opacity: 0;
+    }
+    40% {
+        transform: translate3d(120px, 0, 40px);
+        opacity: 1;
+    }
+    60% {
+        transform: translate3d(60px, 0, 40px);
+        opacity: 1;
+    }
+    80% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+@keyframes throw3 {
+    0% {
+        transform: translate3d(200px, 0, 0);
+        opacity: 0;
+    }
+    40% {
+        transform: translate3d(200px, 0, 0);
+        opacity: 0;
+    }
+    60% {
+        transform: translate3d(120px, 0, 40px);
+        opacity: 1;
+    }
+    80% {
+        transform: translate3d(60px, 0, 40px);
+        opacity: 1;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
