@@ -1,0 +1,49 @@
+.container {
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.userCard {
+    transform: translate3d(0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.userCardPic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: solid 4px #fff;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+
+    position: absolute;
+    top: -32px;
+    left: -32px;
+
+    transform: translate3d(0, -90px, 0);
+}
+
+.userBar {
+    width: 2px;
+    height: 60px;
+    position: absolute;
+    left: -1px;
+    top: -60px;
+    background-color: #eee;
+}
+
+.stash {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.stashLabel {
+    position: absolute;
+}
+.dollar {
+    position: absolute;
+    transform: rotate3d(0, 0, 1, 30deg);
+}
