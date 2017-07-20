@@ -26,28 +26,36 @@ export type Card = {
         | 'K',
 }
 
-export type PlayerState = 'out' | 'inGame'
+export type Card_hidden = { hidden: true }
+
+/// Game
 
 export type PlayerMood = 'happy' | 'sad' | 'idle'
 
-export type Game = {
-    river: [Card, Card, Card | null, Card | null, Card | null],
+export type Player = {
+    ...User,
 
-    bets: number[],
+    mood: PlayerMood,
 
-    playerStates: PlayerState[],
+    bank: number,
 
-    playerMoods: PlayerMood[],
+    hand: [Card | Card_hidden, Card | Card_hidden],
 
-    hands: Array<[Card, Card]>,
+    bet: number,
+
+    folded: false,
 }
 
-export type Table = {
-    id: string,
+export type Game = {
+    cards: [
+        Card | Card_hidden,
+        Card | Card_hidden,
+        Card | Card_hidden,
+        Card | Card_hidden,
+        Card | Card_hidden,
+    ],
 
-    users: User[],
+    speaker: number,
 
-    waitingList: User[],
-
-    game: Game | null,
+    players: Player,
 }

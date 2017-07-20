@@ -7,7 +7,7 @@ export type Action =
 
 export type Player = {
     bet: number,
-    banks: number,
+    bank: number,
     folded: boolean,
     hand: [Card, Card],
 }

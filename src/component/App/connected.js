@@ -5,8 +5,8 @@ const mapStateToProps = state => {
     let page = null
 
     if (!state.me) page = 'gate'
-    else if (state.table && state.table.state == 'playing') page = 'table'
-    else if (state.table && state.table.state == 'waiting') page = 'waitingRoom'
+    else if (state.game && state.game.waiting) page = 'waitingRoom'
+    else if (state.game) page = 'table'
 
     return { page }
 }

@@ -3,12 +3,10 @@ import { connect } from 'react-redux'
 import { registerUser } from '../../action/thunk/registerUser'
 
 const mapStateToProps = state => {
-    const users = Object.keys(state.table.pending_players)
-        .map(id => state.table.pending_players[id])
-        .filter(x => Date.now() - x.tic < 10000)
-        .map(({ user }) => user)
-
-    return { users, start_at: state.table.start_at }
+    return {
+        users: (state.game && state.game.users) || [],
+        start_at: state.game.start_at || 0,
+    }
 }
 
 export const WaitingRoom = connect(mapStateToProps)(Component)

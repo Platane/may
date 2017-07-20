@@ -30,5 +30,9 @@ const shuffle = arr =>
 export const createDeck = () => {
     const deck = shuffle(cards)
 
+    /**
+     * pick a card
+     * return a card of the deck
+     */
     return (): Card => deck.shift()
 }

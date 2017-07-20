@@ -7,13 +7,27 @@ export const localStorageRead = (user: User | null) => ({
     user,
 })
 
-type Action_TableUpdate = { type: 'table:update', table: any }
-export const tableUpdate = table => ({
-    type: 'table:update',
-    table,
+//
+type Action_UpdateGame = { type: 'game:update', game: any }
+export const updateGame = game => ({
+    type: 'game:update',
+    game,
+})
+
+//
+type Action_WaitingRoom = {
+    type: 'waitingRoom:update',
+    users: User[],
+    start_at: number,
+}
+export const updateWaitingRoom = (users, start_at) => ({
+    type: 'waitingRoom:update',
+    users,
+    start_at,
 })
 
 export type Action =
     | Action_RegisterUser
     | Action_LocalStorageRead
-    | Action_TableUpdate
+    | Action_UpdateGame
+    | Action_WaitingRoom

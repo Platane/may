@@ -3,8 +3,7 @@ import { connect } from 'react-redux'
 import { registerUser } from '../../action/thunk/registerUser'
 
 const mapStateToProps = state => ({
-    game: state.table.game,
-    users: state.table.users,
+    game: state.game,
 })
 
 export const Game = connect(mapStateToProps)(Component)
