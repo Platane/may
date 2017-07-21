@@ -1,0 +1,15 @@
+.container {
+    left: 0;
+    top: 0;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 500ms;
+    transition-timing-function: ease-in-out;
+}
+.svg {
+    position: absolute;
+    left: -50px;
+    top: -50px;
+    width: 100px;
+    height: 100px;
+}

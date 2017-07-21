@@ -1,6 +1,7 @@
 import React from 'react'
 import { Player } from './Player'
 import { SpeakerArrow } from './SpeakerArrow'
+import { Carpet } from './Carpet'
 import { Card } from '../Card'
 import style from './style.css'
 
@@ -19,6 +20,8 @@ export type Props = {
 }
 
 const blankCard = { color: 'diamond', value: '1' }
+
+const angleOffset = 147
 
 const cardWidth = 40
 
@@ -45,9 +48,15 @@ export const Table = ({ players, cards, speaker, size }: Props) =>
                 transform: worldTransform(size),
             }}
         >
+            <Carpet
+                offset={angleOffset / 180 * Math.PI}
+                n={players.length}
+                length={size}
+            />
+
             {speaker !== null &&
                 <SpeakerArrow
-                    angle={speaker / players.length * 360 + 147}
+                    angle={speaker / players.length * 360 + angleOffset}
                     length={size / 3}
                 />}
 
@@ -75,7 +84,7 @@ export const Table = ({ players, cards, speaker, size }: Props) =>
                     }}
                 >
                     <Player
-                        angle={i / players.length * 360 + 147}
+                        angle={i / players.length * 360 + angleOffset}
                         speaking={speaker === i}
                         length={size / 2.2}
                         phy={phy}
