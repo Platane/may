@@ -33,6 +33,21 @@ export const BetStash = ({ bet, angle, length, phy, seed }: Props) =>
                 transform: `rotateZ(${angle}deg)`,
             }}
         >
-            {bet}
+            <Motion
+                defaultStyle={{ bet: 0 }}
+                style={{ bet: spring(bet, { stiffness: 50, damping: 10 }) }}
+            >
+                {v => {
+                    const d = Math.min(1, Math.abs(v.bet - bet) / 3)
+                    const u = Math.abs(0.5 - v.bet % 1) * 2
+                    const s = 1 + u * d
+
+                    return (
+                        <span style={{ transform: `scale(${s},${s})` }}>
+                            {Math.round(v.bet)}
+                        </span>
+                    )
+                }}
+            </Motion>
         </div>
     </div>

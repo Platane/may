@@ -29,7 +29,7 @@ const actions = [
     { type: 'raise', player: 1, value: 8 },
     { type: 'call', player: 2 },
 
-    { type: 'call', player: 1 },
+    { type: 'raise', player: 1, value: 10 },
     { type: 'call', player: 2 },
 
     { type: 'call', player: 1 },
@@ -39,7 +39,10 @@ const actions = [
 class Container extends React.Component {
     state = { k: 0 }
 
-    setK = k => this.setState({ k })
+    setK = k =>
+        this.setState({
+            k: Math.max(0, Math.min(this.props.actions.length, k)),
+        })
 
     render() {
         const gl = this.props.actions
@@ -76,6 +79,28 @@ class Container extends React.Component {
                         width: 'calc( 100% - 20px )',
                     }}
                 />
+                <button
+                    onClick={() => this.setK(0)}
+                    style={{
+                        position: 'fixed',
+                        top: 35,
+                        left: 10,
+                        width: 30,
+                    }}
+                >
+                    {'<<'}
+                </button>
+                <button
+                    onClick={() => this.setK(this.state.k + 1)}
+                    style={{
+                        position: 'fixed',
+                        top: 35,
+                        left: 50,
+                        width: 30,
+                    }}
+                >
+                    {'>'}
+                </button>
             </div>
         )
     }

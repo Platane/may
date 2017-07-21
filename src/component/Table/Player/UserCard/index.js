@@ -1,5 +1,4 @@
 import React from 'react'
-import { Motion, spring } from 'react-motion'
 import style from './style.css'
 
 import type { Player } from '../../../../type'
@@ -12,7 +11,6 @@ export type Props = {
 }
 
 const userCardLength = 0.8
-const stashLength = 1
 
 const transform = (angle, length, phy) =>
     `translate3d(${length * userCardLength}px,0,0)` +
