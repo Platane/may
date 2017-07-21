@@ -39,7 +39,7 @@ export const Player = ({ player, angle, length, phy }: Props) =>
             length={length}
             angle={angle}
             phy={phy}
-            seed={Math.floor(angle * 37)}
+            seed={Math.floor(angle * 37.91283)}
         />
 
         <BetStash
@@ -47,7 +47,7 @@ export const Player = ({ player, angle, length, phy }: Props) =>
             length={length}
             angle={angle}
             phy={phy}
-            seed={Math.floor(angle * 17)}
+            seed={Math.floor(angle * 17.37131)}
         />
 
         {Array.from({ length: 10 }).map((_, i, arr) =>

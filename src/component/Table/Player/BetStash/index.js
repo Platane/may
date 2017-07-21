@@ -29,7 +29,7 @@ export const BetStash = ({ bet, angle, length, phy, seed }: Props) =>
     >
         {Array.from({ length: bet }).map((_, i) =>
             <div key={i} className={style.tokenWrapper}>
-                <Token seed={i + seed * 2} length={length} stash />
+                <Token seed={i + seed} length={length} stash />
             </div>
         )}
 

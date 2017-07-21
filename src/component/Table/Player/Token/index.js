@@ -3,13 +3,18 @@ import React from 'react'
 export type Props = {
     length: number,
     seed: number,
-    stack: boolean,
-    stash: boolean,
+    stack?: boolean,
+    stash?: boolean,
 }
 
-const pos = Array.from({ length: 30 }).map(() => {
-    const a = Math.random() * Math.PI * 2
-    const r = Math.random()
+const pseudoRand = seed => {
+    seed = seed % 632
+    return (seed * seed * 37 + seed * 127 + 13123) % 57 / 57
+}
+
+const pos = Array.from({ length: 37 }).map((_, i) => {
+    const a = pseudoRand(i) * Math.PI * 2
+    const r = pseudoRand(i * 3)
     return { x: r * Math.cos(a), y: r * Math.sin(a), z: 1 - r }
 })
 
@@ -38,7 +43,7 @@ const tokenStyle = {
     left: -5,
 }
 
-export const Token = ({ length = 0, seed = 0, stack, stash }: Props) =>
+export const Token = ({ length = 0, seed, stack, stash }: Props) =>
     <div
         style={{
             ...tokenStyle,
