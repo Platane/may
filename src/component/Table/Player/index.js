@@ -9,16 +9,17 @@ import type { Player as Player_type } from '../../../type'
 
 export type Props = {
     player: Player_type,
+    speaking: boolean,
     phy: number,
     angle: number,
     length: number,
 }
 
-export const Player = ({ player, angle, length, phy }: Props) =>
+export const Player = ({ player, speaking, angle, length, phy }: Props) =>
     <div
         className={style.container}
         style={{
-            transform: `rotate3d(0,0,1,${-angle}deg)`,
+            transform: `rotate3d(0,0,1,${angle}deg)`,
         }}
     >
         <Hand
@@ -45,7 +46,13 @@ export const Player = ({ player, angle, length, phy }: Props) =>
             seed={Math.floor(angle * 17.37131)}
         />
 
-        <UserCard player={player} length={length} angle={angle} phy={phy} />
+        <UserCard
+            player={player}
+            speaking={speaking}
+            length={length}
+            angle={angle}
+            phy={phy}
+        />
 
         <Bank
             bank={player.bank}
@@ -55,7 +62,7 @@ export const Player = ({ player, angle, length, phy }: Props) =>
             seed={Math.floor(angle * 37.91283)}
         />
 
-        {Array.from({ length: 20 }).map((_, i, arr) =>
+        {Array.from({ length: 0 }).map((_, i, arr) =>
             <div
                 className={style.probe}
                 key={i}

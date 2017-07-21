@@ -5,19 +5,23 @@ import { Table } from '../index'
 import { users } from '../../../__fixtures__/users'
 import { cards } from '../../../__fixtures__/cards'
 
-storiesOf('Table', module).add('default', () =>
-    <div>
-        <Table
-            size={800}
-            cards={cards.slice(0, 5)}
-            players={users.slice(0, 3).map((user, i) => ({
-                ...user,
-                hand: [cards[i * 3], cards[i * 3 + 1]],
-                mood: 'happy',
-                bank: 10,
-                bet: 10,
-                folded: false,
-            }))}
-        />
-    </div>
+const players = Array.from({ length: 16 }).map((_, i) => ({
+    ...users[i % users.length],
+    id: i,
+    hand: [cards[i * 3 % cards.length], cards[(i * 3 + 17) % cards.length]],
+    mood: 'happy',
+    bank: i,
+    bet: i,
+    folded: i % 4 === 2,
+}))
+;[2, 3, 4, 8].forEach(n =>
+    storiesOf('Table', module).add(`${n} players`, () =>
+        <div style={{ backgroundColor: '#c1d37f' }}>
+            <Table
+                size={800}
+                cards={cards.slice(0, 5)}
+                players={players.slice(0, n)}
+            />
+        </div>
+    )
 )

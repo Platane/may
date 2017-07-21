@@ -32,7 +32,7 @@ export const Bank = ({ bank, angle, length, phy, seed }: Props) =>
         <div
             className={style.label}
             style={{
-                transform: `rotateZ(${angle}deg)`,
+                transform: `rotateZ(${-angle}deg)`,
             }}
         >
             {bank}

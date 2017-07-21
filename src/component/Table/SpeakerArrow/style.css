@@ -1,0 +1,16 @@
+.container {
+    left: 0;
+    top: 0;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 500ms;
+    transition-timing-function: ease-in-out;
+}
+.tic {
+    position: absolute;
+    width: 120px;
+    height: 165px;
+    left: -52px;
+    top: -45px;
+    fill: rgba(255, 255, 255, 0.14);
+}

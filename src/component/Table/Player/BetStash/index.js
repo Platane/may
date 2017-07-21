@@ -30,7 +30,7 @@ export const BetStash = ({ bet, angle, length, phy, seed }: Props) =>
         <div
             className={style.label}
             style={{
-                transform: `rotateZ(${angle}deg)`,
+                transform: `rotateZ(${-angle}deg)`,
             }}
         >
             <Motion

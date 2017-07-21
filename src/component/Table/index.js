@@ -1,6 +1,6 @@
 import React from 'react'
 import { Player } from './Player'
-import { World3d } from '../World3d'
+import { SpeakerArrow } from './SpeakerArrow'
 import { Card } from '../Card'
 import style from './style.css'
 
@@ -15,6 +15,7 @@ export type Props = {
     players: Player_type[],
     cards: Array<Card_type | Card_hidden>,
     size: number,
+    speaker: number | null,
 }
 
 const blankCard = { color: 'diamond', value: '1' }
@@ -29,7 +30,7 @@ const worldTransform = size =>
 const cardTransform = i =>
     `translate3d(${(i - 2.5) * cardWidth * 1.1}px,${-cardWidth * 0.7}px,1px)`
 
-export const Table = ({ players, cards, size }: Props) =>
+export const Table = ({ players, cards, speaker, size }: Props) =>
     <div
         className={style.container}
         style={{
@@ -44,6 +45,12 @@ export const Table = ({ players, cards, size }: Props) =>
                 transform: worldTransform(size),
             }}
         >
+            {speaker !== null &&
+                <SpeakerArrow
+                    angle={speaker / players.length * 360 + 147}
+                    length={size / 3}
+                />}
+
             {cards.map((card, i) =>
                 <div
                     key={i}
@@ -68,8 +75,9 @@ export const Table = ({ players, cards, size }: Props) =>
                     }}
                 >
                     <Player
-                        angle={i / players.length * 360 + 77}
-                        length={size / 2.6}
+                        angle={i / players.length * 360 + 147}
+                        speaking={speaker === i}
+                        length={size / 2.2}
                         phy={phy}
                         player={player}
                     />

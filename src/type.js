@@ -55,7 +55,7 @@ export type Game = {
         Card | Card_hidden,
     ],
 
-    speaker: number,
+    speaker: number | null,
 
     players: Player,
 }

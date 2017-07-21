@@ -20,7 +20,7 @@ export const toHiddenGame = (
     users: User[],
     game: Game_Running | Game_Over
 ): HiddenGame => ({
-    speaker: game.speaker || 0,
+    speaker: game.state === 'running' ? game.speaker || 0 : null,
 
     cards: hideCards(game.river, game.state === 'running' ? game.turn : 4),
 

@@ -8,13 +8,14 @@ export type Props = {
     angle: number,
     length: number,
     phy: number,
+    speaking: boolean,
 }
 
 const userCardLength = 0.8
 
 const transform = (angle, length, phy) =>
     `translate3d(${length * userCardLength}px,0,0)` +
-    `rotate3d(0,0,1,${angle}deg)` +
+    `rotate3d(0,0,1,${-angle}deg)` +
     `rotate3d(1,0,0,${-phy}deg)`
 
 export const UserCard = ({ player, angle, length, phy, seed }: Props) =>

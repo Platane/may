@@ -14,5 +14,10 @@ export type Props = {
 
 export const Game = ({ game, size }: Props) =>
     <div className={style.container}>
-        <Table players={game.players} cards={game.cards} size={size} />
+        <Table
+            players={game.players}
+            cards={game.cards}
+            size={size}
+            speaker={game.speaker}
+        />
     </div>
