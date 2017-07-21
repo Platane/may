@@ -8,11 +8,12 @@ import type { Player as Player_type } from '../../../type'
 
 export type Props = {
     player: Player_type,
+    phy: number,
     angle: number,
     length: number,
 }
 
-export const Player = ({ player, angle, length }: Props) =>
+export const Player = ({ player, angle, length, phy }: Props) =>
     <div className={style.container}>
         <Hand
             card={player.hand[0]}
@@ -36,6 +37,7 @@ export const Player = ({ player, angle, length }: Props) =>
             bet={player.bet}
             length={length}
             angle={angle}
+            phy={phy}
             seed={Math.floor(angle * 17)}
         />
 

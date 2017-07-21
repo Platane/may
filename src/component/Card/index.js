@@ -30,13 +30,14 @@ const Verso = () => <div className={style.verso} />
 
 export const Card = ({ card, size, hidden }: Props) =>
     <div
-        className={style.container}
+        className={
+            style.container + (hidden ? ' ' + style.containerHidden : '')
+        }
         style={{
             color: color[card.color],
             width: size === 'auto' ? 'auto' : size / 1.4,
             fontSize: size === 'auto' ? 18 : size / 10,
             borderRadius: size === 'auto' ? 10 : size / 16,
-            transform: `rotate3d(0,1,0,${!hidden ? 0 : 180}deg)`,
         }}
     >
         <div className={style.ratio} />

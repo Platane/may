@@ -4,6 +4,33 @@
     position: absolute;
     transform-style: preserve-3d;
 }
+
+.label {
+    width: 20px;
+    height: 60px;
+    position: absolute;
+    top: -60px;
+    left: -1px;
+    transform-style: preserve-3d;
+    transform-origin: 1px bottom;
+}
+.labelBar {
+    position: absolute;
+    background-color: #fff;
+    top: 6px;
+    left: 0;
+    width: 2px;
+    bottom: 2px;
+}
+.labelValue {
+    color: #264653;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 4px;
+}
+
 .token {
     width: 10px;
     height: 10px;
@@ -14,11 +41,10 @@
     left: -5px;
     transform-style: preserve-3d;
 }
-
 .tokenWrapper {
     position: absolute;
     transform-style: preserve-3d;
-    animation: throw1 500ms linear;
+    animation: throw1 500ms ease;
 }
 .tokenWrapper:nth-child(3n + 1) {
     animation-name: throw2;

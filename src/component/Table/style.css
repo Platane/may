@@ -1,15 +1,11 @@
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+.world {
+    transform-style: preserve-3d;
 }
 
-.cards {
-    position: relative;
-}
-
-.card,
-.players {
+.card {
+    transform-style: preserve-3d;
     position: absolute;
     top: 0;
     left: 0;

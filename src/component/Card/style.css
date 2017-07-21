@@ -4,7 +4,11 @@
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
     border-radius: 6px;
     transition: transform 400ms linear;
+    transform-origin: right;
     overflow: hidden;
+}
+.containerHidden {
+    transform: translateX(-100%) rotateY(180deg);
 }
 .ratio {
     width: 100%;
