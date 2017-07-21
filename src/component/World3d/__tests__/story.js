@@ -41,6 +41,8 @@ storiesOf('World3d', module).add('default', () =>
             style={{
                 width: 50,
                 height: 50,
+                top: 0,
+                left: 0,
                 position: 'absolute',
                 backgroundColor: 'tomato',
                 transform: 'translate3d(100px,0,0) rotate3d(0,0,1,45deg)',
@@ -59,6 +61,8 @@ storiesOf('World3d', module).add('default', () =>
                 style={{
                     width: 50,
                     height: 50,
+                    top: 0,
+                    left: 0,
                     position: 'absolute',
                     backgroundColor: 'yellow',
                     transform: 'translate3d(10px,40px,0) rotate3d(0,1,0,45deg)',

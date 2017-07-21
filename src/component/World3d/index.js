@@ -19,7 +19,7 @@ const applyTransform = (parentTransform, node) =>
                 transform: concatTransform(parentTransform, node),
             },
         },
-        node.children
+        node.props && node.props.children
     )
 
 const extract3dObject = (children, parentTransform = '') =>
@@ -45,6 +45,11 @@ export const World3d = ({ phy, theta, children }) =>
     <div style={worldStyle}>
         {extract3dObject(
             children,
-            `rotate3d(0,0,1,${phy}rad) rotate3d(0,1,0,${theta}rad)`
+            `rotate3d(0,0,1,${phy}rad) rotate3d(1,0,0,${theta}rad)`
         )}
     </div>
+
+World3d.defaultProps = {
+    phy: 0,
+    theta: 0,
+}
