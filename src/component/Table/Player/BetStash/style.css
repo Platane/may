@@ -31,6 +31,14 @@
     left: 4px;
 }
 
+.floorLabel {
+    transform: rotateZ(270deg);
+    position: absolute;
+    top: -38px;
+    left: -8px;
+    color: #264653;
+}
+
 .token {
     width: 10px;
     height: 10px;

@@ -31,6 +31,7 @@ class Container extends React.Component {
                             mood: 'happy',
                             bet: 10,
                             folded: false,
+                            bank: 16,
                         }}
                         angle={this.state.angle}
                         length={300}

@@ -2,6 +2,7 @@ import React from 'react'
 import { Hand } from './Hand'
 import { UserCard } from './UserCard'
 import { BetStash } from './BetStash'
+import { Bank } from './Bank'
 import style from './style.css'
 
 import type { Player as Player_type } from '../../../type'
@@ -31,7 +32,15 @@ export const Player = ({ player, angle, length, phy }: Props) =>
             folded={player.folded}
         />
 
-        <UserCard player={player} length={length} angle={angle} />
+        <UserCard player={player} length={length} angle={angle} phy={phy} />
+
+        <Bank
+            bank={player.bank}
+            length={length}
+            angle={angle}
+            phy={phy}
+            seed={Math.floor(angle * 37)}
+        />
 
         <BetStash
             bet={player.bet}

@@ -1,0 +1,13 @@
+.container {
+    left: 0;
+    top: 0;
+    position: absolute;
+    transform-style: preserve-3d;
+}
+.label {
+    transform: rotateZ(270deg);
+    position: absolute;
+    top: -32px;
+    left: -8px;
+    color: #264653;
+}
