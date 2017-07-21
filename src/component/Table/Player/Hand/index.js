@@ -23,15 +23,12 @@ const cardWidth = 50
 
 const transformCard = (angle, length, dir, folded) =>
     folded
-        ? `rotate3d(0,0,1,${-angle}deg)` +
-          `translate3d(0,${cardWidth * 0.1 * dir}px,0)` +
+        ? `translate3d(0,${cardWidth * 0.1 * dir}px,0)` +
           `rotate3d(0,0,1,90deg)` +
           `scale(0.5,0.5)`
-        : `rotate3d(0,0,1,${-angle}deg)` +
-          `translate3d(${length * cardLength}px,${cardWidth *
+        : `translate3d(${length * cardLength}px,${cardWidth *
               0.55 *
-              dir}px,0)` +
-          `rotate3d(0,0,1,90deg)`
+              dir}px,0)` + `rotate3d(0,0,1,90deg)`
 
 export const Hand = ({ card, folded, angle, length, dir }: Props) =>
     <div

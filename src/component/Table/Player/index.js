@@ -15,7 +15,12 @@ export type Props = {
 }
 
 export const Player = ({ player, angle, length, phy }: Props) =>
-    <div className={style.container}>
+    <div
+        className={style.container}
+        style={{
+            transform: `rotate3d(0,0,1,${-angle}deg)`,
+        }}
+    >
         <Hand
             card={player.hand[0]}
             dir={1}
@@ -32,6 +37,14 @@ export const Player = ({ player, angle, length, phy }: Props) =>
             folded={player.folded}
         />
 
+        <BetStash
+            bet={player.bet}
+            length={length}
+            angle={angle}
+            phy={phy}
+            seed={Math.floor(angle * 17.37131)}
+        />
+
         <UserCard player={player} length={length} angle={angle} phy={phy} />
 
         <Bank
@@ -42,22 +55,12 @@ export const Player = ({ player, angle, length, phy }: Props) =>
             seed={Math.floor(angle * 37.91283)}
         />
 
-        <BetStash
-            bet={player.bet}
-            length={length}
-            angle={angle}
-            phy={phy}
-            seed={Math.floor(angle * 17.37131)}
-        />
-
-        {Array.from({ length: 10 }).map((_, i, arr) =>
+        {Array.from({ length: 20 }).map((_, i, arr) =>
             <div
                 className={style.probe}
                 key={i}
                 style={{
-                    transform: `rotate3d(0,0,1,${-angle}deg) translate3d(${i /
-                        arr.length *
-                        length}px,0,0)`,
+                    transform: `translate3d(${i / arr.length * length}px,0,0)`,
                 }}
             >
                 <div className={style.center} />

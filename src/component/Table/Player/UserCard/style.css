@@ -2,6 +2,7 @@
     left: 0;
     top: 0;
     position: absolute;
+    transform-style: preserve-3d;
 }
 
 .userCard {
@@ -33,17 +34,4 @@
     left: -1px;
     top: -60px;
     background-color: #eee;
-}
-
-.stash {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.stashLabel {
-    position: absolute;
-}
-.dollar {
-    position: absolute;
-    transform: rotate3d(0, 0, 1, 30deg);
 }

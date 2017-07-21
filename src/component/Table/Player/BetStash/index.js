@@ -23,8 +23,7 @@ export const BetStash = ({ bet, angle, length, phy, seed }: Props) =>
     <div
         className={style.container}
         style={{
-            transform: `rotate3d(0,0,1,${-angle}deg) translate3d(${length *
-                stashLength}px,0,0)`,
+            transform: `translate3d(${length * stashLength}px,0,0)`,
         }}
     >
         {Array.from({ length: bet }).map((_, i) =>

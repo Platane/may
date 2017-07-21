@@ -13,6 +13,7 @@
     height: 1px;
     width: 300px;
     transform-style: preserve-3d;
+    transform-origin: left;
 }
 .probe {
     left: 0;

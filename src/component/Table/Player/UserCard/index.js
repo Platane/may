@@ -18,7 +18,7 @@ export const UserCard = ({ player, angle, length, phy, seed }: Props) =>
     <div
         className={style.container}
         style={{
-            transform: `rotate3d(0,0,1,${-angle}deg) translate3d(${length *
+            transform: `translate3d(${length *
                 userCardLength}px,0,0) rotate3d(0,0,1,${angle}deg)`,
         }}
     >
