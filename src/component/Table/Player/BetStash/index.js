@@ -11,13 +11,7 @@ export type Props = {
     seed: number,
 }
 
-const stashLength = 0.4
-
-const transformLabel = (angle, length, phy) =>
-    `rotate3d(0,0,1,${-angle}deg)` +
-    `translate3d(${length * stashLength}px,0,0)`
-// `rotate3d(0,0,1,${angle}deg)` +
-// `rotate3d(0,0,1,${0}deg)`
+const stashLength = 0.5
 
 export const BetStash = ({ bet, angle, length, phy, seed }: Props) =>
     <div
@@ -27,25 +21,14 @@ export const BetStash = ({ bet, angle, length, phy, seed }: Props) =>
         }}
     >
         {Array.from({ length: bet }).map((_, i) =>
-            <div key={i} className={style.tokenWrapper}>
+            <div key={i} className={style.token}>
                 <Token seed={i + seed} length={length} stash />
             </div>
         )}
 
+        <div className={style.labelBar} />
         <div
             className={style.label}
-            style={{
-                transform: `rotate3d(0,0,1,${angle}deg) rotate3d(1,0,0,${-phy}deg)`,
-            }}
-        >
-            <div className={style.labelBar} />
-            <div className={style.labelValue}>
-                {bet}
-            </div>
-        </div>
-
-        <div
-            className={style.floorLabel}
             style={{
                 transform: `rotateZ(${angle}deg)`,
             }}

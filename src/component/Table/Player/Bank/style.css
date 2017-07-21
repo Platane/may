@@ -5,9 +5,26 @@
     transform-style: preserve-3d;
 }
 .label {
-    transform: rotateZ(270deg);
     position: absolute;
-    top: -32px;
-    left: -8px;
+    top: -54px;
+    left: -10px;
     color: #264653;
+
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*background-color: #fff;*/
+}
+.labelBar {
+    background-color: #264653;
+    position: absolute;
+    top: -30px;
+    left: -1px;
+    height: 22px;
+    width: 2px;
 }

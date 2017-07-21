@@ -13,7 +13,7 @@ export type Props = {
     seed: number,
 }
 
-const stashLength = 0.86
+const stashLength = 0.92
 
 export const Bank = ({ bank, angle, length, phy, seed }: Props) =>
     <div
@@ -28,6 +28,7 @@ export const Bank = ({ bank, angle, length, phy, seed }: Props) =>
             </div>
         )}
 
+        <div className={style.labelBar} />
         <div
             className={style.label}
             style={{

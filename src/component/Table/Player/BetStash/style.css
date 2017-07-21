@@ -6,58 +6,39 @@
 }
 
 .label {
-    width: 20px;
-    height: 60px;
     position: absolute;
-    top: -60px;
-    left: -1px;
-    transform-style: preserve-3d;
-    transform-origin: 1px bottom;
+    top: -50px;
+    left: -10px;
+    color: #264653;
+
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*background-color: #fff;*/
 }
 .labelBar {
+    background-color: #264653;
     position: absolute;
-    background-color: #fff;
-    top: 6px;
-    left: 0;
+    top: -28px;
+    left: -1px;
+    height: 12px;
     width: 2px;
-    bottom: 2px;
-}
-.labelValue {
-    color: #264653;
-    font-weight: bold;
-    position: absolute;
-    top: 0px;
-    right: 0;
-    left: 4px;
-}
-
-.floorLabel {
-    transform: rotateZ(270deg);
-    position: absolute;
-    top: -38px;
-    left: -8px;
-    color: #264653;
 }
 
 .token {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #264653;
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    transform-style: preserve-3d;
-}
-.tokenWrapper {
     position: absolute;
     transform-style: preserve-3d;
     animation: throw1 500ms ease;
 }
-.tokenWrapper:nth-child(3n + 1) {
+.token:nth-child(3n + 1) {
     animation-name: throw2;
 }
-.tokenWrapper:nth-child(3n + 2) {
+.token:nth-child(3n + 2) {
     animation-name: throw3;
 }
 

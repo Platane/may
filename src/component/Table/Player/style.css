@@ -1,3 +1,14 @@
+.container {
+    position: absolute;
+    transform-style: preserve-3d;
+    transform-origin: left;
+}
+
+.probe {
+    left: 0;
+    top: 0;
+    position: absolute;
+}
 .center {
     position: absolute;
     top: -1px;
@@ -6,17 +17,4 @@
     height: 2px;
     border-radius: 1px;
     background-color: #333;
-}
-
-.container {
-    position: absolute;
-    height: 1px;
-    width: 300px;
-    transform-style: preserve-3d;
-    transform-origin: left;
-}
-.probe {
-    left: 0;
-    top: 0;
-    position: absolute;
 }
