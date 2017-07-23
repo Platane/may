@@ -9136,2336 +9136,2364 @@ exports[`Storyshots Game default 1`] = `
     className="_1c2e8e2f"
   >
     <div
-      className="b8c8d630"
+      className="e4f3abc1"
+    >
+      <div
+        className="_60be3b49"
+      >
+        <svg
+          className="_34f89a5e"
+          viewBox="-110 -110 220 220"
+        >
+          <path
+            className="_7c7da8df"
+            d="M 0 -100A 100 100 0 0 1 0 -100"
+            stroke="#fff"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="_2e13a747"
       style={
         Object {
-          "height": 800,
-          "perspective": "1000px",
-          "width": 800,
+          "height": 600,
+          "width": 600,
         }
       }
     >
       <div
-        className="_34d4c4a1"
+        className="b8c8d630"
         style={
           Object {
-            "transform": "translate3d(400px,400px,0) rotateX(40deg)",
+            "height": 600,
+            "perspective": "1000px",
+            "width": 600,
           }
         }
       >
         <div
-          className="a1425489"
-        >
-          <svg
-            className="fd3c14e3"
-            style={
-              Object {
-                "transform": "scale(8,8)",
-              }
-            }
-            viewBox="-1 -1 2 2"
-          >
-            <path
-              d="M 0 0L -0.8910065241883679 -0.4539904997395467A 1 1 0 0 1 0.838670567945424 -0.544639035015027z"
-              fill="rgba(0,0,0,0)"
-            />
-            <path
-              d="M 0 0L 0.838670567945424 -0.544639035015027A 1 1 0 0 1 0.05233595624294443 0.9986295347545738z"
-              fill="rgba(0,0,0,0.02)"
-            />
-            <path
-              d="M 0 0L 0.05233595624294443 0.9986295347545738A 1 1 0 0 1 -0.8910065241883677 -0.45399049973954725z"
-              fill="rgba(0,0,0,0.04)"
-            />
-          </svg>
-        </div>
-        <div
-          className="b794c565"
+          className="_34d4c4a1"
           style={
             Object {
-              "transform": "translateZ(-1px) rotate3d(0,0,1,-87deg)",
-            }
-          }
-        >
-          <svg
-            className="ce20c282"
-            viewBox="-16 -44 32 44"
-          >
-            <path
-              d="M 0 0 L 10 -12 Q 16 -20 16 -28 Q 16 -44 0 -44 Q -16 -44 -16 -28 Q -16 -20 -10 -12 Z M0 0 z"
-            />
-          </svg>
-        </div>
-        <div
-          className="_64f4f9df"
-          style={
-            Object {
-              "transform": "translate3d(-110.00000000000001px,-28px,1px)",
+              "transform": "translate3d(300px,300px,0) rotateX(40deg)",
             }
           }
         >
           <div
-            className="_618a7448 _0f5eb760"
-            style={
-              Object {
-                "borderRadius": 3.5,
-                "color": "red",
-                "fontSize": 5.6,
-                "width": 40,
-              }
-            }
+            className="a1425489"
           >
-            <div
-              className="_1a551c97"
-            />
-            <div
-              className="e944ccdb"
+            <svg
+              className="fd3c14e3"
               style={
                 Object {
-                  "color": "red",
-                  "fontSize": 9.333333333333334,
+                  "transform": "scale(6,6)",
                 }
               }
+              viewBox="-1 -1 2 2"
             >
-              <div
-                className="_5579c775"
-              >
-                <div
-                  className="_6f18aa94"
-                >
-                  1
-                </div>
-                <div
-                  className="_1f89333a"
-                >
-                  ♦️
-                </div>
-              </div>
-              <div
-                className="_6cb51e18"
-              >
-                <div
-                  className="_6f18aa94"
-                >
-                  1
-                </div>
-                <div
-                  className="_1f89333a"
-                >
-                  ♦️
-                </div>
-              </div>
-            </div>
-            <div
-              className="b47108b9"
-            >
-              <div
-                className="_2fba2d91"
+              <path
+                d="M 0 0L -0.8910065241883679 -0.4539904997395467A 1 1 0 0 1 0.838670567945424 -0.544639035015027z"
+                fill="rgba(0,0,0,0)"
               />
-            </div>
-          </div>
-        </div>
-        <div
-          className="_64f4f9df"
-          style={
-            Object {
-              "transform": "translate3d(-66px,-28px,1px)",
-            }
-          }
-        >
-          <div
-            className="_618a7448 _0f5eb760"
-            style={
-              Object {
-                "borderRadius": 3.5,
-                "color": "red",
-                "fontSize": 5.6,
-                "width": 40,
-              }
-            }
-          >
-            <div
-              className="_1a551c97"
-            />
-            <div
-              className="e944ccdb"
-              style={
-                Object {
-                  "color": "red",
-                  "fontSize": 9.333333333333334,
-                }
-              }
-            >
-              <div
-                className="_5579c775"
-              >
-                <div
-                  className="_6f18aa94"
-                >
-                  1
-                </div>
-                <div
-                  className="_1f89333a"
-                >
-                  ♦️
-                </div>
-              </div>
-              <div
-                className="_6cb51e18"
-              >
-                <div
-                  className="_6f18aa94"
-                >
-                  1
-                </div>
-                <div
-                  className="_1f89333a"
-                >
-                  ♦️
-                </div>
-              </div>
-            </div>
-            <div
-              className="b47108b9"
-            >
-              <div
-                className="_2fba2d91"
+              <path
+                d="M 0 0L 0.838670567945424 -0.544639035015027A 1 1 0 0 1 0.05233595624294443 0.9986295347545738z"
+                fill="rgba(0,0,0,0.02)"
               />
-            </div>
-          </div>
-        </div>
-        <div
-          className="_64f4f9df"
-          style={
-            Object {
-              "transform": "translate3d(-22px,-28px,1px)",
-            }
-          }
-        >
-          <div
-            className="_618a7448 _0f5eb760"
-            style={
-              Object {
-                "borderRadius": 3.5,
-                "color": "red",
-                "fontSize": 5.6,
-                "width": 40,
-              }
-            }
-          >
-            <div
-              className="_1a551c97"
-            />
-            <div
-              className="e944ccdb"
-              style={
-                Object {
-                  "color": "red",
-                  "fontSize": 9.333333333333334,
-                }
-              }
-            >
-              <div
-                className="_5579c775"
-              >
-                <div
-                  className="_6f18aa94"
-                >
-                  1
-                </div>
-                <div
-                  className="_1f89333a"
-                >
-                  ♦️
-                </div>
-              </div>
-              <div
-                className="_6cb51e18"
-              >
-                <div
-                  className="_6f18aa94"
-                >
-                  1
-                </div>
-                <div
-                  className="_1f89333a"
-                >
-                  ♦️
-                </div>
-              </div>
-            </div>
-            <div
-              className="b47108b9"
-            >
-              <div
-                className="_2fba2d91"
+              <path
+                d="M 0 0L 0.05233595624294443 0.9986295347545738A 1 1 0 0 1 -0.8910065241883677 -0.45399049973954725z"
+                fill="rgba(0,0,0,0.04)"
               />
-            </div>
+            </svg>
           </div>
-        </div>
-        <div
-          className="_64f4f9df"
-          style={
-            Object {
-              "transform": "translate3d(22px,-28px,1px)",
-            }
-          }
-        >
           <div
-            className="_618a7448 _0f5eb760"
+            className="b794c565"
             style={
               Object {
-                "borderRadius": 3.5,
-                "color": "red",
-                "fontSize": 5.6,
-                "width": 40,
+                "transform": "translateZ(-1px) rotate3d(0,0,1,300deg)",
               }
             }
           >
-            <div
-              className="_1a551c97"
-            />
-            <div
-              className="e944ccdb"
-              style={
-                Object {
-                  "color": "red",
-                  "fontSize": 9.333333333333334,
-                }
-              }
+            <svg
+              className="ce20c282"
+              viewBox="-16 -44 32 44"
             >
-              <div
-                className="_5579c775"
-              >
-                <div
-                  className="_6f18aa94"
-                >
-                  1
-                </div>
-                <div
-                  className="_1f89333a"
-                >
-                  ♦️
-                </div>
-              </div>
-              <div
-                className="_6cb51e18"
-              >
-                <div
-                  className="_6f18aa94"
-                >
-                  1
-                </div>
-                <div
-                  className="_1f89333a"
-                >
-                  ♦️
-                </div>
-              </div>
-            </div>
-            <div
-              className="b47108b9"
-            >
-              <div
-                className="_2fba2d91"
+              <path
+                d="M 0 0 L 10 -12 Q 16 -20 16 -28 Q 16 -44 0 -44 Q -16 -44 -16 -28 Q -16 -20 -10 -12 Z M0 0 z"
               />
-            </div>
+            </svg>
           </div>
-        </div>
-        <div
-          className="_64f4f9df"
-          style={
-            Object {
-              "transform": "translate3d(66px,-28px,1px)",
-            }
-          }
-        >
           <div
-            className="_618a7448 _0f5eb760"
+            className="_64f4f9df"
             style={
               Object {
-                "borderRadius": 3.5,
-                "color": "red",
-                "fontSize": 5.6,
-                "width": 40,
+                "transform": "translate3d(-110.00000000000001px,-28px,1px)",
               }
             }
           >
             <div
-              className="_1a551c97"
-            />
-            <div
-              className="e944ccdb"
+              className="_618a7448 _0f5eb760"
               style={
                 Object {
+                  "borderRadius": 3.5,
                   "color": "red",
-                  "fontSize": 9.333333333333334,
+                  "fontSize": 5.6,
+                  "width": 40,
                 }
               }
             >
               <div
-                className="_5579c775"
-              >
-                <div
-                  className="_6f18aa94"
-                >
-                  1
-                </div>
-                <div
-                  className="_1f89333a"
-                >
-                  ♦️
-                </div>
-              </div>
-              <div
-                className="_6cb51e18"
-              >
-                <div
-                  className="_6f18aa94"
-                >
-                  1
-                </div>
-                <div
-                  className="_1f89333a"
-                >
-                  ♦️
-                </div>
-              </div>
-            </div>
-            <div
-              className="b47108b9"
-            >
-              <div
-                className="_2fba2d91"
+                className="_1a551c97"
               />
-            </div>
-          </div>
-        </div>
-        <div
-          style={
-            Object {
-              "transform": "",
-            }
-          }
-        >
-          <div
-            className="_3e21e449"
-            style={
-              Object {
-                "transform": "rotate3d(0,0,1,147deg)",
-              }
-            }
-          >
-            <div
-              className="_230f2acf"
-              style={
-                Object {
-                  "left": -25,
-                  "top": -35,
-                  "transform": "translate3d(254.54545454545453px,27.500000000000004px,0)rotate3d(0,0,1,90deg)",
-                }
-              }
-            >
               <div
-                className="_618a7448"
+                className="e944ccdb"
                 style={
                   Object {
-                    "borderRadius": 4.375,
                     "color": "red",
-                    "fontSize": 7,
-                    "width": 50,
+                    "fontSize": 9.333333333333334,
                   }
                 }
               >
                 <div
-                  className="_1a551c97"
-                />
-                <div
-                  className="e944ccdb"
-                  style={
-                    Object {
-                      "color": "red",
-                      "fontSize": 11.666666666666666,
-                    }
-                  }
+                  className="_5579c775"
                 >
                   <div
-                    className="_5579c775"
+                    className="_6f18aa94"
                   >
-                    <div
-                      className="_6f18aa94"
-                    >
-                      3
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♦️
-                    </div>
+                    1
                   </div>
                   <div
-                    className="_6cb51e18"
+                    className="_1f89333a"
                   >
-                    <div
-                      className="_6f18aa94"
-                    >
-                      3
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♦️
-                    </div>
+                    ♦️
                   </div>
                 </div>
                 <div
-                  className="_3ec8c844"
+                  className="_6cb51e18"
                 >
                   <div
-                    className="_2fba2d91"
-                  />
+                    className="_6f18aa94"
+                  >
+                    1
+                  </div>
+                  <div
+                    className="_1f89333a"
+                  >
+                    ♦️
+                  </div>
                 </div>
               </div>
+              <div
+                className="b47108b9"
+              >
+                <div
+                  className="_2fba2d91"
+                />
+              </div>
             </div>
+          </div>
+          <div
+            className="_64f4f9df"
+            style={
+              Object {
+                "transform": "translate3d(-66px,-28px,1px)",
+              }
+            }
+          >
             <div
-              className="_230f2acf"
+              className="_618a7448 _0f5eb760"
               style={
                 Object {
-                  "left": -25,
-                  "top": -35,
-                  "transform": "translate3d(254.54545454545453px,-27.500000000000004px,0)rotate3d(0,0,1,90deg)",
+                  "borderRadius": 3.5,
+                  "color": "red",
+                  "fontSize": 5.6,
+                  "width": 40,
                 }
               }
             >
               <div
-                className="_618a7448"
+                className="_1a551c97"
+              />
+              <div
+                className="e944ccdb"
                 style={
                   Object {
-                    "borderRadius": 4.375,
                     "color": "red",
-                    "fontSize": 7,
-                    "width": 50,
+                    "fontSize": 9.333333333333334,
                   }
                 }
               >
                 <div
-                  className="_1a551c97"
-                />
+                  className="_5579c775"
+                >
+                  <div
+                    className="_6f18aa94"
+                  >
+                    1
+                  </div>
+                  <div
+                    className="_1f89333a"
+                  >
+                    ♦️
+                  </div>
+                </div>
                 <div
-                  className="e944ccdb"
+                  className="_6cb51e18"
+                >
+                  <div
+                    className="_6f18aa94"
+                  >
+                    1
+                  </div>
+                  <div
+                    className="_1f89333a"
+                  >
+                    ♦️
+                  </div>
+                </div>
+              </div>
+              <div
+                className="b47108b9"
+              >
+                <div
+                  className="_2fba2d91"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="_64f4f9df"
+            style={
+              Object {
+                "transform": "translate3d(-22px,-28px,1px)",
+              }
+            }
+          >
+            <div
+              className="_618a7448 _0f5eb760"
+              style={
+                Object {
+                  "borderRadius": 3.5,
+                  "color": "red",
+                  "fontSize": 5.6,
+                  "width": 40,
+                }
+              }
+            >
+              <div
+                className="_1a551c97"
+              />
+              <div
+                className="e944ccdb"
+                style={
+                  Object {
+                    "color": "red",
+                    "fontSize": 9.333333333333334,
+                  }
+                }
+              >
+                <div
+                  className="_5579c775"
+                >
+                  <div
+                    className="_6f18aa94"
+                  >
+                    1
+                  </div>
+                  <div
+                    className="_1f89333a"
+                  >
+                    ♦️
+                  </div>
+                </div>
+                <div
+                  className="_6cb51e18"
+                >
+                  <div
+                    className="_6f18aa94"
+                  >
+                    1
+                  </div>
+                  <div
+                    className="_1f89333a"
+                  >
+                    ♦️
+                  </div>
+                </div>
+              </div>
+              <div
+                className="b47108b9"
+              >
+                <div
+                  className="_2fba2d91"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="_64f4f9df"
+            style={
+              Object {
+                "transform": "translate3d(22px,-28px,1px)",
+              }
+            }
+          >
+            <div
+              className="_618a7448 _0f5eb760"
+              style={
+                Object {
+                  "borderRadius": 3.5,
+                  "color": "red",
+                  "fontSize": 5.6,
+                  "width": 40,
+                }
+              }
+            >
+              <div
+                className="_1a551c97"
+              />
+              <div
+                className="e944ccdb"
+                style={
+                  Object {
+                    "color": "red",
+                    "fontSize": 9.333333333333334,
+                  }
+                }
+              >
+                <div
+                  className="_5579c775"
+                >
+                  <div
+                    className="_6f18aa94"
+                  >
+                    1
+                  </div>
+                  <div
+                    className="_1f89333a"
+                  >
+                    ♦️
+                  </div>
+                </div>
+                <div
+                  className="_6cb51e18"
+                >
+                  <div
+                    className="_6f18aa94"
+                  >
+                    1
+                  </div>
+                  <div
+                    className="_1f89333a"
+                  >
+                    ♦️
+                  </div>
+                </div>
+              </div>
+              <div
+                className="b47108b9"
+              >
+                <div
+                  className="_2fba2d91"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="_64f4f9df"
+            style={
+              Object {
+                "transform": "translate3d(66px,-28px,1px)",
+              }
+            }
+          >
+            <div
+              className="_618a7448 _0f5eb760"
+              style={
+                Object {
+                  "borderRadius": 3.5,
+                  "color": "red",
+                  "fontSize": 5.6,
+                  "width": 40,
+                }
+              }
+            >
+              <div
+                className="_1a551c97"
+              />
+              <div
+                className="e944ccdb"
+                style={
+                  Object {
+                    "color": "red",
+                    "fontSize": 9.333333333333334,
+                  }
+                }
+              >
+                <div
+                  className="_5579c775"
+                >
+                  <div
+                    className="_6f18aa94"
+                  >
+                    1
+                  </div>
+                  <div
+                    className="_1f89333a"
+                  >
+                    ♦️
+                  </div>
+                </div>
+                <div
+                  className="_6cb51e18"
+                >
+                  <div
+                    className="_6f18aa94"
+                  >
+                    1
+                  </div>
+                  <div
+                    className="_1f89333a"
+                  >
+                    ♦️
+                  </div>
+                </div>
+              </div>
+              <div
+                className="b47108b9"
+              >
+                <div
+                  className="_2fba2d91"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "transform": "",
+              }
+            }
+          >
+            <div
+              className="_3e21e449"
+              style={
+                Object {
+                  "transform": "rotate3d(0,0,1,147deg)",
+                }
+              }
+            >
+              <div
+                className="_230f2acf"
+                style={
+                  Object {
+                    "left": -25,
+                    "top": -35,
+                    "transform": "translate3d(190.90909090909088px,27.500000000000004px,0)rotate3d(0,0,1,90deg)",
+                  }
+                }
+              >
+                <div
+                  className="_618a7448"
                   style={
                     Object {
+                      "borderRadius": 4.375,
                       "color": "red",
-                      "fontSize": 11.666666666666666,
+                      "fontSize": 7,
+                      "width": 50,
                     }
                   }
                 >
                   <div
-                    className="_5579c775"
+                    className="_1a551c97"
+                  />
+                  <div
+                    className="e944ccdb"
+                    style={
+                      Object {
+                        "color": "red",
+                        "fontSize": 11.666666666666666,
+                      }
+                    }
                   >
                     <div
-                      className="_6f18aa94"
+                      className="_5579c775"
                     >
-                      6
+                      <div
+                        className="_6f18aa94"
+                      >
+                        3
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♦️
+                      </div>
                     </div>
                     <div
-                      className="_1f89333a"
+                      className="_6cb51e18"
                     >
-                      ♦️
+                      <div
+                        className="_6f18aa94"
+                      >
+                        3
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♦️
+                      </div>
                     </div>
                   </div>
                   <div
-                    className="_6cb51e18"
+                    className="_3ec8c844"
                   >
                     <div
-                      className="_6f18aa94"
-                    >
-                      6
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♦️
-                    </div>
+                      className="_2fba2d91"
+                    />
                   </div>
                 </div>
+              </div>
+              <div
+                className="_230f2acf"
+                style={
+                  Object {
+                    "left": -25,
+                    "top": -35,
+                    "transform": "translate3d(190.90909090909088px,-27.500000000000004px,0)rotate3d(0,0,1,90deg)",
+                  }
+                }
+              >
                 <div
-                  className="_3ec8c844"
+                  className="_618a7448"
+                  style={
+                    Object {
+                      "borderRadius": 4.375,
+                      "color": "red",
+                      "fontSize": 7,
+                      "width": 50,
+                    }
+                  }
                 >
                   <div
-                    className="_2fba2d91"
+                    className="_1a551c97"
+                  />
+                  <div
+                    className="e944ccdb"
+                    style={
+                      Object {
+                        "color": "red",
+                        "fontSize": 11.666666666666666,
+                      }
+                    }
+                  >
+                    <div
+                      className="_5579c775"
+                    >
+                      <div
+                        className="_6f18aa94"
+                      >
+                        6
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♦️
+                      </div>
+                    </div>
+                    <div
+                      className="_6cb51e18"
+                    >
+                      <div
+                        className="_6f18aa94"
+                      >
+                        6
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♦️
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="_3ec8c844"
+                  >
+                    <div
+                      className="_2fba2d91"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="a3ca7d5a"
+                style={
+                  Object {
+                    "transform": "translate3d(136.36363636363635px,0,0)",
+                  }
+                }
+              >
+                <div
+                  className="_68217e24"
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 12.64516129032258%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0.598046591458141px,4.312799507273339px,0px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="_210249da"
+                />
+                <div
+                  className="aaf74c4e"
+                  style={
+                    Object {
+                      "transform": "rotateZ(-147deg)",
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "transform": "scale(1.3333333333333333,1.3333333333333333)",
+                      }
+                    }
+                  >
+                    0
+                  </span>
+                </div>
+              </div>
+              <div
+                className="a012b6d4"
+                style={
+                  Object {
+                    "transform": "translate3d(218.18181818181816px,0,0)rotate3d(0,0,1,-147deg)rotate3d(1,0,0,-40deg)",
+                  }
+                }
+              >
+                <div
+                  className="fc7060d8"
+                >
+                  <div
+                    className="da971179"
+                  />
+                  <div
+                    className="_3003b329"
+                    style={
+                      Object {
+                        "backgroundImage": "url(avatar_1.png)",
+                      }
+                    }
                   />
                 </div>
               </div>
-            </div>
-            <div
-              className="a3ca7d5a"
-              style={
-                Object {
-                  "transform": "translate3d(181.8181818181818px,0,0)",
-                }
-              }
-            >
               <div
-                className="_68217e24"
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 12.64516129032258%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0.7973954552775215px,5.750399343031119px,0px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className="_210249da"
-              />
-              <div
-                className="aaf74c4e"
+                className="b03e6f5a"
                 style={
                   Object {
-                    "transform": "rotateZ(-147deg)",
+                    "transform": "translate3d(250.90909090909088px,0,0)",
                   }
                 }
               >
-                <span
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 12%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,0px,0px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 22.967741935483872%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,0px,5px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 13.935483870967742%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,0px,10px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 24.903225806451612%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,0px,15px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 15.870967741935484%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,0px,20px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 26.838709677419352%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,0px,25px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 17.806451612903224%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,11px,0px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 28.774193548387096%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,11px,5px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 19.741935483870968%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,11px,10px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 30.70967741935484%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,11px,15px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 21.67741935483871%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,11px,20px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 12.64516129032258%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,11px,25px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 23.612903225806452%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,22px,0px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 14.580645161290322%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,22px,5px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 25.548387096774192%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,22px,10px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 16.516129032258064%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,22px,15px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,22px,20px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,22px,25px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 29.419354838709676%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,33px,0px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="_0698d558"
+                />
+                <div
+                  className="_041d1eb8"
                   style={
                     Object {
-                      "transform": "scale(1.3333333333333333,1.3333333333333333)",
+                      "transform": "rotateZ(-147deg)",
                     }
                   }
                 >
-                  0
-                </span>
-              </div>
-            </div>
-            <div
-              className="a012b6d4"
-              style={
-                Object {
-                  "transform": "translate3d(290.90909090909093px,0,0)rotate3d(0,0,1,-147deg)rotate3d(1,0,0,-40deg)",
-                }
-              }
-            >
-              <div
-                className="fc7060d8"
-              >
-                <div
-                  className="da971179"
-                />
-                <div
-                  className="_3003b329"
-                  style={
-                    Object {
-                      "backgroundImage": "url(avatar_1.png)",
-                    }
-                  }
-                />
-              </div>
-            </div>
-            <div
-              className="b03e6f5a"
-              style={
-                Object {
-                  "transform": "translate3d(334.54545454545456px,0,0)",
-                }
-              }
-            >
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 12%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,0px,0px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 22.967741935483872%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,0px,5px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 13.935483870967742%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,0px,10px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 24.903225806451612%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,0px,15px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 15.870967741935484%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,0px,20px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 26.838709677419352%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,0px,25px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 17.806451612903224%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,11px,0px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 28.774193548387096%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,11px,5px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 19.741935483870968%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,11px,10px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 30.70967741935484%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,11px,15px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 21.67741935483871%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,11px,20px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 12.64516129032258%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,11px,25px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 23.612903225806452%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,22px,0px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 14.580645161290322%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,22px,5px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 25.548387096774192%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,22px,10px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 16.516129032258064%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,22px,15px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,22px,20px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,22px,25px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 29.419354838709676%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,33px,0px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className="_0698d558"
-              />
-              <div
-                className="_041d1eb8"
-                style={
-                  Object {
-                    "transform": "rotateZ(-147deg)",
-                  }
-                }
-              >
-                19
+                  19
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          style={
-            Object {
-              "transform": "",
-            }
-          }
-        >
           <div
-            className="_3e21e449"
             style={
               Object {
-                "transform": "rotate3d(0,0,1,267deg)",
+                "transform": "",
               }
             }
           >
             <div
-              className="_230f2acf"
+              className="_3e21e449"
               style={
                 Object {
-                  "left": -25,
-                  "top": -35,
-                  "transform": "translate3d(254.54545454545453px,27.500000000000004px,0)rotate3d(0,0,1,90deg)",
+                  "transform": "rotate3d(0,0,1,267deg)",
                 }
               }
             >
               <div
-                className="_618a7448 _0f5eb760"
+                className="_230f2acf"
                 style={
                   Object {
-                    "borderRadius": 4.375,
-                    "color": "black",
-                    "fontSize": 7,
-                    "width": 50,
+                    "left": -25,
+                    "top": -35,
+                    "transform": "translate3d(190.90909090909088px,27.500000000000004px,0)rotate3d(0,0,1,90deg)",
                   }
                 }
               >
                 <div
-                  className="_1a551c97"
-                />
-                <div
-                  className="e944ccdb"
+                  className="_618a7448 _0f5eb760"
                   style={
                     Object {
+                      "borderRadius": 4.375,
                       "color": "black",
-                      "fontSize": 11.666666666666666,
+                      "fontSize": 7,
+                      "width": 50,
                     }
                   }
                 >
                   <div
-                    className="_5579c775"
+                    className="_1a551c97"
+                  />
+                  <div
+                    className="e944ccdb"
+                    style={
+                      Object {
+                        "color": "black",
+                        "fontSize": 11.666666666666666,
+                      }
+                    }
                   >
                     <div
-                      className="_6f18aa94"
+                      className="_5579c775"
                     >
-                      1
+                      <div
+                        className="_6f18aa94"
+                      >
+                        1
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♠️
+                      </div>
                     </div>
                     <div
-                      className="_1f89333a"
+                      className="_6cb51e18"
                     >
-                      ♠️
+                      <div
+                        className="_6f18aa94"
+                      >
+                        1
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♠️
+                      </div>
                     </div>
                   </div>
                   <div
-                    className="_6cb51e18"
+                    className="b47108b9"
                   >
                     <div
-                      className="_6f18aa94"
-                    >
-                      1
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♠️
-                    </div>
+                      className="_2fba2d91"
+                    />
                   </div>
                 </div>
+              </div>
+              <div
+                className="_230f2acf"
+                style={
+                  Object {
+                    "left": -25,
+                    "top": -35,
+                    "transform": "translate3d(190.90909090909088px,-27.500000000000004px,0)rotate3d(0,0,1,90deg)",
+                  }
+                }
+              >
                 <div
-                  className="b47108b9"
+                  className="_618a7448 _0f5eb760"
+                  style={
+                    Object {
+                      "borderRadius": 4.375,
+                      "color": "black",
+                      "fontSize": 7,
+                      "width": 50,
+                    }
+                  }
                 >
                   <div
-                    className="_2fba2d91"
+                    className="_1a551c97"
+                  />
+                  <div
+                    className="e944ccdb"
+                    style={
+                      Object {
+                        "color": "black",
+                        "fontSize": 11.666666666666666,
+                      }
+                    }
+                  >
+                    <div
+                      className="_5579c775"
+                    >
+                      <div
+                        className="_6f18aa94"
+                      >
+                        1
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♠️
+                      </div>
+                    </div>
+                    <div
+                      className="_6cb51e18"
+                    >
+                      <div
+                        className="_6f18aa94"
+                      >
+                        1
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♠️
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="b47108b9"
+                  >
+                    <div
+                      className="_2fba2d91"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="a3ca7d5a"
+                style={
+                  Object {
+                    "transform": "translate3d(136.36363636363635px,0,0)",
+                  }
+                }
+              >
+                <div
+                  className="_68217e24"
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 20.387096774193548%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(6.607635844228173px,-5.142929412473297px,0px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="_68217e24"
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 31.35483870967742%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(-9.719458931296092px,-13.22380053788112px,0px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="_210249da"
+                />
+                <div
+                  className="aaf74c4e"
+                  style={
+                    Object {
+                      "transform": "rotateZ(-267deg)",
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "transform": "scale(1.6666666666666665,1.6666666666666665)",
+                      }
+                    }
+                  >
+                    0
+                  </span>
+                </div>
+              </div>
+              <div
+                className="a012b6d4"
+                style={
+                  Object {
+                    "transform": "translate3d(218.18181818181816px,0,0)rotate3d(0,0,1,-267deg)rotate3d(1,0,0,-40deg)",
+                  }
+                }
+              >
+                <div
+                  className="fc7060d8"
+                >
+                  <div
+                    className="da971179"
+                  />
+                  <div
+                    className="_3003b329"
+                    style={
+                      Object {
+                        "backgroundImage": "url(avatar_2.png)",
+                      }
+                    }
                   />
                 </div>
               </div>
-            </div>
-            <div
-              className="_230f2acf"
-              style={
-                Object {
-                  "left": -25,
-                  "top": -35,
-                  "transform": "translate3d(254.54545454545453px,-27.500000000000004px,0)rotate3d(0,0,1,90deg)",
-                }
-              }
-            >
               <div
-                className="_618a7448 _0f5eb760"
+                className="b03e6f5a"
                 style={
                   Object {
-                    "borderRadius": 4.375,
-                    "color": "black",
-                    "fontSize": 7,
-                    "width": 50,
+                    "transform": "translate3d(250.90909090909088px,0,0)",
                   }
                 }
               >
                 <div
-                  className="_1a551c97"
-                />
-                <div
-                  className="e944ccdb"
-                  style={
-                    Object {
-                      "color": "black",
-                      "fontSize": 11.666666666666666,
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 12%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,0px,0px)",
+                        "width": 10,
+                      }
                     }
-                  }
-                >
-                  <div
-                    className="_5579c775"
-                  >
-                    <div
-                      className="_6f18aa94"
-                    >
-                      1
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♠️
-                    </div>
-                  </div>
-                  <div
-                    className="_6cb51e18"
-                  >
-                    <div
-                      className="_6f18aa94"
-                    >
-                      1
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♠️
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="b47108b9"
-                >
-                  <div
-                    className="_2fba2d91"
                   />
                 </div>
-              </div>
-            </div>
-            <div
-              className="a3ca7d5a"
-              style={
-                Object {
-                  "transform": "translate3d(181.8181818181818px,0,0)",
-                }
-              }
-            >
-              <div
-                className="_68217e24"
-              >
                 <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 20.387096774193548%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(8.810181125637564px,-6.857239216631063px,0px)",
-                      "width": 10,
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 22.967741935483872%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,0px,5px)",
+                        "width": 10,
+                      }
                     }
-                  }
-                />
-              </div>
-              <div
-                className="_68217e24"
-              >
+                  />
+                </div>
                 <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 31.35483870967742%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(-12.959278575061457px,-17.63173405050816px,0px)",
-                      "width": 10,
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 13.935483870967742%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,0px,10px)",
+                        "width": 10,
+                      }
                     }
-                  }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 24.903225806451612%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,0px,15px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 15.870967741935484%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,0px,20px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 26.838709677419352%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,0px,25px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 17.806451612903224%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,11px,0px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 28.774193548387096%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,11px,5px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 19.741935483870968%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,11px,10px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 30.70967741935484%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,11px,15px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 21.67741935483871%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,11px,20px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 12.64516129032258%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,11px,25px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 23.612903225806452%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,22px,0px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 14.580645161290322%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,22px,5px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 25.548387096774192%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,22px,10px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 16.516129032258064%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,22px,15px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,22px,20px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,22px,25px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 29.419354838709676%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,33px,0px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 20.387096774193548%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,33px,5px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 31.35483870967742%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,33px,10px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 22.32258064516129%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,33px,15px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="_0698d558"
                 />
-              </div>
-              <div
-                className="_210249da"
-              />
-              <div
-                className="aaf74c4e"
-                style={
-                  Object {
-                    "transform": "rotateZ(-267deg)",
-                  }
-                }
-              >
-                <span
+                <div
+                  className="_041d1eb8"
                   style={
                     Object {
-                      "transform": "scale(1.6666666666666665,1.6666666666666665)",
+                      "transform": "rotateZ(-267deg)",
                     }
                   }
                 >
-                  0
-                </span>
-              </div>
-            </div>
-            <div
-              className="a012b6d4"
-              style={
-                Object {
-                  "transform": "translate3d(290.90909090909093px,0,0)rotate3d(0,0,1,-267deg)rotate3d(1,0,0,-40deg)",
-                }
-              }
-            >
-              <div
-                className="fc7060d8"
-              >
-                <div
-                  className="da971179"
-                />
-                <div
-                  className="_3003b329"
-                  style={
-                    Object {
-                      "backgroundImage": "url(avatar_2.png)",
-                    }
-                  }
-                />
-              </div>
-            </div>
-            <div
-              className="b03e6f5a"
-              style={
-                Object {
-                  "transform": "translate3d(334.54545454545456px,0,0)",
-                }
-              }
-            >
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 12%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,0px,0px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 22.967741935483872%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,0px,5px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 13.935483870967742%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,0px,10px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 24.903225806451612%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,0px,15px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 15.870967741935484%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,0px,20px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 26.838709677419352%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,0px,25px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 17.806451612903224%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,11px,0px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 28.774193548387096%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,11px,5px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 19.741935483870968%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,11px,10px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 30.70967741935484%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,11px,15px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 21.67741935483871%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,11px,20px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 12.64516129032258%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,11px,25px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 23.612903225806452%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,22px,0px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 14.580645161290322%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,22px,5px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 25.548387096774192%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,22px,10px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 16.516129032258064%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,22px,15px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,22px,20px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,22px,25px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 29.419354838709676%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,33px,0px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 20.387096774193548%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,33px,5px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 31.35483870967742%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,33px,10px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 22.32258064516129%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,33px,15px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className="_0698d558"
-              />
-              <div
-                className="_041d1eb8"
-                style={
-                  Object {
-                    "transform": "rotateZ(-267deg)",
-                  }
-                }
-              >
-                22
+                  22
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          style={
-            Object {
-              "transform": "",
-            }
-          }
-        >
           <div
-            className="_3e21e449"
             style={
               Object {
-                "transform": "rotate3d(0,0,1,387deg)",
+                "transform": "",
               }
             }
           >
             <div
-              className="_230f2acf"
+              className="_3e21e449"
               style={
                 Object {
-                  "left": -25,
-                  "top": -35,
-                  "transform": "translate3d(254.54545454545453px,27.500000000000004px,0)rotate3d(0,0,1,90deg)",
+                  "transform": "rotate3d(0,0,1,387deg)",
                 }
               }
             >
               <div
-                className="_618a7448 _0f5eb760"
+                className="_230f2acf"
                 style={
                   Object {
-                    "borderRadius": 4.375,
-                    "color": "black",
-                    "fontSize": 7,
-                    "width": 50,
+                    "left": -25,
+                    "top": -35,
+                    "transform": "translate3d(190.90909090909088px,27.500000000000004px,0)rotate3d(0,0,1,90deg)",
                   }
                 }
               >
                 <div
-                  className="_1a551c97"
-                />
-                <div
-                  className="e944ccdb"
+                  className="_618a7448 _0f5eb760"
                   style={
                     Object {
+                      "borderRadius": 4.375,
                       "color": "black",
-                      "fontSize": 11.666666666666666,
+                      "fontSize": 7,
+                      "width": 50,
                     }
                   }
                 >
                   <div
-                    className="_5579c775"
+                    className="_1a551c97"
+                  />
+                  <div
+                    className="e944ccdb"
+                    style={
+                      Object {
+                        "color": "black",
+                        "fontSize": 11.666666666666666,
+                      }
+                    }
                   >
                     <div
-                      className="_6f18aa94"
+                      className="_5579c775"
                     >
-                      1
+                      <div
+                        className="_6f18aa94"
+                      >
+                        1
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♠️
+                      </div>
                     </div>
                     <div
-                      className="_1f89333a"
+                      className="_6cb51e18"
                     >
-                      ♠️
+                      <div
+                        className="_6f18aa94"
+                      >
+                        1
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♠️
+                      </div>
                     </div>
                   </div>
                   <div
-                    className="_6cb51e18"
+                    className="b47108b9"
                   >
                     <div
-                      className="_6f18aa94"
-                    >
-                      1
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♠️
-                    </div>
+                      className="_2fba2d91"
+                    />
                   </div>
                 </div>
+              </div>
+              <div
+                className="_230f2acf"
+                style={
+                  Object {
+                    "left": -25,
+                    "top": -35,
+                    "transform": "translate3d(190.90909090909088px,-27.500000000000004px,0)rotate3d(0,0,1,90deg)",
+                  }
+                }
+              >
                 <div
-                  className="b47108b9"
+                  className="_618a7448 _0f5eb760"
+                  style={
+                    Object {
+                      "borderRadius": 4.375,
+                      "color": "black",
+                      "fontSize": 7,
+                      "width": 50,
+                    }
+                  }
                 >
                   <div
-                    className="_2fba2d91"
+                    className="_1a551c97"
+                  />
+                  <div
+                    className="e944ccdb"
+                    style={
+                      Object {
+                        "color": "black",
+                        "fontSize": 11.666666666666666,
+                      }
+                    }
+                  >
+                    <div
+                      className="_5579c775"
+                    >
+                      <div
+                        className="_6f18aa94"
+                      >
+                        1
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♠️
+                      </div>
+                    </div>
+                    <div
+                      className="_6cb51e18"
+                    >
+                      <div
+                        className="_6f18aa94"
+                      >
+                        1
+                      </div>
+                      <div
+                        className="_1f89333a"
+                      >
+                        ♠️
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="b47108b9"
+                  >
+                    <div
+                      className="_2fba2d91"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="a3ca7d5a"
+                style={
+                  Object {
+                    "transform": "translate3d(136.36363636363635px,0,0)",
+                  }
+                }
+              >
+                <div
+                  className="_210249da"
+                />
+                <div
+                  className="aaf74c4e"
+                  style={
+                    Object {
+                      "transform": "rotateZ(-387deg)",
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "transform": "scale(1,1)",
+                      }
+                    }
+                  >
+                    0
+                  </span>
+                </div>
+              </div>
+              <div
+                className="a012b6d4"
+                style={
+                  Object {
+                    "transform": "translate3d(218.18181818181816px,0,0)rotate3d(0,0,1,-387deg)rotate3d(1,0,0,-40deg)",
+                  }
+                }
+              >
+                <div
+                  className="fc7060d8"
+                >
+                  <div
+                    className="da971179"
+                  />
+                  <div
+                    className="_3003b329"
+                    style={
+                      Object {
+                        "backgroundImage": "url(avatar_3.png)",
+                      }
+                    }
                   />
                 </div>
               </div>
-            </div>
-            <div
-              className="_230f2acf"
-              style={
-                Object {
-                  "left": -25,
-                  "top": -35,
-                  "transform": "translate3d(254.54545454545453px,-27.500000000000004px,0)rotate3d(0,0,1,90deg)",
-                }
-              }
-            >
               <div
-                className="_618a7448 _0f5eb760"
+                className="b03e6f5a"
                 style={
                   Object {
-                    "borderRadius": 4.375,
-                    "color": "black",
-                    "fontSize": 7,
-                    "width": 50,
+                    "transform": "translate3d(250.90909090909088px,0,0)",
                   }
                 }
               >
                 <div
-                  className="_1a551c97"
-                />
-                <div
-                  className="e944ccdb"
-                  style={
-                    Object {
-                      "color": "black",
-                      "fontSize": 11.666666666666666,
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 12%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,0px,0px)",
+                        "width": 10,
+                      }
                     }
-                  }
-                >
-                  <div
-                    className="_5579c775"
-                  >
-                    <div
-                      className="_6f18aa94"
-                    >
-                      1
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♠️
-                    </div>
-                  </div>
-                  <div
-                    className="_6cb51e18"
-                  >
-                    <div
-                      className="_6f18aa94"
-                    >
-                      1
-                    </div>
-                    <div
-                      className="_1f89333a"
-                    >
-                      ♠️
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="b47108b9"
-                >
-                  <div
-                    className="_2fba2d91"
                   />
                 </div>
-              </div>
-            </div>
-            <div
-              className="a3ca7d5a"
-              style={
-                Object {
-                  "transform": "translate3d(181.8181818181818px,0,0)",
-                }
-              }
-            >
-              <div
-                className="_210249da"
-              />
-              <div
-                className="aaf74c4e"
-                style={
-                  Object {
-                    "transform": "rotateZ(-387deg)",
-                  }
-                }
-              >
-                <span
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 22.967741935483872%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,0px,5px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 13.935483870967742%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,0px,10px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 24.903225806451612%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,0px,15px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 15.870967741935484%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,0px,20px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 26.838709677419352%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,0px,25px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 17.806451612903224%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,11px,0px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 28.774193548387096%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,11px,5px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 19.741935483870968%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,11px,10px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 30.70967741935484%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,11px,15px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 21.67741935483871%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,11px,20px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 12.64516129032258%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,11px,25px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 23.612903225806452%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,22px,0px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 14.580645161290322%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,22px,5px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 25.548387096774192%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,22px,10px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 16.516129032258064%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,22px,15px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,22px,20px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,22px,25px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 29.419354838709676%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,33px,0px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 20.387096774193548%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,33px,5px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 31.35483870967742%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,33px,10px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 22.32258064516129%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,33px,15px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 13.290322580645162%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,33px,20px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className={undefined}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "hsl(197, 37%, 24.258064516129032%)",
+                        "borderRadius": 5,
+                        "height": 10,
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "transform": "translate3d(0px,33px,25px)",
+                        "width": 10,
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="_0698d558"
+                />
+                <div
+                  className="_041d1eb8"
                   style={
                     Object {
-                      "transform": "scale(1,1)",
+                      "transform": "rotateZ(-387deg)",
                     }
                   }
                 >
-                  0
-                </span>
-              </div>
-            </div>
-            <div
-              className="a012b6d4"
-              style={
-                Object {
-                  "transform": "translate3d(290.90909090909093px,0,0)rotate3d(0,0,1,-387deg)rotate3d(1,0,0,-40deg)",
-                }
-              }
-            >
-              <div
-                className="fc7060d8"
-              >
-                <div
-                  className="da971179"
-                />
-                <div
-                  className="_3003b329"
-                  style={
-                    Object {
-                      "backgroundImage": "url(avatar_3.png)",
-                    }
-                  }
-                />
-              </div>
-            </div>
-            <div
-              className="b03e6f5a"
-              style={
-                Object {
-                  "transform": "translate3d(334.54545454545456px,0,0)",
-                }
-              }
-            >
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 12%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,0px,0px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 22.967741935483872%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,0px,5px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 13.935483870967742%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,0px,10px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 24.903225806451612%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,0px,15px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 15.870967741935484%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,0px,20px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 26.838709677419352%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,0px,25px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 17.806451612903224%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,11px,0px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 28.774193548387096%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,11px,5px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 19.741935483870968%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,11px,10px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 30.70967741935484%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,11px,15px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 21.67741935483871%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,11px,20px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 12.64516129032258%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,11px,25px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 23.612903225806452%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,22px,0px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 14.580645161290322%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,22px,5px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 25.548387096774192%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,22px,10px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 16.516129032258064%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,22px,15px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,22px,20px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,22px,25px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 29.419354838709676%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,33px,0px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 20.387096774193548%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,33px,5px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 31.35483870967742%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,33px,10px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 22.32258064516129%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,33px,15px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 13.290322580645162%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,33px,20px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className={undefined}
-              >
-                <div
-                  style={
-                    Object {
-                      "backgroundColor": "hsl(197, 37%, 24.258064516129032%)",
-                      "borderRadius": 5,
-                      "height": 10,
-                      "left": -5,
-                      "position": "absolute",
-                      "top": -5,
-                      "transform": "translate3d(0px,33px,25px)",
-                      "width": 10,
-                    }
-                  }
-                />
-              </div>
-              <div
-                className="_0698d558"
-              />
-              <div
-                className="_041d1eb8"
-                style={
-                  Object {
-                    "transform": "rotateZ(-387deg)",
-                  }
-                }
-              >
-                26
+                  26
+                </div>
               </div>
             </div>
           </div>
@@ -12579,7 +12607,7 @@ exports[`Storyshots Table 2 players 1`] = `
         className="b794c565"
         style={
           Object {
-            "transform": "translateZ(-1px) rotate3d(0,0,1,-87deg)",
+            "transform": "translateZ(-1px) rotate3d(0,0,1,NaNdeg)",
           }
         }
       >
@@ -13504,7 +13532,7 @@ exports[`Storyshots Table 3 players 1`] = `
         className="b794c565"
         style={
           Object {
-            "transform": "translateZ(-1px) rotate3d(0,0,1,-87deg)",
+            "transform": "translateZ(-1px) rotate3d(0,0,1,NaNdeg)",
           }
         }
       >
@@ -14740,7 +14768,7 @@ exports[`Storyshots Table 4 players 1`] = `
         className="b794c565"
         style={
           Object {
-            "transform": "translateZ(-1px) rotate3d(0,0,1,-87deg)",
+            "transform": "translateZ(-1px) rotate3d(0,0,1,NaNdeg)",
           }
         }
       >
@@ -16335,7 +16363,7 @@ exports[`Storyshots Table 8 players 1`] = `
         className="b794c565"
         style={
           Object {
-            "transform": "translateZ(-1px) rotate3d(0,0,1,-87deg)",
+            "transform": "translateZ(-1px) rotate3d(0,0,1,NaNdeg)",
           }
         }
       >
@@ -19612,7 +19640,7 @@ exports[`Storyshots Timer default 1`] = `
     >
       <path
         className="_7c7da8df"
-        d="M 0 -100A 100 100 0 0 1 95.10565162951535 30.901699437494756"
+        d="M 0 -100A 100 100 0 0 1 95.1 30.9"
         stroke="tomato"
       />
     </svg>
@@ -19647,7 +19675,7 @@ exports[`Storyshots WaitingRoom default 1`] = `
         >
           <path
             className="_7c7da8df"
-            d="M 0 -100A 100 100 0 1 1 -0.6283143965558805 -99.99802608561372"
+            d="M 0 -100A 100 100 0 1 1 0 100A 100 100 0 1 1 0 -100"
             stroke="#fff"
           />
         </svg>

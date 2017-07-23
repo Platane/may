@@ -5,7 +5,7 @@ import type { User } from '../../type'
 export const draw = (
     canvas,
     user: User | null,
-    state: 'sad' | 'standard' | 'happy' | 'yolo' = 'standard',
+    state: 'sad' | 'standard' | 'happy' | 'yolo' | null = 'standard',
     size: number = 800
 ) => {
     const url = user && selectPic(user, state)

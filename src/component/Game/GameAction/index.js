@@ -2,7 +2,10 @@ import React from 'react'
 import { Dollar } from '../../Dollar'
 import style from './style.css'
 
-export type Props = { stash: Object[] }
+export type Props = {
+    stash: Object[],
+    onStartSwipe: (i: number, event: Event) => void,
+}
 
 const bakeTransform = ({ size, position, direction, normal, tint }, i) => ({
     transform: [
@@ -28,7 +31,7 @@ export const GameAction = ({ stash, onStartSwipe }: Props) =>
                 onTouchStart={event => onStartSwipe(i, event)}
                 style={bakeTransform(dollarBill, i)}
             >
-                <Dollar size={dollarBill.size} />
+                <Dollar size={dollarBill.size} user={dollarBill.user} />
             </div>
         )}
     </div>

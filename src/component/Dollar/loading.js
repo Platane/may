@@ -10,7 +10,7 @@ const glassesLoaded = imageLoader.load(GLASSES_URL)
 
 export const selectPic = (
     user: User,
-    state: 'sad' | 'standard' | 'happy' | 'yolo' = 'standard'
+    state: 'sad' | 'standard' | 'happy' | 'yolo' | null = 'standard'
 ): string | null =>
     (state === 'sad' && user.pic.sad) ||
     (state === 'happy' && user.pic.happy) ||
@@ -20,7 +20,7 @@ export const selectPic = (
 
 export const ready = (
     user: User | null,
-    state: 'sad' | 'standard' | 'happy' | 'yolo' = 'standard'
+    state: 'sad' | 'standard' | 'happy' | 'yolo' | null = 'standard'
 ) => {
     const url = user && selectPic(user, state)
     return !!(
@@ -32,7 +32,7 @@ export const ready = (
 
 export const load = (
     user: User | null,
-    state: 'sad' | 'standard' | 'happy' | 'yolo' = 'standard'
+    state: 'sad' | 'standard' | 'happy' | 'yolo' | null = 'standard'
 ) => {
     const url = user && selectPic(user, state)
     return Promise.all(

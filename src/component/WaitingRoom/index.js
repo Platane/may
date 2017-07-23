@@ -6,14 +6,14 @@ import type { User } from '../../type'
 
 import style from './style.css'
 
-export type Props = { start_at: number, users: User[] }
+export type Props = { start_at: number, duration: number, users: User[] }
 
 const s = (...args) => args.filter(Boolean).join(' ')
 
-export const WaitingRoom = ({ start_at, users }: Props) =>
+export const WaitingRoom = ({ start_at, duration, users }: Props) =>
     <div className={style.container}>
         <div className={style.timer}>
-            <Timer date={start_at} total={30000} color="#fff" />
+            <Timer date={start_at} total={duration} color="#fff" />
         </div>
 
         <div className={style.userList}>

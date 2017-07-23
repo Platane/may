@@ -8,12 +8,20 @@ export type Props = {
     color: string,
 }
 
+const round = x => Math.round(x * 10) / 10
+
 const arcPath = angle =>
-    [
-        'M 0 -100',
-        `A 100 100 0 ${angle < Math.PI ? 0 : 1} 1 ${Math.sin(angle) *
-            100} ${-Math.cos(angle) * 100}`,
-    ].join('')
+    angle >= Math.PI * 1.99
+        ? ['M 0 -100', `A 100 100 0 1 1 0 100`, `A 100 100 0 1 1 0 -100`].join(
+              ''
+          )
+        : [
+              'M 0 -100',
+              `A 100 100 0 ${angle < Math.PI ? 0 : 1} 1 `,
+              `${round(Math.sin(angle) * 100)} ${round(
+                  -Math.cos(angle) * 100
+              )}`,
+          ].join('')
 
 export const TimerSimple = ({ total, duration, color }) =>
     <div className={style.container}>
@@ -22,7 +30,7 @@ export const TimerSimple = ({ total, duration, color }) =>
                 className={style.path}
                 stroke={color}
                 d={arcPath(
-                    Math.min(0.999, 1 - duration / (total || 1)) * Math.PI * 2
+                    Math.min(1, 1 - duration / (total || 1)) * Math.PI * 2
                 )}
             />
         </svg>

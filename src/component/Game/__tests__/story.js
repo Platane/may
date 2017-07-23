@@ -63,7 +63,13 @@ class Container extends React.Component {
                     right: 0,
                 }}
             >
-                <Game game={game} size={800} end_turn_at={Date.now() + 40000} />
+                <Game
+                    game={game}
+                    width={600}
+                    height={800}
+                    end_turn_at={Date.now() + 20000}
+                    turn_duration={20000}
+                />
                 <input
                     type="range"
                     value={this.state.k}

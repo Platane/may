@@ -1,7 +1,7 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
-import { GameAction } from '../state'
+import { GameAction } from '../motion'
 
 storiesOf('GameAction', module).add('default', () =>
     <div style={{ position: 'fixed', top: 0, bottom: 0, left: 0, right: 0 }}>

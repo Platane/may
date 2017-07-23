@@ -4,13 +4,21 @@ import * as point from '../../../util/math/point'
 import { merge, set } from '../../../util/redux'
 
 import type { Point } from '../../../util/math/point'
+import type { User } from '../../../type'
 
 export type Props = {
     n: number,
+    user: User | null,
     width: number,
     height: number,
-    onSetBet: (bet: number) => void,
-    onFold: () => void,
+
+    // set bet ( called at every bet change = do not means the turn is over )
+    onSetBet?: (bet: number) => void,
+
+    // when calling this ones , the turn is over
+    onRaise?: (bet: number) => void,
+    onCall?: () => void,
+    onFold?: () => void,
 }
 
 const acc = (
@@ -39,7 +47,7 @@ const getWorldPoint = (event: MouseEvent | TouchEvent): Point => {
     }
 }
 
-const initStash = (length, width, height) => {
+const initStash = (length, width, height, user) => {
     const c = getAnchor(width, height)
 
     return Array.from({ length }).map(() => ({
@@ -49,6 +57,7 @@ const initStash = (length, width, height) => {
             LEG + 20
         ),
         tint: Math.random(),
+        user,
         normal: { x: 0, y: 0, z: 1 },
         direction: { x: 0, y: 1, z: 0 },
         size: 330,
@@ -61,13 +70,23 @@ const initStash = (length, width, height) => {
 }
 
 export class GameAction extends React.Component {
-    state = { stash: [] }
+    state = { stash: [], dragging: null, i: 0, sl: 0 }
+
+    _timeout = null
 
     constructor(props: Props) {
         super(props)
 
         this.state = {
-            stash: initStash(this.props.n, this.props.width, this.props.height),
+            stash: initStash(
+                this.props.n,
+                this.props.width,
+                this.props.height,
+                this.props.user
+            ),
+            dragging: null,
+            i: 0,
+            sl: 0,
         }
     }
 
@@ -215,9 +234,10 @@ export class GameAction extends React.Component {
         } else {
             stash = set(stash, [i, 'motion'], nextMotion)
 
-            this.props.onSetBet(
-                stash.filter(x => x.motion.type === 'launch').length
-            )
+            this.props.onSetBet &&
+                this.props.onSetBet(
+                    stash.filter(x => x.motion.type === 'launch').length
+                )
         }
 
         this.setState({ dragging: null, stash })
