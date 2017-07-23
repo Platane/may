@@ -5,12 +5,14 @@ import type {
     Game_Over,
 } from '../../service/gameSolver/type'
 
+type Action_ = Action | { type: 'init' }
+
 export type Archived_Game = {
     users: User[],
     game: Game_Over,
 
     game0: Game_Running,
-    actions: Action[],
+    actions: Action_[],
 }
 
 export type Room_Playing = {
@@ -20,7 +22,7 @@ export type Room_Playing = {
     game: Game_Running,
 
     game0: Game_Running,
-    actions: Array<{ date: number, action: Action }>,
+    actions: Array<{ date: number, action: Action_ }>,
 
     tic: number,
 

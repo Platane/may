@@ -12,6 +12,12 @@ type Game_waiting = {
     start_at: number,
 }
 
+type Game_playing = {
+    ...Game,
+
+    end_turn_at: number,
+}
+
 export type State = {
     appState: {
         path: Path,
@@ -19,7 +25,7 @@ export type State = {
         tableToJoin: string | null,
     },
 
-    game: Game | Game_waiting | null,
+    game: Game_playing | Game_waiting | null,
 
     me: User | null,
 }

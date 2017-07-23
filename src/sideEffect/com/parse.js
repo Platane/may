@@ -1,4 +1,5 @@
 import { toHiddenGame } from '../../service/gameSolver/toHiddenGame'
+import * as PARAM from './param'
 
 import type { Game } from '../../type'
 import type { Game_Running, Game_Over } from '../../service/gameSolver/type'
@@ -36,11 +37,18 @@ export const roomToGame = (meId: string | null, room: Room): Game | null => {
 export const roomToWaitingRoom = (room: Room) => {
     if (room.state === 'waiting')
         return {
-            users: Object.keys(room.pending_players).map(
-                id => room.pending_players[id].user
-            ),
+            users: Object.keys(room.pending_players)
+                .filter(
+                    id =>
+                        room.pending_players[id].tic >
+                        Date.now() - PARAM.WAITING_PING_DELAY * 2
+                )
+                .map(id => room.pending_players[id].user),
             start_at: room.start_at,
         }
 
     return null
 }
+
+export const roomToEndTurnDate = (room: Room) =>
+    room.state === 'playing' ? room.actions[0].date + PARAM.TURN_DURATION : null

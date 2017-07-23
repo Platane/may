@@ -5,7 +5,10 @@ import type { Action, State } from './type'
 export const reduce = (state: State, action: Action): State => {
     switch (action.type) {
         case 'game:update':
-            return set(state, ['game'], action.game)
+            return set(state, ['game'], {
+                ...action.game,
+                end_turn_at: action.end_turn_at,
+            })
 
         case 'waitingRoom:update':
             return set(state, ['game'], {

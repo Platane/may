@@ -2,7 +2,12 @@ import firebase from '../../util/firebase'
 import { updateGame, updateWaitingRoom } from '../../action/index'
 import { createQueue, createScheduler } from '../../util/schedule'
 import { loop } from './loop'
-import { roomToGame, roomToWaitingRoom, cleanRoom } from './parse'
+import {
+    roomToEndTurnDate,
+    roomToGame,
+    roomToWaitingRoom,
+    cleanRoom,
+} from './parse'
 
 import type { Room } from './type'
 
@@ -24,7 +29,9 @@ export const init = (store: Store) => {
                 const meId = store.getState().me && store.getState().me.id
                 const game = roomToGame(meId, room)
 
-                store.dispatch(updateGame(game))
+                const end_turn_at = roomToEndTurnDate(room)
+
+                store.dispatch(updateGame(game, end_turn_at))
                 break
             case 'waiting':
                 const { users, start_at } = roomToWaitingRoom(room) || {

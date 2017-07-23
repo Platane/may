@@ -9,11 +9,15 @@ import style from './style.css'
 
 export type Props = {
     game: Game_type,
+    end_turn_at: number,
     size: number,
 }
 
-export const Game = ({ game, size }: Props) =>
+export const Game = ({ game, size, end_turn_at }: Props) =>
     <div className={style.container}>
+        <div className={style.timer}>
+            <Timer date={end_turn_at} total={40000} color="#fff" />
+        </div>
         <Table
             players={game.players}
             cards={game.cards}

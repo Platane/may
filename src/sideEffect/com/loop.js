@@ -1,11 +1,13 @@
 import { reduce as reduceGame } from '../../service/gameSolver/solver'
 import { initGame } from '../../service/gameSolver/initGame'
+import * as PARAM from './param'
+
 import type { State } from '../../reducer/type'
 import type { Room, Room_Waiting, Room_Playing } from './type'
 
 const initWaitingRoom = (): Room_Waiting => ({
     state: 'waiting',
-    start_at: Date.now() + 30000,
+    start_at: Date.now() + PARAM.WAITING_DURATION,
     pending_players: {},
     archive: [],
 })
@@ -18,7 +20,7 @@ const initPlayingRoom = (players): Room_Playing => {
         state: 'playing',
         game: game0,
         game0,
-        actions: [],
+        actions: [{ date: Date.now(), action: { type: 'init' } }],
         users: players.map(player => player.user),
         archive: [],
     }
@@ -48,7 +50,11 @@ export const loop = async (
                 const playersReady = Object.keys(room.pending_players)
                     .map(key => room.pending_players[key])
                     .filter(player => player.bank > 10)
-                    .filter(player => player.tic > Date.now() - 10000)
+                    .filter(
+                        player =>
+                            player.tic >
+                            Date.now() - PARAM.WAITING_PING_DELAY * 2
+                    )
                     .sort((a, b) => (a.tic > b.tic ? 1 : -1))
 
                 // delay is ok
@@ -73,10 +79,10 @@ export const loop = async (
 
                 let shouldReportReadyIn = !player
                     ? -1
-                    : player.tic + 5000 - Date.now()
+                    : player.tic + PARAM.WAITING_PING_DELAY - Date.now()
 
                 if (shouldReportReadyIn < 0) {
-                    shouldReportReadyIn = 5000
+                    shouldReportReadyIn = PARAM.WAITING_PING_DELAY
 
                     await setRoom({
                         ...room,
@@ -96,13 +102,12 @@ export const loop = async (
 
             // fold players if it did not play in time
             {
-                const DELAY = 40000
-                let shouldPlayIn = room.tic + DELAY - Date.now()
+                let shouldPlayIn = room.tic + PARAM.TURN_DURATION - Date.now()
 
                 if (shouldPlayIn < 0) {
                     action = { type: 'fold', player: room.game.speaker }
 
-                    shouldPlayIn = DELAY
+                    shouldPlayIn = PARAM.TURN_DURATION
                 }
 
                 scheduleNextUpdate(shouldPlayIn)

@@ -1,3 +1,4 @@
+import type { Action as Action_Game } from './game'
 import type { Action as Action_RegisterUser } from './thunk/registerUser'
 import type { User } from '../type'
 
@@ -8,10 +9,11 @@ export const localStorageRead = (user: User | null) => ({
 })
 
 //
-type Action_UpdateGame = { type: 'game:update', game: any }
-export const updateGame = game => ({
+type Action_UpdateGame = { type: 'game:update', game: any, end_turn_at: number }
+export const updateGame = (game, end_turn_at) => ({
     type: 'game:update',
     game,
+    end_turn_at,
 })
 
 //
@@ -27,6 +29,7 @@ export const updateWaitingRoom = (users, start_at) => ({
 })
 
 export type Action =
+    | Action_Game
     | Action_RegisterUser
     | Action_LocalStorageRead
     | Action_UpdateGame
