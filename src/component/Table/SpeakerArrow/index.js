@@ -26,6 +26,13 @@ export class SpeakerArrow extends React.Component {
 
     state = { angle: 0 }
 
+    static defaultProps = { angle: 0 }
+
+    constructor(props: Props) {
+        super(props)
+        this.state = { angle: this.props.angle }
+    }
+
     componentWillReceiveProps(nextProps: Props) {
         let angle = nextProps.angle
         while (angle < this.state.angle) angle += 360
