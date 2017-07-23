@@ -3,7 +3,7 @@ import { initGame } from '../../service/gameSolver/initGame'
 import * as PARAM from './param'
 
 import type { State } from '../../reducer/type'
-import type { Room, Room_Waiting, Room_Playing } from './type'
+import type { Room, Room_Waiting, Room_Playing, Archived_Game } from './type'
 
 const initWaitingRoom = (): Room_Waiting => ({
     state: 'waiting',
@@ -27,6 +27,12 @@ const initPlayingRoom = (players): Room_Playing => {
 
     return playingRoom
 }
+
+const archiveGame = (room: Room_Playing): Archived_Game => ({
+    users: room.users,
+    game0: room.game0,
+    actions: room.actions,
+})
 
 export const loop = async (
     state: State,
@@ -66,7 +72,10 @@ export const loop = async (
                     playersReady[0].user.id === me.id
                 ) {
                     // should start the game
-                    return await setRoom(initPlayingRoom(playersReady))
+                    return await setRoom({
+                        ...initPlayingRoom(playersReady),
+                        archive: room.archive,
+                    })
                 } else if (shouldStartIn > 0) {
                     // schedule to start
                     scheduleNextUpdate(shouldStartIn)
@@ -114,23 +123,31 @@ export const loop = async (
             }
 
             // play instructed action
-            // TODO
+            {
+                if (state.nextMove) action = state.nextMove
+            }
 
             // an action should be made
             if (action) {
                 const newRoom = {
+                    ...room,
                     game: reduceGame(room.game, action),
                     actions: [...room.actions, { date: Date.now(), action }],
                 }
 
                 // the action did finish the game
                 if (newRoom.game.state === 'over') {
-                    return await setRoom(initWaitingRoom())
+                    return await setRoom({
+                        ...initWaitingRoom(),
+                        archive: [
+                            archiveGame(newRoom),
+                            ...room.archive.slice(0, 3),
+                        ],
+                    })
                 } else {
                     return await setRoom({
-                        ...room,
-                        tic: Date.now(),
                         ...newRoom,
+                        tic: Date.now(),
                     })
                 }
             }

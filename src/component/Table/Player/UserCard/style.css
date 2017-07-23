@@ -3,6 +3,7 @@
     top: 0;
     position: absolute;
     transform-style: preserve-3d;
+    transition: transform 500ms ease;
 }
 
 .userCard {

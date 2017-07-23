@@ -20,11 +20,18 @@ export type Props = {
 export class GameAction extends React.Component {
     _timeout = null
 
+    state = { lastClick: 0 }
+
     constructor(props: Props) {
         super(props)
     }
 
-    click() {}
+    click = () => {
+        if (Date.now() - this.state.lastClick < 400)
+            this.props.onCall && this.props.onCall()
+
+        this.setState({ lastClick: Date.now() })
+    }
 
     componentDidMount() {
         if (typeof window !== 'undefined') {

@@ -20,8 +20,8 @@ const pos = Array.from({ length: 37 }).map((_, i) => {
 
 const transformStash = (i, length) =>
     `translate3d(` +
-    `${pos[i % pos.length].x * length * 0.07}px,` +
-    `${pos[i % pos.length].y * length * 0.07}px,` +
+    `${pos[i % pos.length].x * length * 0.05}px,` +
+    `${pos[i % pos.length].y * length * 0.05}px,` +
     `0px)`
 
 const stackHeight = 6

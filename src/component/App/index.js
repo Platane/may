@@ -5,8 +5,12 @@ import { Game } from '../Game/connected'
 
 import style from './style.css'
 
-export const App = ({ page }) =>
-    ('gate' === page && <Gate />) ||
-    ('table' === page && <Game size={600} />) ||
-    ('waitingRoom' === page && <WaitingRoom />) ||
-    null
+export type Props = { page: 'gate' | 'table' | 'waitingRoom' | null }
+
+export const App = ({ page }: Props) =>
+    <div className={style.container}>
+        {('gate' === page && <Gate />) ||
+            ('table' === page && <Game size={600} />) ||
+            ('waitingRoom' === page && <WaitingRoom />) ||
+            null}
+    </div>

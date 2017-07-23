@@ -9,8 +9,6 @@ type Action_ = Action | { type: 'init' }
 
 export type Archived_Game = {
     users: User[],
-    game: Game_Over,
-
     game0: Game_Running,
     actions: Action_[],
 }

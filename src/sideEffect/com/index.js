@@ -59,6 +59,8 @@ export const init = (store: Store) => {
                 update()
             })
         }
+
+        update()
     }
 
     whenStoreChange()

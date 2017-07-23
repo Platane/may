@@ -8,6 +8,7 @@
 
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 .timer {
     position: fixed;
@@ -25,5 +26,4 @@
     overflow: hidden;
 }
 .table {
-    overflow: hidden;
 }

@@ -33,7 +33,7 @@ const LEG = 200
 
 const getAnchor = (width, height): Point => ({
     x: width / 2,
-    y: height + LEG - 60,
+    y: height + LEG - 40,
     z: 0,
 })
 
@@ -95,15 +95,19 @@ export class GameAction extends React.Component {
 
         const anchor = getAnchor(this.props.width, this.props.height)
 
+        // set the stash, flag the item motion as dragged
         const stash = set(this.state.stash, [i, 'motion'], {
             type: 'dragged',
             v: { x: 0, y: 0, z: 0 },
         })
 
+        // compute the sl value, which is the l value at start
         const { position } = this.state.stash[i]
 
         const sl =
             point.distance(position, anchor) - point.distance(dragging, anchor)
+
+        console.log(i)
 
         this.setState({ dragging, i, stash, sl })
 
@@ -113,13 +117,13 @@ export class GameAction extends React.Component {
     onMouseMove = (event: MouseEvent | TouchEvent) => {
         const { i, dragging, sl } = this.state
 
-        if (!dragging) return
+        const { motion } = this.state.stash[i]
+
+        if (!dragging || motion.type !== 'dragged') return
 
         const anchor = getAnchor(this.props.width, this.props.height)
 
         const worldPoint = getWorldPoint(event)
-
-        const { motion } = this.state.stash[i]
 
         const u = point.sub(worldPoint, anchor)
 
@@ -159,6 +163,9 @@ export class GameAction extends React.Component {
         )
 
         this.setState({ stash })
+
+        // prevent pull to refresh
+        event.preventDefault()
     }
 
     onMouseUp = (event: MouseEvent | TouchEvent) => {
@@ -183,7 +190,7 @@ export class GameAction extends React.Component {
             let v = motion.v
             const vl = point.length(v)
 
-            const VMAX = 25
+            const VMAX = 30
             const VMIN = 15
 
             if (vl > VMAX) v = point.scal(v, VMAX / vl)
@@ -229,18 +236,18 @@ export class GameAction extends React.Component {
                         ? x
                         : { ...x, motion: nextMotion }
             )
-
-            this.props.onFold()
         } else {
             stash = set(stash, [i, 'motion'], nextMotion)
-
-            this.props.onSetBet &&
-                this.props.onSetBet(
-                    stash.filter(x => x.motion.type === 'launch').length
-                )
         }
 
         this.setState({ dragging: null, stash })
+
+        if (nextMotion.type === 'fold' && this.props.onFold) this.props.onFold()
+
+        if (this.props.onSetBet)
+            this.props.onSetBet(
+                stash.filter(x => x.motion.type === 'launch').length
+            )
     }
 
     loop = () => {
@@ -304,7 +311,7 @@ export class GameAction extends React.Component {
 
                 case 'launch': {
                     const a = { x: 0, y: -0.2, z: -0.1 }
-                    const v = point.scal(point.add(x.motion.v, a), 0.95)
+                    const v = point.scal(point.add(x.motion.v, a), 0.97)
 
                     const position = point.add(x.position, v)
 
@@ -358,9 +365,13 @@ export class GameAction extends React.Component {
 
         if (typeof window !== 'undefined') {
             window.addEventListener('mousemove', this.onMouseMove)
-            window.addEventListener('touchmove', this.onMouseMove)
             window.addEventListener('mouseup', this.onMouseUp)
             window.addEventListener('touchend', this.onMouseUp)
+
+            // declare active event in order to be able to cancel the "pull to refresh" browser action
+            window.addEventListener('touchmove', this.onMouseMove, {
+                passive: false,
+            })
         }
     }
 
@@ -369,9 +380,9 @@ export class GameAction extends React.Component {
             cancelAnimationFrame(this._timeout)
 
         if (typeof window !== 'undefined') {
-            window.removeEventListener('mouvemove', this.onMouseMove)
+            window.removeEventListener('mousemove', this.onMouseMove)
             window.removeEventListener('touchmove', this.onMouseMove)
-            window.removeEventListener('mouveup', this.onMouseUp)
+            window.removeEventListener('mouseup', this.onMouseUp)
             window.removeEventListener('touchend', this.onMouseUp)
         }
     }

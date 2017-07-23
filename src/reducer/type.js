@@ -1,6 +1,7 @@
 import type { Store as ReduxStore, Dispatch as ReduxDispatch } from 'redux'
 import type { User, Card, Game } from '../type'
 import type { Action as Action_ } from '../action'
+import type { Action as GameAction } from '../service/gameSolver/type'
 
 export type Action = Action_
 
@@ -28,6 +29,8 @@ export type State = {
     game: Game_playing | Game_waiting | null,
 
     me: User | null,
+
+    nextMove: GameAction | null,
 }
 
 // export type Store = ReduxStore<State, Action>
