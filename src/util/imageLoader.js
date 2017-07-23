@@ -16,9 +16,11 @@ export const createImageLoader = () => {
 
     return {
         load: (url: string) =>
-            memory[url]
+            memory[url] || memory[url] === null
                 ? Promise.resolve(memory[url])
-                : load(url).then(img => (memory[url] = img)),
+                : load(url)
+                      .then(img => (memory[url] = img))
+                      .catch(err => (memory[url] = null)),
 
         syncGet: (url: string) => memory[url],
 
