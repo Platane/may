@@ -50,8 +50,11 @@ export class Timer extends React.Component {
 
         this.setState({ duration })
 
-        clearTimeout(this._timeout)
-        this._timeout = setTimeout(this.loop)
+        if ('undefined' !== typeof cancelAnimationFrame)
+            cancelAnimationFrame(this._timeout)
+
+        if ('undefined' !== typeof requestAnimationFrame)
+            this._timeout = requestAnimationFrame(this.loop)
     }
 
     componentDidMount() {
@@ -59,7 +62,7 @@ export class Timer extends React.Component {
     }
 
     componentWillUnmount() {
-        clearTimeout(this._timeout)
+        cancelAnimationFrame(this._timeout)
     }
 
     render() {
