@@ -20,6 +20,7 @@ export type Props = {
     fold?: () => void,
     call?: () => void,
     raise?: (value: number) => void,
+    onSetBet?: (value: number) => void,
 }
 
 export const Game = ({
@@ -32,6 +33,7 @@ export const Game = ({
     call,
     fold,
     raise,
+    onSetBet,
 }: Props) =>
     <div className={style.container}>
         <div className={style.timer}>
@@ -59,6 +61,7 @@ export const Game = ({
                     onRaise={raise}
                     onCall={call}
                     onFold={fold}
+                    onSetBet={onSetBet}
                     user={mePlayer}
                     n={Math.min(10, mePlayer.bank)}
                     width={width}

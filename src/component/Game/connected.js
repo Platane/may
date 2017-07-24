@@ -2,7 +2,7 @@ import { Game as Component } from './fit'
 import { connect } from 'react-redux'
 import { registerUser } from '../../action/thunk/registerUser'
 import * as PARAM from '../../sideEffect/com/param'
-import { fold, call, raise } from '../../action/game'
+import { fold, call, raise, raiseTemp } from '../../action/game'
 
 const mapStateToProps = state => ({
     game: state.game,
@@ -20,6 +20,7 @@ const mapDispatchToProps = {
     fold,
     call,
     raise,
+    onSetBet: raiseTemp,
 }
 
 const mergeProps = (stateProps, dispatchProps, ownProps) =>

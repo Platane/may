@@ -105,8 +105,6 @@ export class GameAction extends React.Component {
         const sl =
             point.distance(position, anchor) - point.distance(dragging, anchor)
 
-        console.log(i)
-
         this.setState({ dragging, i, stash, sl })
 
         this.props.onDragStart && this.props.onDragStart()

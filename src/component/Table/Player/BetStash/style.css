@@ -34,16 +34,25 @@
 .token {
     position: absolute;
     transform-style: preserve-3d;
-    animation: throw1 500ms ease;
+    animation: throw0 500ms ease;
 }
-.token:nth-child(3n + 1) {
+.token:nth-child(6n + 1) {
+    animation-name: throw1;
+}
+.token:nth-child(6n + 2) {
     animation-name: throw2;
 }
-.token:nth-child(3n + 2) {
+.token:nth-child(6n + 3) {
     animation-name: throw3;
 }
+.token:nth-child(6n + 4) {
+    animation-name: throw4;
+}
+.token:nth-child(6n + 5) {
+    animation-name: throw5;
+}
 
-@keyframes throw1 {
+@keyframes throw0 {
     0% {
         transform: translate3d(180px, 0, 0);
         opacity: 0;
@@ -65,13 +74,39 @@
         opacity: 1;
     }
 }
-@keyframes throw2 {
+@keyframes throw3 {
     0% {
-        transform: translate3d(200px, 0, 0);
+        transform: translate3d(180px, 0, 0);
+        opacity: 0;
+    }
+    10% {
+        transform: translate3d(180px, 0, 0);
+        opacity: 0;
+    }
+    30% {
+        transform: translate3d(120px, 0, 40px);
+        opacity: 1;
+    }
+    50% {
+        transform: translate3d(60px, 0, 40px);
+        opacity: 1;
+    }
+    70% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+@keyframes throw1 {
+    0% {
+        transform: translate3d(180px, 0, 0);
         opacity: 0;
     }
     20% {
-        transform: translate3d(200px, 0, 0);
+        transform: translate3d(180px, 0, 0);
         opacity: 0;
     }
     40% {
@@ -91,13 +126,39 @@
         opacity: 1;
     }
 }
-@keyframes throw3 {
+@keyframes throw4 {
     0% {
-        transform: translate3d(200px, 0, 0);
+        transform: translate3d(180px, 0, 0);
+        opacity: 0;
+    }
+    30% {
+        transform: translate3d(180px, 0, 0);
+        opacity: 0;
+    }
+    50% {
+        transform: translate3d(120px, 0, 40px);
+        opacity: 1;
+    }
+    70% {
+        transform: translate3d(60px, 0, 40px);
+        opacity: 1;
+    }
+    90% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+@keyframes throw2 {
+    0% {
+        transform: translate3d(180px, 0, 0);
         opacity: 0;
     }
     40% {
-        transform: translate3d(200px, 0, 0);
+        transform: translate3d(180px, 0, 0);
         opacity: 0;
     }
     60% {
@@ -105,6 +166,28 @@
         opacity: 1;
     }
     80% {
+        transform: translate3d(60px, 0, 40px);
+        opacity: 1;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+@keyframes throw5 {
+    0% {
+        transform: translate3d(180px, 0, 0);
+        opacity: 0;
+    }
+    50% {
+        transform: translate3d(180px, 0, 0);
+        opacity: 0;
+    }
+    70% {
+        transform: translate3d(120px, 0, 40px);
+        opacity: 1;
+    }
+    90% {
         transform: translate3d(60px, 0, 40px);
         opacity: 1;
     }
