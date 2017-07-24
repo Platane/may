@@ -10,7 +10,7 @@ export type Props = { page: 'gate' | 'table' | 'waitingRoom' | null }
 export const App = ({ page }: Props) =>
     <div className={style.container}>
         {('gate' === page && <Gate />) ||
-            ('table' === page && <Game size={600} />) ||
+            ('table' === page && <Game />) ||
             ('waitingRoom' === page && <WaitingRoom />) ||
             null}
     </div>

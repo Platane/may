@@ -12,12 +12,10 @@ export type Props = {
     width: number,
     height: number,
 
-    // set bet ( called at every bet change = do not means the turn is over )
-    onSetBet?: (bet: number) => void,
+    onDragStart?: () => void,
+    onDragEnd?: () => void,
 
-    // when calling this ones , the turn is over
-    onRaise?: (bet: number) => void,
-    onCall?: () => void,
+    onSetBet?: (bet: number) => void,
     onFold?: () => void,
 }
 
@@ -110,6 +108,8 @@ export class GameAction extends React.Component {
         console.log(i)
 
         this.setState({ dragging, i, stash, sl })
+
+        this.props.onDragStart && this.props.onDragStart()
 
         event.preventDefault()
     }
@@ -248,6 +248,8 @@ export class GameAction extends React.Component {
             this.props.onSetBet(
                 stash.filter(x => x.motion.type === 'launch').length
             )
+
+        this.props.onDragEnd && this.props.onDragEnd()
     }
 
     loop = () => {

@@ -23,7 +23,7 @@ export const reduce = (state: State, action: Action): State => {
             nextMove = {
                 type: 'raise',
                 player: playerIndex,
-                value: action.value,
+                value: state.game.players[playerIndex].bet + action.value,
             }
             break
     }
