@@ -11,10 +11,14 @@ export type Props = {
     mood: 'sad' | 'standard' | 'happy' | 'yolo' | null,
 }
 
+const isReady = props => ready(props.user, props.mood)
+
 export class Dollar extends React.Component {
     state = { ready: false }
 
     _timeout = null
+
+    _mounted = false
 
     shouldComponentUpdate(nextProps: Props, nextState) {
         return (
@@ -29,26 +33,37 @@ export class Dollar extends React.Component {
         super(props)
 
         this.state = {
-            ready: ready(this.props.user, this.props.mood),
+            ready: isReady(this.props),
         }
 
         if (!this.state.ready)
-            load(this.props.user, this.props.mood).then(() =>
-                this.setState({
-                    ready: ready(this.props.user, this.props.mood),
-                })
+            load(this.props.user, this.props.mood).then(
+                () =>
+                    this._mounted &&
+                    this.setState({ ready: isReady(this.props) })
             )
     }
 
     componentWillReceiveProps(nextProps: Props) {
-        load(nextProps.user, nextProps.mood).then(() =>
-            this.setState({
-                ready: ready(this.props.user, this.props.mood),
-            })
-        )
+        const ready = isReady(nextProps)
+
+        if (!ready)
+            load(nextProps.user, nextProps.mood).then(
+                () =>
+                    this._mounted &&
+                    this.setState({ ready: isReady(this.props) })
+            )
+
+        this.setState({ ready })
+    }
+
+    componentDidMount() {
+        this._mounted = true
     }
 
     componentWillUnmount() {
+        this._mounted = false
+
         if (typeof cancelAnimationFrame !== 'undefined')
             cancelAnimationFrame(this._timeout)
     }
