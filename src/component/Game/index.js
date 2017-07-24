@@ -45,6 +45,7 @@ export const Game = ({
             style={{
                 width: Math.min(width, height),
                 height: Math.min(width, height),
+                marginTop: width < 700 ? Math.max(0, height - width) * 0.9 : 0,
             }}
         >
             <Table

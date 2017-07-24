@@ -23,7 +23,7 @@ const blankCard = { color: 'diamond', value: '1' }
 
 const angleOffset = 147
 
-const cardWidth = 40
+const cardWidth = 60
 
 const phy = 40
 
@@ -32,6 +32,11 @@ const worldTransform = size =>
 
 const cardTransform = i =>
     `translate3d(${(i - 2.5) * cardWidth * 1.1}px,${-cardWidth * 0.7}px,1px)`
+
+const cardTransformBottom = (i, size, phy) =>
+    `rotateX(${-phy}deg)` +
+    `translate3d(${(i - 2.5) * cardWidth * 1.1}px,${-size / 1.6 -
+        cardWidth * 0.7}px,0)`
 
 export const Table = ({ players, cards, speaker, size }: Props) =>
     <div
@@ -65,7 +70,10 @@ export const Table = ({ players, cards, speaker, size }: Props) =>
                     key={i}
                     className={style.card}
                     style={{
-                        transform: cardTransform(i),
+                        transform:
+                            size < 700
+                                ? cardTransformBottom(i, size, phy)
+                                : cardTransform(i),
                     }}
                 >
                     <Card
@@ -86,7 +94,7 @@ export const Table = ({ players, cards, speaker, size }: Props) =>
                     <Player
                         angle={i / players.length * 360 + angleOffset}
                         speaking={speaker === i}
-                        length={size / 2.2}
+                        length={size / 2}
                         phy={phy}
                         player={player}
                     />

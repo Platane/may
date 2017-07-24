@@ -11,13 +11,13 @@ export type Props = {
     seed: number,
 }
 
-const stashLength = 0.5
+const stashLength = length => length * (length < 350 ? 0.25 : 0.5)
 
 export const BetStash = ({ bet, angle, length, phy, seed }: Props) =>
     <div
         className={style.container}
         style={{
-            transform: `translate3d(${length * stashLength}px,0,0)`,
+            transform: `translate3d(${stashLength(length)}px,0,0)`,
         }}
     >
         {Array.from({ length: bet }).map((_, i) =>

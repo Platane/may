@@ -17,7 +17,7 @@ const blankCard: Card_type = {
     value: '1',
 }
 
-const cardLength = 0.7
+const cardLength = 0.65
 
 const cardWidth = 60
 
