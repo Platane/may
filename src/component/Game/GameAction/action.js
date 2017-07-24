@@ -4,6 +4,7 @@ import type { User } from '../../../type'
 
 export type Props = {
     n: number,
+    bet: number,
     user: User,
     width: number,
     height: number,
@@ -22,10 +23,11 @@ export class GameAction extends React.Component {
 
     _shouldValid = false
 
-    state = { lastClick: 0, bet: 0 }
+    state = { lastClick: 0, bet: 0, totalBet: 0 }
 
     constructor(props: Props) {
         super(props)
+        this.state = { lastClick: 0, bet: 0, totalBet: this.props.bet }
     }
 
     click = () => {
@@ -39,7 +41,7 @@ export class GameAction extends React.Component {
 
     onValidBet = () => {
         clearTimeout(this._timeout)
-        if (this.props.onRaise) this.props.onRaise(this.state.bet)
+        if (this.props.onRaise) this.props.onRaise(this.state.totalBet)
     }
 
     onDragStart = () => {
@@ -52,11 +54,14 @@ export class GameAction extends React.Component {
     }
 
     onSetBet = (bet: number) => {
-        if (this.props.onSetBet) this.props.onSetBet(bet)
-
         this._shouldValid = bet > 0
 
-        this.setState({ bet })
+        const delta = bet - this.state.bet
+        const totalBet = this.state.totalBet + delta
+
+        if (this.props.onSetBet) this.props.onSetBet(totalBet)
+
+        this.setState({ bet, totalBet })
     }
 
     componentDidMount() {

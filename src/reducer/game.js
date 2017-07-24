@@ -10,6 +10,19 @@ export const reduce = (state: State, action: Action): State => {
                 end_turn_at: action.end_turn_at,
             })
 
+        case 'game:raise:temp':
+            if (!state.game || !state.game.players || !state.me) break
+
+            const playerIndex = state.game.players.findIndex(
+                player => player.id === state.me.id
+            )
+
+            return set(
+                state,
+                ['game', 'players', playerIndex, 'bet'],
+                action.value
+            )
+
         case 'waitingRoom:update':
             return set(state, ['game'], {
                 waiting: true,

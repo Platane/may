@@ -63,6 +63,7 @@ export const Game = ({
                     onFold={fold}
                     onSetBet={onSetBet}
                     user={mePlayer}
+                    bet={mePlayer.bet}
                     n={Math.min(10, mePlayer.bank)}
                     width={width}
                     height={height}
