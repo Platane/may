@@ -24,9 +24,9 @@ const blankCard = { color: 'diamond', value: '1' }
 
 const angleOffset = 147
 
-const cardWidth = 60
+const cardWidth = 68
 
-const phy = 0
+const phy = 40
 const theta = 0
 
 const worldTransform = (width, height) =>
@@ -54,7 +54,7 @@ const cardTransformBottom = (i, width, height, phy) =>
           height
         : height) *
         -0.5 +
-        10}px,` +
+        cardWidth * 0.5}px,` +
     `0)`
 
 export const Table = ({ players, cards, speaker, width, height }: Props) =>

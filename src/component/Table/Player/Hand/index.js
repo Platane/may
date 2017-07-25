@@ -17,9 +17,9 @@ const blankCard: Card_type = {
     value: '1',
 }
 
-const cardLength = 0.65
+const cardLength = 0.63
 
-const cardWidth = 60
+const cardWidth = 68
 
 const transformCard = (angle, length, dir, folded) =>
     folded

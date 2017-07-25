@@ -11,7 +11,7 @@ export type Props = {
     seed: number,
 }
 
-const stashLength = length => length * (length < 350 ? 0.25 : 0.5)
+const stashLength = length => length * (length < 350 ? 0.23 : 0.5)
 
 export const BetStash = ({ bet, angle, length, phy, seed }: Props) =>
     <div
