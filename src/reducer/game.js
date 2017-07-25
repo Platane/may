@@ -1,4 +1,4 @@
-import { set } from '../util/redux'
+import { set, merge } from '../util/redux'
 
 import type { Action, State } from './type'
 
@@ -17,11 +17,14 @@ export const reduce = (state: State, action: Action): State => {
                 player => player.id === state.me.id
             )
 
-            return set(
-                state,
-                ['game', 'players', playerIndex, 'bet'],
-                action.value
-            )
+            const player = state.game.players[playerIndex]
+
+            const delta = Math.min(player.bank, action.value - player.bet)
+
+            return merge(state, ['game', 'players', playerIndex], {
+                bet: player.bet + delta,
+                bank: player.bank - delta,
+            })
 
         case 'waitingRoom:update':
             return set(state, ['game'], {
