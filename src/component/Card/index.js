@@ -8,7 +8,7 @@ import type { Card as Card_type } from '../../type'
 
 export type Props = {
     card: Card_type,
-    size: number | 'auto',
+    size: number,
     hidden: boolean,
 }
 
@@ -26,7 +26,13 @@ const color = {
     spade: 'black',
 }
 
-const Verso = () => <div className={style.verso} />
+const Verso = ({ size }) =>
+    <div
+        style={{
+            borderRadius: size / 16,
+        }}
+        className={style.verso}
+    />
 
 export const Card = ({ card, size, hidden }: Props) =>
     <div
@@ -35,21 +41,19 @@ export const Card = ({ card, size, hidden }: Props) =>
         }
         style={{
             color: color[card.color],
-            width: size === 'auto' ? 'auto' : size / 1.4,
-            fontSize: size === 'auto' ? 18 : size / 10,
-            borderRadius: size === 'auto' ? 10 : size / 16,
+            width: size / 1.4,
+            fontSize: size / 10,
+            borderRadius: size / 16,
         }}
     >
         <div className={style.ratio} />
 
         <Recto card={card} size={size} />
 
-        <div className={!hidden ? style.versoHidden : style.versoVisible}>
-            <Verso />
-        </div>
+        <Verso size={size} />
     </div>
 
 Card.defaultProps = {
     hidden: false,
-    size: 'auto',
+    size: 50,
 }

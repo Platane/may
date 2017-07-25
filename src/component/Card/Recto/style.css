@@ -5,21 +5,22 @@
     right: 0;
     bottom: 0;
     background-color: #fff;
+    backface-visibility: hidden;
 }
 .bottom,
 .top {
     position: absolute;
     width: 24%;
-    height: 34%;
+    height: 30%;
     /*background-color: rgba(0, 0, 0, 0.1);*/
 }
 .bottom {
-    right: 2%;
+    right: 1%;
     bottom: 1%;
     transform: rotate(180deg);
 }
 .top {
-    left: 2%;
+    left: 1%;
     top: 1%;
 }
 .value {
@@ -32,4 +33,17 @@
     bottom: 0;
     right: 0;
     left: 0;
+}
+.backgroundColor {
+    position: absolute;
+    text-align: center;
+    /*font-size: 0.8em;*/
+    width: 1em;
+    height: 1em;
+    top: -0.5em;
+    left: -0.5em;
+    /*width: 1px;
+    height: 1px;
+    top: 0;
+    left: 0;*/
 }
