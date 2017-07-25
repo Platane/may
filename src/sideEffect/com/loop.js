@@ -13,6 +13,10 @@ const initWaitingRoom = (): Room_Waiting => ({
 })
 
 const initPlayingRoom = (players): Room_Playing => {
+    players = players
+        .slice()
+        .sort((a, b) => (a.user.name < b.user.name ? 1 : -1))
+
     const game0 = initGame(players.map(player => player.bank), 1)
 
     const playingRoom = {

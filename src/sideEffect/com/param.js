@@ -1,4 +1,4 @@
-export const TURN_DURATION = 40000
+export const TURN_DURATION = 400000
 
 export const WAITING_PING_DELAY = 5000
 

@@ -15,7 +15,8 @@ import type {
 export type Props = {
     players: Player_type[],
     cards: Array<Card_type | Card_hidden>,
-    size: number,
+    width: number,
+    height: number,
     speaker: number | null,
 }
 
@@ -25,44 +26,62 @@ const angleOffset = 147
 
 const cardWidth = 60
 
-const phy = 40
+const phy = 0
+const theta = 0
 
-const worldTransform = size =>
-    `translate3d(${size / 2}px,${size / 2}px,0) rotateX(${phy}deg)`
+const worldTransform = (width, height) =>
+    `translate3d(${width / 2}px,${height / 2 +
+        Math.max(
+            0,
+            0.5 *
+                (height - width) *
+                Math.max(0, Math.min(1, (800 - width) / 100)) *
+                Math.max(0, Math.min(1, 1 - (height - 550) / 200))
+        )}px,0)` +
+    `rotateX(${phy}deg)` +
+    `rotateZ(${theta}deg)`
 
 const cardTransform = i =>
     `translate3d(${(i - 2.5) * cardWidth * 1.1}px,${-cardWidth * 0.7}px,1px)`
 
-const cardTransformBottom = (i, size, phy) =>
+const cardTransformBottom = (i, width, height, phy) =>
     `rotateX(${-phy}deg)` +
-    `translate3d(${(i - 2.5) * cardWidth * 1.1}px,${-size / 1.6 -
-        cardWidth * 0.7}px,0)`
+    `translate3d(` +
+    `${(i - 2.5) * cardWidth * 1.1}px,` +
+    `${(width < height
+        ? (height - width) *
+              Math.max(0, Math.min(1, 1 - (height - 550) / 200)) +
+          height
+        : height) *
+        -0.5 +
+        10}px,` +
+    `0)`
 
-export const Table = ({ players, cards, speaker, size }: Props) =>
+export const Table = ({ players, cards, speaker, width, height }: Props) =>
     <div
         className={style.container}
         style={{
-            width: size,
-            height: size,
+            width,
+            height,
             perspective: '1000px',
         }}
     >
         <div
             className={style.world}
             style={{
-                transform: worldTransform(size),
+                transform: worldTransform(width, height),
             }}
         >
             <Carpet
                 offset={angleOffset / 180 * Math.PI}
                 n={players.length}
-                length={size}
+                length={Math.min(width, height)}
             />
 
             {speaker !== null &&
                 <SpeakerArrow
                     angle={speaker / players.length * 360 + angleOffset}
-                    length={size / 3}
+                    length={Math.min(width, height)}
                 />}
 
             {cards.map((card, i) =>
@@ -71,8 +90,8 @@ export const Table = ({ players, cards, speaker, size }: Props) =>
                     className={style.card}
                     style={{
                         transform:
-                            size < 700
-                                ? cardTransformBottom(i, size, phy)
+                            Math.min(width, height) < 700
+                                ? cardTransformBottom(i, width, height, phy)
                                 : cardTransform(i),
                     }}
                 >
@@ -93,8 +112,9 @@ export const Table = ({ players, cards, speaker, size }: Props) =>
                 >
                     <Player
                         angle={i / players.length * 360 + angleOffset}
+                        seed={i}
                         speaking={speaker === i}
-                        length={size / 2}
+                        length={Math.min(width, height) / 2}
                         phy={phy}
                         player={player}
                     />

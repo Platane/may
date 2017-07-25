@@ -5,6 +5,7 @@
 }
 
 .card {
+    transition: transform 500ms ease;
     transform-style: preserve-3d;
     position: absolute;
     top: 0;

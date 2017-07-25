@@ -45,13 +45,13 @@ export const Game = ({
             style={{
                 width: Math.min(width, height),
                 height: Math.min(width, height),
-                marginTop: width < 700 ? Math.max(0, height - width) * 0.9 : 0,
             }}
         >
             <Table
                 players={game.players}
                 cards={game.cards}
-                size={Math.min(width, height)}
+                width={width}
+                height={height}
                 speaker={game.speaker}
             />
         </div>

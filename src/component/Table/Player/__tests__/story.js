@@ -33,6 +33,7 @@ class Container extends React.Component {
                             folded: false,
                             bank: 16,
                         }}
+                        seed={1}
                         angle={this.state.angle}
                         length={300}
                     />

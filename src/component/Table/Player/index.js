@@ -15,7 +15,7 @@ export type Props = {
     length: number,
 }
 
-export const Player = ({ player, speaking, angle, length, phy }: Props) =>
+export const Player = ({ player, speaking, angle, length, phy, seed }: Props) =>
     <div
         className={style.container}
         style={{
@@ -43,7 +43,7 @@ export const Player = ({ player, speaking, angle, length, phy }: Props) =>
             length={length}
             angle={angle}
             phy={phy}
-            seed={Math.floor(angle * 17.37131)}
+            seed={seed * 17 + 33}
         />
 
         <UserCard
@@ -59,7 +59,7 @@ export const Player = ({ player, speaking, angle, length, phy }: Props) =>
             length={length}
             angle={angle}
             phy={phy}
-            seed={Math.floor(angle * 37.91283)}
+            seed={seed * 31 + 23}
         />
 
         {Array.from({ length: 0 }).map((_, i, arr) =>

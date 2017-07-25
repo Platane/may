@@ -31,7 +31,7 @@ const LEG = 200
 
 const getAnchor = (width, height): Point => ({
     x: width / 2,
-    y: height + LEG - 40,
+    y: height + LEG - 30,
     z: 0,
 })
 
@@ -51,8 +51,8 @@ const initStash = (length, width, height, user) => {
     return Array.from({ length }).map(() => ({
         position: point.addScal(
             c,
-            point.normalize({ x: Math.random() - 0.5, y: -1, z: 0 }),
-            LEG + 20
+            point.normalize({ x: (Math.random() - 0.5) * 0.5, y: -1, z: 0 }),
+            LEG + 40
         ),
         tint: Math.random(),
         user,
