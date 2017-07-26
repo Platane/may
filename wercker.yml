@@ -35,3 +35,28 @@ deploy:
         - takuma7/gh-pages:
             token: $GH_TOKEN
             basedir: dist
+
+
+set-bucket-cors:
+    # https://stackoverflow.com/questions/37760695/firebase-storage-and-access-control-allow-origin
+
+    box:
+        id: google/cloud-sdk
+
+    steps:
+        - script:
+            name: Activate service account
+            code: |
+                echo $GC_JSON_KEY_FILE >> secret.json
+                CLOUDSDK_PYTHON_SITEPACKAGES=1 gcloud auth activate-service-account $GC_ACCOUNT --key-file secret.json
+
+        - script:
+            name: Generate cors.json
+            code: |
+                echo '[{"origin":["*"],"method":["GET"],"maxAgeSeconds":3600}]' > cors.json
+                cat cors.json
+
+        - script:
+            name: set cors for the bucket
+            code: |
+                gsutil cors set cors.json gs://$GC_PROJECT_ID.appspot.com
