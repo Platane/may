@@ -20930,7 +20930,7 @@ exports[`Storyshots Game default 1`] = `
                 className="a012b6d4"
                 style={
                   Object {
-                    "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                    "transform": "translate3d(249px,0,0) rotateX(-90deg)",
                   }
                 }
               >
@@ -21251,60 +21251,6 @@ exports[`Storyshots Game default 1`] = `
                   />
                 </div>
                 <div
-                  className={undefined}
-                >
-                  <div
-                    style={
-                      Object {
-                        "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
-                        "borderRadius": 5,
-                        "height": 10,
-                        "left": -5,
-                        "position": "absolute",
-                        "top": -5,
-                        "transform": "translate3d(0px,22px,20px)",
-                        "width": 10,
-                      }
-                    }
-                  />
-                </div>
-                <div
-                  className={undefined}
-                >
-                  <div
-                    style={
-                      Object {
-                        "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
-                        "borderRadius": 5,
-                        "height": 10,
-                        "left": -5,
-                        "position": "absolute",
-                        "top": -5,
-                        "transform": "translate3d(0px,22px,25px)",
-                        "width": 10,
-                      }
-                    }
-                  />
-                </div>
-                <div
-                  className={undefined}
-                >
-                  <div
-                    style={
-                      Object {
-                        "backgroundColor": "hsl(197, 37%, 29.419354838709676%)",
-                        "borderRadius": 5,
-                        "height": 10,
-                        "left": -5,
-                        "position": "absolute",
-                        "top": -5,
-                        "transform": "translate3d(0px,33px,0px)",
-                        "width": 10,
-                      }
-                    }
-                  />
-                </div>
-                <div
                   className="_0698d558"
                 />
                 <div
@@ -21571,7 +21517,7 @@ exports[`Storyshots Game default 1`] = `
                 className="a012b6d4"
                 style={
                   Object {
-                    "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                    "transform": "translate3d(249px,0,0) rotateX(-90deg)",
                   }
                 }
               >
@@ -21892,114 +21838,6 @@ exports[`Storyshots Game default 1`] = `
                   />
                 </div>
                 <div
-                  className={undefined}
-                >
-                  <div
-                    style={
-                      Object {
-                        "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
-                        "borderRadius": 5,
-                        "height": 10,
-                        "left": -5,
-                        "position": "absolute",
-                        "top": -5,
-                        "transform": "translate3d(0px,22px,20px)",
-                        "width": 10,
-                      }
-                    }
-                  />
-                </div>
-                <div
-                  className={undefined}
-                >
-                  <div
-                    style={
-                      Object {
-                        "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
-                        "borderRadius": 5,
-                        "height": 10,
-                        "left": -5,
-                        "position": "absolute",
-                        "top": -5,
-                        "transform": "translate3d(0px,22px,25px)",
-                        "width": 10,
-                      }
-                    }
-                  />
-                </div>
-                <div
-                  className={undefined}
-                >
-                  <div
-                    style={
-                      Object {
-                        "backgroundColor": "hsl(197, 37%, 29.419354838709676%)",
-                        "borderRadius": 5,
-                        "height": 10,
-                        "left": -5,
-                        "position": "absolute",
-                        "top": -5,
-                        "transform": "translate3d(0px,33px,0px)",
-                        "width": 10,
-                      }
-                    }
-                  />
-                </div>
-                <div
-                  className={undefined}
-                >
-                  <div
-                    style={
-                      Object {
-                        "backgroundColor": "hsl(197, 37%, 20.387096774193548%)",
-                        "borderRadius": 5,
-                        "height": 10,
-                        "left": -5,
-                        "position": "absolute",
-                        "top": -5,
-                        "transform": "translate3d(0px,33px,5px)",
-                        "width": 10,
-                      }
-                    }
-                  />
-                </div>
-                <div
-                  className={undefined}
-                >
-                  <div
-                    style={
-                      Object {
-                        "backgroundColor": "hsl(197, 37%, 31.35483870967742%)",
-                        "borderRadius": 5,
-                        "height": 10,
-                        "left": -5,
-                        "position": "absolute",
-                        "top": -5,
-                        "transform": "translate3d(0px,33px,10px)",
-                        "width": 10,
-                      }
-                    }
-                  />
-                </div>
-                <div
-                  className={undefined}
-                >
-                  <div
-                    style={
-                      Object {
-                        "backgroundColor": "hsl(197, 37%, 22.32258064516129%)",
-                        "borderRadius": 5,
-                        "height": 10,
-                        "left": -5,
-                        "position": "absolute",
-                        "top": -5,
-                        "transform": "translate3d(0px,33px,15px)",
-                        "width": 10,
-                      }
-                    }
-                  />
-                </div>
-                <div
                   className="_0698d558"
                 />
                 <div
@@ -22230,7 +22068,7 @@ exports[`Storyshots Game default 1`] = `
                 className="a012b6d4"
                 style={
                   Object {
-                    "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                    "transform": "translate3d(249px,0,0) rotateX(-90deg)",
                   }
                 }
               >
@@ -22545,150 +22383,6 @@ exports[`Storyshots Game default 1`] = `
                         "position": "absolute",
                         "top": -5,
                         "transform": "translate3d(0px,22px,15px)",
-                        "width": 10,
-                      }
-                    }
-                  />
-                </div>
-                <div
-                  className={undefined}
-                >
-                  <div
-                    style={
-                      Object {
-                        "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
-                        "borderRadius": 5,
-                        "height": 10,
-                        "left": -5,
-                        "position": "absolute",
-                        "top": -5,
-                        "transform": "translate3d(0px,22px,20px)",
-                        "width": 10,
-                      }
-                    }
-                  />
-                </div>
-                <div
-                  className={undefined}
-                >
-                  <div
-                    style={
-                      Object {
-                        "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
-                        "borderRadius": 5,
-                        "height": 10,
-                        "left": -5,
-                        "position": "absolute",
-                        "top": -5,
-                        "transform": "translate3d(0px,22px,25px)",
-                        "width": 10,
-                      }
-                    }
-                  />
-                </div>
-                <div
-                  className={undefined}
-                >
-                  <div
-                    style={
-                      Object {
-                        "backgroundColor": "hsl(197, 37%, 29.419354838709676%)",
-                        "borderRadius": 5,
-                        "height": 10,
-                        "left": -5,
-                        "position": "absolute",
-                        "top": -5,
-                        "transform": "translate3d(0px,33px,0px)",
-                        "width": 10,
-                      }
-                    }
-                  />
-                </div>
-                <div
-                  className={undefined}
-                >
-                  <div
-                    style={
-                      Object {
-                        "backgroundColor": "hsl(197, 37%, 20.387096774193548%)",
-                        "borderRadius": 5,
-                        "height": 10,
-                        "left": -5,
-                        "position": "absolute",
-                        "top": -5,
-                        "transform": "translate3d(0px,33px,5px)",
-                        "width": 10,
-                      }
-                    }
-                  />
-                </div>
-                <div
-                  className={undefined}
-                >
-                  <div
-                    style={
-                      Object {
-                        "backgroundColor": "hsl(197, 37%, 31.35483870967742%)",
-                        "borderRadius": 5,
-                        "height": 10,
-                        "left": -5,
-                        "position": "absolute",
-                        "top": -5,
-                        "transform": "translate3d(0px,33px,10px)",
-                        "width": 10,
-                      }
-                    }
-                  />
-                </div>
-                <div
-                  className={undefined}
-                >
-                  <div
-                    style={
-                      Object {
-                        "backgroundColor": "hsl(197, 37%, 22.32258064516129%)",
-                        "borderRadius": 5,
-                        "height": 10,
-                        "left": -5,
-                        "position": "absolute",
-                        "top": -5,
-                        "transform": "translate3d(0px,33px,15px)",
-                        "width": 10,
-                      }
-                    }
-                  />
-                </div>
-                <div
-                  className={undefined}
-                >
-                  <div
-                    style={
-                      Object {
-                        "backgroundColor": "hsl(197, 37%, 13.290322580645162%)",
-                        "borderRadius": 5,
-                        "height": 10,
-                        "left": -5,
-                        "position": "absolute",
-                        "top": -5,
-                        "transform": "translate3d(0px,33px,20px)",
-                        "width": 10,
-                      }
-                    }
-                  />
-                </div>
-                <div
-                  className={undefined}
-                >
-                  <div
-                    style={
-                      Object {
-                        "backgroundColor": "hsl(197, 37%, 24.258064516129032%)",
-                        "borderRadius": 5,
-                        "height": 10,
-                        "left": -5,
-                        "position": "absolute",
-                        "top": -5,
-                        "transform": "translate3d(0px,33px,25px)",
                         "width": 10,
                       }
                     }
@@ -23048,7 +22742,13 @@ exports[`Storyshots ImageInput default 1`] = `
 `;
 
 exports[`Storyshots Player dynamic rotate 1`] = `
-<div>
+<div
+  style={
+    Object {
+      "perspective": "1000px",
+    }
+  }
+>
   <input
     max={1440}
     min={0}
@@ -23065,7 +22765,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
   <div
     style={
       Object {
-        "transform": "translate3d(300px,300px,0)",
+        "transform": "translate3d(300px,300px,0) rotateX(45deg)",
       }
     }
   >
@@ -23457,7 +23157,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
         className="a012b6d4"
         style={
           Object {
-            "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+            "transform": "translate3d(249px,0,0) rotateX(-90deg)",
           }
         }
       >
@@ -24630,7 +24330,7 @@ exports[`Storyshots Table 2 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -25191,7 +24891,7 @@ exports[`Storyshots Table 2 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -25215,6 +24915,14 @@ exports[`Storyshots Table 2 players 1`] = `
               />
             </div>
           </div>
+          <div
+            className="a3df60e9"
+            style={
+              Object {
+                "transform": "translate3d(210px,0,0)",
+              }
+            }
+          />
           <div
             className="b03e6f5a"
             style={
@@ -26334,7 +26042,7 @@ exports[`Storyshots Table 3 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -26895,7 +26603,7 @@ exports[`Storyshots Table 3 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -26919,6 +26627,14 @@ exports[`Storyshots Table 3 players 1`] = `
               />
             </div>
           </div>
+          <div
+            className="a3df60e9"
+            style={
+              Object {
+                "transform": "translate3d(210px,0,0)",
+              }
+            }
+          />
           <div
             className="b03e6f5a"
             style={
@@ -27496,7 +27212,7 @@ exports[`Storyshots Table 3 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -27811,42 +27527,6 @@ exports[`Storyshots Table 3 players 1`] = `
                     "position": "absolute",
                     "top": -5,
                     "transform": "translate3d(0px,22px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,25px)",
                     "width": 10,
                   }
                 }
@@ -28715,7 +28395,7 @@ exports[`Storyshots Table 4 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -29276,7 +28956,7 @@ exports[`Storyshots Table 4 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -29300,6 +28980,14 @@ exports[`Storyshots Table 4 players 1`] = `
               />
             </div>
           </div>
+          <div
+            className="a3df60e9"
+            style={
+              Object {
+                "transform": "translate3d(210px,0,0)",
+              }
+            }
+          />
           <div
             className="b03e6f5a"
             style={
@@ -29877,7 +29565,7 @@ exports[`Storyshots Table 4 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -30192,42 +29880,6 @@ exports[`Storyshots Table 4 players 1`] = `
                     "position": "absolute",
                     "top": -5,
                     "transform": "translate3d(0px,22px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,25px)",
                     "width": 10,
                   }
                 }
@@ -30608,7 +30260,7 @@ exports[`Storyshots Table 4 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -30923,114 +30575,6 @@ exports[`Storyshots Table 4 players 1`] = `
                     "position": "absolute",
                     "top": -5,
                     "transform": "translate3d(0px,22px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,25px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 29.419354838709676%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,0px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 20.387096774193548%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,5px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 31.35483870967742%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,10px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 22.32258064516129%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,15px)",
                     "width": 10,
                   }
                 }
@@ -31911,7 +31455,7 @@ exports[`Storyshots Table 7 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -32472,7 +32016,7 @@ exports[`Storyshots Table 7 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -32496,6 +32040,14 @@ exports[`Storyshots Table 7 players 1`] = `
               />
             </div>
           </div>
+          <div
+            className="a3df60e9"
+            style={
+              Object {
+                "transform": "translate3d(210px,0,0)",
+              }
+            }
+          />
           <div
             className="b03e6f5a"
             style={
@@ -33073,7 +32625,7 @@ exports[`Storyshots Table 7 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -33388,42 +32940,6 @@ exports[`Storyshots Table 7 players 1`] = `
                     "position": "absolute",
                     "top": -5,
                     "transform": "translate3d(0px,22px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,25px)",
                     "width": 10,
                   }
                 }
@@ -33804,7 +33320,7 @@ exports[`Storyshots Table 7 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -34119,114 +33635,6 @@ exports[`Storyshots Table 7 players 1`] = `
                     "position": "absolute",
                     "top": -5,
                     "transform": "translate3d(0px,22px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,25px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 29.419354838709676%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,0px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 20.387096774193548%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,5px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 31.35483870967742%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,10px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 22.32258064516129%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,15px)",
                     "width": 10,
                   }
                 }
@@ -34555,7 +33963,7 @@ exports[`Storyshots Table 7 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -34870,150 +34278,6 @@ exports[`Storyshots Table 7 players 1`] = `
                     "position": "absolute",
                     "top": -5,
                     "transform": "translate3d(0px,22px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,25px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 29.419354838709676%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,0px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 20.387096774193548%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,5px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 31.35483870967742%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,10px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 22.32258064516129%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 13.290322580645162%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 24.258064516129032%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,25px)",
                     "width": 10,
                   }
                 }
@@ -35420,7 +34684,7 @@ exports[`Storyshots Table 7 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -35735,150 +34999,6 @@ exports[`Storyshots Table 7 players 1`] = `
                     "position": "absolute",
                     "top": -5,
                     "transform": "translate3d(0px,22px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,25px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 29.419354838709676%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,0px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 20.387096774193548%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,5px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 31.35483870967742%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,10px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 22.32258064516129%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 13.290322580645162%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 24.258064516129032%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,25px)",
                     "width": 10,
                   }
                 }
@@ -36363,7 +35483,7 @@ exports[`Storyshots Table 7 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -36678,150 +35798,6 @@ exports[`Storyshots Table 7 players 1`] = `
                     "position": "absolute",
                     "top": -5,
                     "transform": "translate3d(0px,22px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,25px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 29.419354838709676%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,0px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 20.387096774193548%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,5px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 31.35483870967742%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,10px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 22.32258064516129%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 13.290322580645162%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 24.258064516129032%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,25px)",
                     "width": 10,
                   }
                 }
@@ -37706,7 +36682,7 @@ exports[`Storyshots Table 8 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -38267,7 +37243,7 @@ exports[`Storyshots Table 8 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -38291,6 +37267,14 @@ exports[`Storyshots Table 8 players 1`] = `
               />
             </div>
           </div>
+          <div
+            className="a3df60e9"
+            style={
+              Object {
+                "transform": "translate3d(210px,0,0)",
+              }
+            }
+          />
           <div
             className="b03e6f5a"
             style={
@@ -38868,7 +37852,7 @@ exports[`Storyshots Table 8 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -39183,42 +38167,6 @@ exports[`Storyshots Table 8 players 1`] = `
                     "position": "absolute",
                     "top": -5,
                     "transform": "translate3d(0px,22px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,25px)",
                     "width": 10,
                   }
                 }
@@ -39599,7 +38547,7 @@ exports[`Storyshots Table 8 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -39914,114 +38862,6 @@ exports[`Storyshots Table 8 players 1`] = `
                     "position": "absolute",
                     "top": -5,
                     "transform": "translate3d(0px,22px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,25px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 29.419354838709676%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,0px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 20.387096774193548%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,5px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 31.35483870967742%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,10px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 22.32258064516129%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,15px)",
                     "width": 10,
                   }
                 }
@@ -40350,7 +39190,7 @@ exports[`Storyshots Table 8 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -40665,150 +39505,6 @@ exports[`Storyshots Table 8 players 1`] = `
                     "position": "absolute",
                     "top": -5,
                     "transform": "translate3d(0px,22px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,25px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 29.419354838709676%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,0px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 20.387096774193548%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,5px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 31.35483870967742%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,10px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 22.32258064516129%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 13.290322580645162%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 24.258064516129032%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,25px)",
                     "width": 10,
                   }
                 }
@@ -41215,7 +39911,7 @@ exports[`Storyshots Table 8 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -41530,150 +40226,6 @@ exports[`Storyshots Table 8 players 1`] = `
                     "position": "absolute",
                     "top": -5,
                     "transform": "translate3d(0px,22px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,25px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 29.419354838709676%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,0px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 20.387096774193548%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,5px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 31.35483870967742%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,10px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 22.32258064516129%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 13.290322580645162%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 24.258064516129032%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,25px)",
                     "width": 10,
                   }
                 }
@@ -42158,7 +40710,7 @@ exports[`Storyshots Table 8 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -42473,150 +41025,6 @@ exports[`Storyshots Table 8 players 1`] = `
                     "position": "absolute",
                     "top": -5,
                     "transform": "translate3d(0px,22px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,25px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 29.419354838709676%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,0px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 20.387096774193548%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,5px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 31.35483870967742%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,10px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 22.32258064516129%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 13.290322580645162%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 24.258064516129032%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,25px)",
                     "width": 10,
                   }
                 }
@@ -43049,7 +41457,7 @@ exports[`Storyshots Table 8 players 1`] = `
             className="a012b6d4"
             style={
               Object {
-                "transform": "translate3d(240px,0,0) rotateX(-90deg)",
+                "transform": "translate3d(249px,0,0) rotateX(-90deg)",
               }
             }
           >
@@ -43364,150 +41772,6 @@ exports[`Storyshots Table 8 players 1`] = `
                     "position": "absolute",
                     "top": -5,
                     "transform": "translate3d(0px,22px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 27.483870967741936%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 18.451612903225808%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,22px,25px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 29.419354838709676%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,0px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 20.387096774193548%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,5px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 31.35483870967742%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,10px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 22.32258064516129%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,15px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 13.290322580645162%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,20px)",
-                    "width": 10,
-                  }
-                }
-              />
-            </div>
-            <div
-              className={undefined}
-            >
-              <div
-                style={
-                  Object {
-                    "backgroundColor": "hsl(197, 37%, 24.258064516129032%)",
-                    "borderRadius": 5,
-                    "height": 10,
-                    "left": -5,
-                    "position": "absolute",
-                    "top": -5,
-                    "transform": "translate3d(0px,33px,25px)",
                     "width": 10,
                   }
                 }

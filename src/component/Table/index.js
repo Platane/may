@@ -18,6 +18,7 @@ export type Props = {
     width: number,
     height: number,
     speaker: number | null,
+    winner: number | null,
     theta: number,
     phy: number,
 }
@@ -56,6 +57,7 @@ export const Table = ({
     players,
     cards,
     speaker,
+    winner,
     width,
     height,
     theta,
@@ -116,7 +118,8 @@ export const Table = ({
                     <Player
                         angle={i / players.length * 360 + theta}
                         seed={i}
-                        speaking={speaker === i}
+                        speaker={speaker === i}
+                        winner={winner === i}
                         length={Math.min(width, height) / 2}
                         phy={phy}
                         player={player}

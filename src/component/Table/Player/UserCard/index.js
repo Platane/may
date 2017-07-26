@@ -8,15 +8,15 @@ export type Props = {
     angle: number,
     length: number,
     phy: number,
-    speaking: boolean,
+    speaker: boolean,
 }
 
-const userCardLength = 0.8
+const userCardLength = 0.83
 
 const transform = (angle, length, phy) =>
     `translate3d(${length * userCardLength}px,0,0) rotateX(${-90}deg)`
 
-export const UserCard = ({ player, angle, length, phy, speaking }: Props) =>
+export const UserCard = ({ player, angle, length, phy, speaker }: Props) =>
     <div
         className={style.container}
         style={{
@@ -25,7 +25,7 @@ export const UserCard = ({ player, angle, length, phy, speaking }: Props) =>
     >
         <div
             className={
-                style.userCard + ' ' + (speaking ? style.userSpeaking : '')
+                style.userCard + ' ' + (speaker ? style.userSpeaking : '')
             }
         >
             <div className={style.userBar} />

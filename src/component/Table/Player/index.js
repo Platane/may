@@ -2,6 +2,7 @@ import React from 'react'
 import { Hand } from './Hand'
 import { UserCard } from './UserCard'
 import { BetStash } from './BetStash'
+import { MoneyRain } from './MoneyRain/anim'
 import { Bank } from './Bank'
 import style from './style.css'
 
@@ -9,14 +10,23 @@ import type { Player as Player_type } from '../../../type'
 
 export type Props = {
     player: Player_type,
-    speaking: boolean,
+    speaker: boolean,
+    winner: boolean,
     phy: number,
     angle: number,
     length: number,
     seed: number,
 }
 
-export const Player = ({ player, speaking, angle, length, phy, seed }: Props) =>
+export const Player = ({
+    player,
+    winner,
+    speaker,
+    angle,
+    length,
+    phy,
+    seed,
+}: Props) =>
     <div
         className={style.container}
         style={{
@@ -49,11 +59,19 @@ export const Player = ({ player, speaking, angle, length, phy, seed }: Props) =>
 
         <UserCard
             player={player}
-            speaking={speaking}
+            speaker={speaker}
             length={length}
             angle={angle}
             phy={phy}
         />
+
+        {winner &&
+            <MoneyRain
+                key={player.id}
+                length={length}
+                angle={angle}
+                phy={phy}
+            />}
 
         <Bank
             bank={player.bank}

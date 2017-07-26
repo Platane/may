@@ -13,7 +13,11 @@ class Container extends React.Component {
 
     render() {
         return (
-            <div>
+            <div
+                style={{
+                    perspective: '1000px',
+                }}
+            >
                 <input
                     value={this.state.angle}
                     type="range"
@@ -23,7 +27,11 @@ class Container extends React.Component {
                     onChange={e => this.setAngle(+e.target.value)}
                     style={{ width: '100%' }}
                 />
-                <div style={{ transform: 'translate3d(300px,300px,0)' }}>
+                <div
+                    style={{
+                        transform: 'translate3d(300px,300px,0) rotateX(45deg)',
+                    }}
+                >
                     <Player
                         player={{
                             ...users[0],

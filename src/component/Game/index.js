@@ -53,6 +53,7 @@ export const Game = ({
                 width={width}
                 height={height}
                 speaker={game.speaker}
+                winner={game.winner || null}
                 theta={30}
                 phy={30}
             />

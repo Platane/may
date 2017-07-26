@@ -22,7 +22,7 @@ export const Bank = ({ bank, angle, length, phy, seed }: Props) =>
             transform: `translate3d(${length * stashLength}px,0,0)`,
         }}
     >
-        {Array.from({ length: Math.min(bank, 24) }).map((_, i) =>
+        {Array.from({ length: Math.min(bank, 16) }).map((_, i) =>
             <div key={i} className={style.tokenWrapper}>
                 <Token seed={i} length={length} stack />
             </div>

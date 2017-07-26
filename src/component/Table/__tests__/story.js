@@ -54,6 +54,10 @@ class Container extends React.Component {
 
 ;[2, 3, 4, 7, 8].forEach(n =>
     storiesOf('Table', module).add(`${n} players`, () =>
-        <Container cards={cards.slice(0, 5)} players={players.slice(0, n)} />
+        <Container
+            cards={cards.slice(0, 5)}
+            players={players.slice(0, n)}
+            winner={1}
+        />
     )
 )
