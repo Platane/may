@@ -14,24 +14,28 @@ export type Props = {
 const userCardLength = 0.8
 
 const transform = (angle, length, phy) =>
-    `translate3d(${length * userCardLength}px,0,0)` +
-    `rotate3d(0,0,1,${-angle}deg)` +
-    `rotate3d(1,0,0,${-phy}deg)`
+    `translate3d(${length * userCardLength}px,0,0) rotateX(${-90}deg)`
 
-export const UserCard = ({ player, angle, length, phy, seed }: Props) =>
+export const UserCard = ({ player, angle, length, phy, speaking }: Props) =>
     <div
         className={style.container}
         style={{
             transform: transform(angle, length, phy),
         }}
     >
-        <div className={style.userCard}>
+        <div
+            className={
+                style.userCard + ' ' + (speaking ? style.userSpeaking : '')
+            }
+        >
             <div className={style.userBar} />
+            <div className={style.userBar2} />
 
             <div
                 className={style.userCardPic}
                 style={{
                     backgroundImage: `url(${player.pic[player.mood]})`,
+                    transform: ` rotateY(${angle}deg)  rotateX(${90 - phy}deg)`,
                 }}
             />
         </div>

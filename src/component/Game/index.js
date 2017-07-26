@@ -53,6 +53,8 @@ export const Game = ({
                 width={width}
                 height={height}
                 speaker={game.speaker}
+                theta={30}
+                phy={30}
             />
         </div>
 

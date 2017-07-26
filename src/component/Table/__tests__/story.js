@@ -10,18 +10,50 @@ const players = Array.from({ length: 16 }).map((_, i) => ({
     id: i,
     hand: [cards[i * 3 % cards.length], cards[(i * 3 + 17) % cards.length]],
     mood: 'happy',
-    bank: i,
+    bank: 10 + i * 4,
     bet: i,
     folded: i % 4 === 2,
 }))
-;[2, 3, 4, 8].forEach(n =>
+
+class Container extends React.Component {
+    state = { phy: 40, theta: 0 }
+
+    render() {
+        return (
+            <div style={{ backgroundColor: '#c1d37f' }}>
+                <input
+                    value={this.state.phy}
+                    type="range"
+                    min={-180}
+                    max={180}
+                    step={0.001}
+                    onChange={e => this.setState({ phy: +e.target.value })}
+                    style={{ width: '100%' }}
+                />
+                <input
+                    value={this.state.theta}
+                    type="range"
+                    min={-180}
+                    max={180}
+                    step={0.001}
+                    onChange={e => this.setState({ theta: +e.target.value })}
+                    style={{ width: '100%' }}
+                />
+                <Table
+                    {...this.props}
+                    phy={this.state.phy}
+                    theta={this.state.theta}
+                    speaker={null}
+                    width={600}
+                    height={600}
+                />
+            </div>
+        )
+    }
+}
+
+;[2, 3, 4, 7, 8].forEach(n =>
     storiesOf('Table', module).add(`${n} players`, () =>
-        <div style={{ backgroundColor: '#c1d37f' }}>
-            <Table
-                size={800}
-                cards={cards.slice(0, 5)}
-                players={players.slice(0, n)}
-            />
-        </div>
+        <Container cards={cards.slice(0, 5)} players={players.slice(0, n)} />
     )
 )

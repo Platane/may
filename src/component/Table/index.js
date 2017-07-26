@@ -18,18 +18,15 @@ export type Props = {
     width: number,
     height: number,
     speaker: number | null,
+    theta: number,
+    phy: number,
 }
 
 const blankCard = { color: 'diamond', value: '1' }
 
-const angleOffset = 147
-
 const cardWidth = 68
 
-const phy = 40
-const theta = 0
-
-const worldTransform = (width, height) =>
+const worldTransform = (width, height, phy) =>
     `translate3d(${width / 2}px,${height / 2 +
         Math.max(
             0,
@@ -37,9 +34,7 @@ const worldTransform = (width, height) =>
                 (height - width) *
                 Math.max(0, Math.min(1, (800 - width) / 100)) *
                 Math.max(0, Math.min(1, 1 - (height - 550) / 200))
-        )}px,0)` +
-    `rotateX(${phy}deg)` +
-    `rotateZ(${theta}deg)`
+        )}px,0)` + `rotateX(${phy}deg)`
 
 const cardTransform = i =>
     `translate3d(${(i - 2.5) * cardWidth * 1.1}px,${-cardWidth * 0.7}px,1px)`
@@ -57,7 +52,15 @@ const cardTransformBottom = (i, width, height, phy) =>
         cardWidth * 0.5}px,` +
     `0)`
 
-export const Table = ({ players, cards, speaker, width, height }: Props) =>
+export const Table = ({
+    players,
+    cards,
+    speaker,
+    width,
+    height,
+    theta,
+    phy,
+}: Props) =>
     <div
         className={style.container}
         style={{
@@ -69,18 +72,18 @@ export const Table = ({ players, cards, speaker, width, height }: Props) =>
         <div
             className={style.world}
             style={{
-                transform: worldTransform(width, height),
+                transform: worldTransform(width, height, phy),
             }}
         >
             <Carpet
-                offset={angleOffset / 180 * Math.PI}
+                offset={theta / 180 * Math.PI}
                 n={players.length}
                 length={Math.min(width, height)}
             />
 
             {speaker !== null &&
                 <SpeakerArrow
-                    angle={speaker / players.length * 360 + angleOffset}
+                    angle={speaker / players.length * 360 + theta}
                     length={Math.min(width, height)}
                 />}
 
@@ -111,7 +114,7 @@ export const Table = ({ players, cards, speaker, width, height }: Props) =>
                     }}
                 >
                     <Player
-                        angle={i / players.length * 360 + angleOffset}
+                        angle={i / players.length * 360 + theta}
                         seed={i}
                         speaking={speaker === i}
                         length={Math.min(width, height) / 2}
@@ -122,3 +125,8 @@ export const Table = ({ players, cards, speaker, width, height }: Props) =>
             )}
         </div>
     </div>
+
+Table.defaultProps = {
+    phy: 0,
+    theta: 0,
+}

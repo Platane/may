@@ -13,6 +13,7 @@ export type Props = {
     phy: number,
     angle: number,
     length: number,
+    seed: number,
 }
 
 export const Player = ({ player, speaking, angle, length, phy, seed }: Props) =>
@@ -61,16 +62,4 @@ export const Player = ({ player, speaking, angle, length, phy, seed }: Props) =>
             phy={phy}
             seed={seed * 31 + 23}
         />
-
-        {Array.from({ length: 0 }).map((_, i, arr) =>
-            <div
-                className={style.probe}
-                key={i}
-                style={{
-                    transform: `translate3d(${i / arr.length * length}px,0,0)`,
-                }}
-            >
-                <div className={style.center} />
-            </div>
-        )}
     </div>

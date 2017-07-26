@@ -12,26 +12,45 @@
     left: -30px;
     width: 60px;
     height: 130px;
+    transform-style: preserve-3d;
 }
 .userCardPic {
+    transform-style: preserve-3d;
     width: 52px;
     height: 52px;
     border-radius: 50%;
     background-size: cover;
     background-position: center;
-    border: solid 4px #fff;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+    border: solid 4px #2a9d8f;
+    /*box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);*/
+
+    transition: border-color 300ms ease;
 
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.userBar {
-    width: 2px;
+.userBar,
+.userBar2 {
+    transform-style: preserve-3d;
+    width: 4px;
     position: absolute;
     top: 60px;
     bottom: 0;
-    left: calc(50% - 1px);
+    left: calc(50% - 4px);
+    background-color: #2a9d8f;
+    transition: background-color 300ms ease;
+}
+.userBar2 {
+    transform: rotateY(90deg);
+}
+
+.userSpeaking .userBar,
+.userSpeaking .userBar2 {
     background-color: #fff;
+}
+.userSpeaking .userCardPic {
+    border-color: #fff;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.6);
 }
