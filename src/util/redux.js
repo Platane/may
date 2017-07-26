@@ -6,6 +6,18 @@ export const chainReducer = <State, Action>(
 const isObject = (a: any): boolean =>
     !!(a && typeof a === 'object' && !Array.isArray(a))
 
+/**
+ * set a property in a nested structure, return a cloned structure
+ * create the property parent if it does not exist
+ *
+ * @param source : a object / array structure to clone
+ * @param path : array of property name ( or index for array )
+ * @param value : new value
+ *
+ *
+ * example:  set( object, ['path', 'to', 'array', 1 ], 18 )
+ *
+ */
 export const set = (
     source: any,
     [key, ...rest]: (string | number)[],
@@ -35,6 +47,10 @@ export const set = (
 const get = (source: any, [key, ...rest]: (string | number)[]) =>
     !key && key !== 0 ? source : get((source || {})[key], rest)
 
+/**
+ * same as set, but the value to set is an object, which will be merge
+ *
+ */
 export const merge = (
     source: any,
     path: (string | number)[],
