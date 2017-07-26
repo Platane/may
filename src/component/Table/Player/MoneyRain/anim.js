@@ -3,9 +3,9 @@ import { MoneyRain as SimpleMoneyRain } from './index'
 
 import type { Point } from '../../../../util/math/point'
 
-const MAX_ENTITIES = 36
-const Y_VELOCITY = 0.03
-const DURATION = 14000
+const MAX_ENTITIES = 8
+const Y_VELOCITY = 0.04
+const DURATION = 12000
 
 const aPhy = 0.003
 const aRho = 0.00056
@@ -41,15 +41,15 @@ export class MoneyRain extends React.Component {
                 {
                     t: Math.random() * DURATION * 0.001,
                     pos0: {
-                        x: (Math.random() - 0.5) * 80,
-                        y: (Math.random() - 0.5) * 80,
+                        x: (Math.random() - 0.5) * 100,
+                        y: (Math.random() - 0.5) * 100,
                         z: Y_VELOCITY * DURATION * 0.9,
                     },
                     phy: Math.random() * Math.PI * 2,
                     rho: Math.random() * Math.PI * 2,
                     r: Math.random() * 30 + 30,
 
-                    pos: { x: 0, y: 0, z: 1 },
+                    pos: { x: 0, y: 0, z: 10 },
                     opacity: 0,
                     tint: Math.random(),
                     rz: 0,
@@ -62,8 +62,8 @@ export class MoneyRain extends React.Component {
             .map(particule => {
                 const { t, phy, rho, r, pos0 } = particule
 
-                // position
-                if (particule.pos.z > 0) {
+                if (particule.pos.z > 3) {
+                    // position
                     particule.pos.x =
                         pos0.x +
                         Math.sin(t * aRho + rho) * Math.sin(t * aPhy + phy) * r
@@ -75,25 +75,28 @@ export class MoneyRain extends React.Component {
                     particule.pos.z =
                         pos0.z -
                         Y_VELOCITY * t +
-                        -Math.abs(Math.cos(t * aPhy + phy)) * 20
+                        -Math.abs(
+                            Math.cos(t * aPhy + phy) * Math.cos(t * aPhy + phy)
+                        ) *
+                            20
 
-                    particule.pos.z = Math.max(particule.pos.z, 0)
-                }
+                    particule.pos.z = Math.max(particule.pos.z, 3)
 
-                // rotation
-                particule.rz = -(t * aRho + rho) + Math.PI / 2
-                particule.ry = -Math.sin(t * aPhy + phy) * 0.4
-                particule.ry =
-                    particule.ry *
-                    Math.max(
-                        0,
-                        Math.min(
-                            1,
-                            1 -
-                                (particule.t - DURATION * 0.75) /
-                                    (DURATION * 0.08)
+                    // rotation
+                    particule.rz = -(t * aRho + rho) + Math.PI / 2
+                    particule.ry = -Math.sin(t * aPhy + phy) * 0.4
+                    particule.ry =
+                        particule.ry *
+                        Math.max(
+                            0,
+                            Math.min(
+                                1,
+                                1 -
+                                    (particule.t - DURATION * 0.75) /
+                                        (DURATION * 0.08)
+                            )
                         )
-                    )
+                }
 
                 // incr t
                 particule.t = particule.t + delta

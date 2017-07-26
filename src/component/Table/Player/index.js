@@ -67,6 +67,7 @@ export const Player = ({
 
         {winner &&
             <MoneyRain
+                user={player}
                 key={player.id}
                 length={length}
                 angle={angle}

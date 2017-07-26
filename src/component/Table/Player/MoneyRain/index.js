@@ -1,4 +1,5 @@
 import React from 'react'
+import { Dollar } from '../../../Dollar'
 import style from './style.css'
 
 import type { Player } from '../../../../type'
@@ -18,11 +19,12 @@ export type Props = {
 
 const l = 0.7
 
-const color = (tint, pos) =>
-    `hsl(${Math.floor(tint * 3) / 3 * 360},${Math.min(1, pos.z / 100) * 30 +
-        40}%,${70}%)`
+const getOpacity = (tint, pos) =>
+    (tint * 0.5 + 0.5) *
+    (0.5 + 0.5 * Math.max(0, Math.min(1, 1 + pos.x / 100))) *
+    Math.max(0, Math.min(1, 1 - pos.z / 200))
 
-export const MoneyRain = ({ angle, length, particules }: Props) =>
+export const MoneyRain = ({ angle, length, particules, user }: Props) =>
     <div
         className={style.container}
         style={{
@@ -41,11 +43,18 @@ export const MoneyRain = ({ angle, length, particules }: Props) =>
                         `rotateY(${ry}rad)`,
                 }}
             >
+                <Dollar size={70} user={user} />
+
                 <div
-                    key={i}
-                    className={style.confetti}
-                    style={{ backgroundColor: color(tint, pos) }}
+                    className={style.tint}
+                    style={{ opacity: getOpacity(tint, pos) }}
                 />
             </div>
         )}
     </div>
+
+// <div
+//     key={i}
+//     className={style.confetti}
+//     style={{ backgroundColor: color(tint, pos) }}
+//     />

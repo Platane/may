@@ -6,13 +6,22 @@
     transition: transform 500ms ease;
 }
 .confettiWrapper {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    top: -10px;
+    left: -15px;
 }
 .confetti {
     transform-origin: center;
     position: absolute;
-    width: 30px;
-    height: 20px;
-    border-radius: 50%;
-    top: -10px;
-    left: -15px;
+}
+.tint {
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: calc(336 / 800 * 70px);
+    background-color: rgba(0, 0, 0, 0.5);
 }
