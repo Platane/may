@@ -8,15 +8,21 @@ export type Action = Action_
 export type Path = null | ['gate'] | ['table', string]
 
 type Game_waiting = {
-    waiting: true,
+    state: 'waiting',
     users: User[],
     start_at: number,
 }
 
 type Game_playing = {
     ...Game,
-
+    state: 'playing',
     end_turn_at: number,
+}
+
+type Game_over = {
+    ...Game,
+    state: 'over',
+    winner: number,
 }
 
 export type State = {
@@ -24,6 +30,8 @@ export type State = {
         path: Path,
 
         tableToJoin: string | null,
+
+        winningState: false,
     },
 
     game: Game_playing | Game_waiting | null,
@@ -31,6 +39,8 @@ export type State = {
     me: User | null,
 
     nextMove: GameAction | null,
+
+    previousGame: Game_over | null,
 }
 
 // export type Store = ReduxStore<State, Action>

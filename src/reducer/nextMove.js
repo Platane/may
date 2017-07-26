@@ -30,7 +30,7 @@ export const reduce = (state: State, action: Action): State => {
 
     if (
         !state.game ||
-        state.game.waiting ||
+        state.game.state !== 'playing' ||
         !state.me ||
         state.game.speaker !== playerIndex
     )

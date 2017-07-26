@@ -37,7 +37,7 @@ const worldTransform = (width, height, phy) =>
         )}px,0)` + `rotateX(${phy}deg)`
 
 const cardTransform = i =>
-    `translate3d(${(i - 2.5) * cardWidth * 1.1}px,${-cardWidth * 0.7}px,1px)`
+    `translate3d(${(i - 2.5) * cardWidth * 1.1}px,${-cardWidth * 0.7}px,2px)`
 
 const cardTransformBottom = (i, width, height, phy) =>
     `rotateX(${-phy}deg)` +

@@ -1,9 +1,10 @@
 import { toHiddenGame } from '../../service/gameSolver/toHiddenGame'
 import * as PARAM from './param'
+import { reduce } from '../../service/gameSolver/solver'
 
 import type { Game } from '../../type'
 import type { Game_Running, Game_Over } from '../../service/gameSolver/type'
-import type { Room } from './type'
+import type { Room, Archived_Game } from './type'
 
 /**
  * add properties that may be missing ( ie empty array / object )
@@ -52,3 +53,19 @@ export const roomToWaitingRoom = (room: Room) => {
 
 export const roomToEndTurnDate = (room: Room) =>
     room.state === 'playing' ? room.actions[0].date + PARAM.TURN_DURATION : null
+
+export const archivedGameToGame = (
+    archivedGame: Archived_Game
+): Game | null => {
+    const game = archivedGame.actions.reduce(
+        (game, action) => reduce(game, action),
+        archivedGame.game0
+    )
+
+    if (game.state !== 'over') return null
+
+    return {
+        ...toHiddenGame(null, archivedGame.users, game),
+        winner: game.winner,
+    }
+}

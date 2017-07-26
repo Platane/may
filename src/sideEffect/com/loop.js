@@ -35,7 +35,7 @@ const initPlayingRoom = (players): Room_Playing => {
 const archiveGame = (room: Room_Playing): Archived_Game => ({
     users: room.users,
     game0: room.game0,
-    actions: room.actions,
+    actions: room.actions.map(({ action }) => action),
 })
 
 export const loop = async (

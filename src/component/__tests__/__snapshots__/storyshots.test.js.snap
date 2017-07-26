@@ -20648,7 +20648,7 @@ exports[`Storyshots Game default 1`] = `
                   Object {
                     "left": -34,
                     "top": -47.599999999999994,
-                    "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                    "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
                   }
                 }
               >
@@ -20751,7 +20751,7 @@ exports[`Storyshots Game default 1`] = `
                   Object {
                     "left": -34,
                     "top": -47.599999999999994,
-                    "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                    "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
                   }
                 }
               >
@@ -21341,7 +21341,7 @@ exports[`Storyshots Game default 1`] = `
                   Object {
                     "left": -34,
                     "top": -47.599999999999994,
-                    "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                    "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
                   }
                 }
               >
@@ -21424,7 +21424,7 @@ exports[`Storyshots Game default 1`] = `
                   Object {
                     "left": -34,
                     "top": -47.599999999999994,
-                    "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                    "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
                   }
                 }
               >
@@ -22036,7 +22036,7 @@ exports[`Storyshots Game default 1`] = `
                   Object {
                     "left": -34,
                     "top": -47.599999999999994,
-                    "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                    "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
                   }
                 }
               >
@@ -22119,7 +22119,7 @@ exports[`Storyshots Game default 1`] = `
                   Object {
                     "left": -34,
                     "top": -47.599999999999994,
-                    "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                    "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
                   }
                 }
               >
@@ -23083,7 +23083,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
           Object {
             "left": -34,
             "top": -47.599999999999994,
-            "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+            "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
           }
         }
       >
@@ -23166,7 +23166,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
           Object {
             "left": -34,
             "top": -47.599999999999994,
-            "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+            "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
           }
         }
       >
@@ -24396,7 +24396,7 @@ exports[`Storyshots Table 2 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -24479,7 +24479,7 @@ exports[`Storyshots Table 2 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -24879,7 +24879,7 @@ exports[`Storyshots Table 2 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -24992,7 +24992,7 @@ exports[`Storyshots Table 2 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -26100,7 +26100,7 @@ exports[`Storyshots Table 3 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -26183,7 +26183,7 @@ exports[`Storyshots Table 3 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -26583,7 +26583,7 @@ exports[`Storyshots Table 3 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -26696,7 +26696,7 @@ exports[`Storyshots Table 3 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -27216,7 +27216,7 @@ exports[`Storyshots Table 3 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(0,6.800000000000001px,0)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
+                "transform": "translate3d(0,6.800000000000001px,-1px)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
               }
             }
           >
@@ -27359,7 +27359,7 @@ exports[`Storyshots Table 3 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(0,-6.800000000000001px,0)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
+                "transform": "translate3d(0,-6.800000000000001px,-1px)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
               }
             }
           >
@@ -28481,7 +28481,7 @@ exports[`Storyshots Table 4 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -28564,7 +28564,7 @@ exports[`Storyshots Table 4 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -28964,7 +28964,7 @@ exports[`Storyshots Table 4 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -29077,7 +29077,7 @@ exports[`Storyshots Table 4 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -29597,7 +29597,7 @@ exports[`Storyshots Table 4 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(0,6.800000000000001px,0)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
+                "transform": "translate3d(0,6.800000000000001px,-1px)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
               }
             }
           >
@@ -29740,7 +29740,7 @@ exports[`Storyshots Table 4 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(0,-6.800000000000001px,0)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
+                "transform": "translate3d(0,-6.800000000000001px,-1px)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
               }
             }
           >
@@ -30270,7 +30270,7 @@ exports[`Storyshots Table 4 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -30443,7 +30443,7 @@ exports[`Storyshots Table 4 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -31677,7 +31677,7 @@ exports[`Storyshots Table 7 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -31760,7 +31760,7 @@ exports[`Storyshots Table 7 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -32160,7 +32160,7 @@ exports[`Storyshots Table 7 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -32273,7 +32273,7 @@ exports[`Storyshots Table 7 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -32793,7 +32793,7 @@ exports[`Storyshots Table 7 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(0,6.800000000000001px,0)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
+                "transform": "translate3d(0,6.800000000000001px,-1px)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
               }
             }
           >
@@ -32936,7 +32936,7 @@ exports[`Storyshots Table 7 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(0,-6.800000000000001px,0)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
+                "transform": "translate3d(0,-6.800000000000001px,-1px)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
               }
             }
           >
@@ -33466,7 +33466,7 @@ exports[`Storyshots Table 7 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -33639,7 +33639,7 @@ exports[`Storyshots Table 7 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -34269,7 +34269,7 @@ exports[`Storyshots Table 7 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -34342,7 +34342,7 @@ exports[`Storyshots Table 7 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -35056,7 +35056,7 @@ exports[`Storyshots Table 7 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -35159,7 +35159,7 @@ exports[`Storyshots Table 7 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -35921,7 +35921,7 @@ exports[`Storyshots Table 7 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(0,6.800000000000001px,0)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
+                "transform": "translate3d(0,6.800000000000001px,-1px)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
               }
             }
           >
@@ -36054,7 +36054,7 @@ exports[`Storyshots Table 7 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(0,-6.800000000000001px,0)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
+                "transform": "translate3d(0,-6.800000000000001px,-1px)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
               }
             }
           >
@@ -37472,7 +37472,7 @@ exports[`Storyshots Table 8 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -37555,7 +37555,7 @@ exports[`Storyshots Table 8 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -37955,7 +37955,7 @@ exports[`Storyshots Table 8 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -38068,7 +38068,7 @@ exports[`Storyshots Table 8 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -38588,7 +38588,7 @@ exports[`Storyshots Table 8 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(0,6.800000000000001px,0)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
+                "transform": "translate3d(0,6.800000000000001px,-1px)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
               }
             }
           >
@@ -38731,7 +38731,7 @@ exports[`Storyshots Table 8 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(0,-6.800000000000001px,0)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
+                "transform": "translate3d(0,-6.800000000000001px,-1px)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
               }
             }
           >
@@ -39261,7 +39261,7 @@ exports[`Storyshots Table 8 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -39434,7 +39434,7 @@ exports[`Storyshots Table 8 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -40064,7 +40064,7 @@ exports[`Storyshots Table 8 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -40137,7 +40137,7 @@ exports[`Storyshots Table 8 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -40851,7 +40851,7 @@ exports[`Storyshots Table 8 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -40954,7 +40954,7 @@ exports[`Storyshots Table 8 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -41716,7 +41716,7 @@ exports[`Storyshots Table 8 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(0,6.800000000000001px,0)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
+                "transform": "translate3d(0,6.800000000000001px,-1px)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
               }
             }
           >
@@ -41849,7 +41849,7 @@ exports[`Storyshots Table 8 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(0,-6.800000000000001px,0)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
+                "transform": "translate3d(0,-6.800000000000001px,-1px)rotate3d(0,0,1,90deg)scale(0.5,0.5)",
               }
             }
           >
@@ -42659,7 +42659,7 @@ exports[`Storyshots Table 8 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >
@@ -42822,7 +42822,7 @@ exports[`Storyshots Table 8 players 1`] = `
               Object {
                 "left": -34,
                 "top": -47.599999999999994,
-                "transform": "translate3d(189px,-37.400000000000006px,0)rotate3d(0,0,1,90deg)",
+                "transform": "translate3d(189px,-37.400000000000006px,-1px)rotate3d(0,0,1,90deg)",
               }
             }
           >

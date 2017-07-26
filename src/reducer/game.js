@@ -1,4 +1,5 @@
 import { set, merge } from '../util/redux'
+import * as PARAM from '../sideEffect/com/param'
 
 import type { Action, State } from './type'
 
@@ -6,6 +7,7 @@ export const reduce = (state: State, action: Action): State => {
     switch (action.type) {
         case 'game:update':
             return set(state, ['game'], {
+                state: 'playing',
                 ...action.game,
                 end_turn_at: action.end_turn_at,
             })
@@ -28,7 +30,7 @@ export const reduce = (state: State, action: Action): State => {
 
         case 'waitingRoom:update':
             return set(state, ['game'], {
-                waiting: true,
+                state: 'waiting',
                 users: action.users,
                 start_at: action.start_at,
             })

@@ -3,6 +3,7 @@ import { updateGame, updateWaitingRoom } from '../../action/index'
 import { createQueue, createScheduler } from '../../util/schedule'
 import { loop } from './loop'
 import {
+    archivedGameToGame,
     roomToEndTurnDate,
     roomToGame,
     roomToWaitingRoom,
@@ -13,6 +14,7 @@ import type { Room } from './type'
 
 export const init = (store: Store) => {
     let listeningTo = null
+    let listening = false
 
     let room: Room | null = null
     let ref = null
@@ -33,12 +35,22 @@ export const init = (store: Store) => {
 
                 store.dispatch(updateGame(game, end_turn_at))
                 break
+
             case 'waiting':
                 const { users, start_at } = roomToWaitingRoom(room) || {
                     users: [],
                     start_at: 0,
                 }
-                store.dispatch(updateWaitingRoom(users, start_at))
+                store.dispatch(
+                    updateWaitingRoom(
+                        users,
+                        start_at,
+                        // last game
+                        (room.archive[0] &&
+                            archivedGameToGame(room.archive[0])) ||
+                            null
+                    )
+                )
                 break
         }
     }
@@ -54,13 +66,15 @@ export const init = (store: Store) => {
             ref.on('value', snapshot => {
                 room = cleanRoom(snapshot.val())
 
+                listening = true
+
                 dispatch()
 
                 update()
             })
         }
 
-        update()
+        if (listening) update()
     }
 
     whenStoreChange()
