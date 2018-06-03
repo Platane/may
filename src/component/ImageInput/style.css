@@ -1,21 +1,21 @@
 .container {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
 }
 .inputWrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 .input {
-    position: absolute;
-    top: -1000px;
-    left: -1000px;
-    width: 2000px;
-    height: 2000px;
-    cursor: pointer;
+  position: absolute;
+  top: -1000px;
+  left: -1000px;
+  width: 2000px;
+  height: 2000px;
+  cursor: pointer;
 }

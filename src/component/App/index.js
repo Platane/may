@@ -7,10 +7,11 @@ import style from './style.css'
 
 export type Props = { page: 'gate' | 'table' | 'waitingRoom' | null }
 
-export const App = ({ page }: Props) =>
-    <div className={style.container}>
-        {('gate' === page && <Gate />) ||
-            ('table' === page && <Game />) ||
-            ('waitingRoom' === page && <WaitingRoom />) ||
-            null}
-    </div>
+export const App = ({ page }: Props) => (
+  <div className={style.container}>
+    {('gate' === page && <Gate />) ||
+      ('table' === page && <Game />) ||
+      ('waitingRoom' === page && <WaitingRoom />) ||
+      null}
+  </div>
+)

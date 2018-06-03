@@ -1,27 +1,27 @@
 .container {
-    width: 100px;
-    position: relative;
-    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
-    border-radius: 6px;
-    transition: transform 400ms linear;
-    transform-origin: right;
-    transform-style: preserve-3d;
+  width: 100px;
+  position: relative;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+  transition: transform 400ms linear;
+  transform-origin: right;
+  transform-style: preserve-3d;
 }
 .containerHidden {
-    transform: translateX(-100%) rotateY(180deg);
+  transform: translateX(-100%) rotateY(180deg);
 }
 .ratio {
-    width: 100%;
-    padding-top: 140%;
+  width: 100%;
+  padding-top: 140%;
 }
 .verso {
-    transform: rotateY(180deg);
-    backface-visibility: hidden;
-    transform-style: preserve-3d;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #e76f51;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e76f51;
 }

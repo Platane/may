@@ -9,28 +9,28 @@ import { reduce as reducePreviousGame } from './previousGame'
 import type { State } from './type'
 
 export const defaultState: State = {
-    appState: {
-        path: null,
+  appState: {
+    path: null,
 
-        tableToJoin: 'laTableDesBoss',
+    tableToJoin: 'laTableDesBoss',
 
-        winningState: false,
-    },
+    winningState: false,
+  },
 
-    me: null,
+  me: null,
 
-    game: null,
+  game: null,
 
-    previousGame: null,
+  previousGame: null,
 
-    nextMove: null,
+  nextMove: null,
 }
 
 export const reduce = chainReducer(
-    reduceWinningState,
-    reduceMe,
-    reducePath,
-    reduceGame,
-    reduceNextMove,
-    reducePreviousGame
+  reduceWinningState,
+  reduceMe,
+  reducePath,
+  reduceGame,
+  reduceNextMove,
+  reducePreviousGame
 )

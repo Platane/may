@@ -1,29 +1,29 @@
 export type User = {
-    id: string,
-    name: string,
-    pic: {
-        sad: string,
-        happy: string,
-        idle: string,
-    },
+  id: string,
+  name: string,
+  pic: {
+    sad: string,
+    happy: string,
+    idle: string,
+  },
 }
 
 export type Card = {
-    color: 'diamond' | 'club' | 'heart' | 'spade',
-    value:
-        | '1'
-        | '2'
-        | '3'
-        | '4'
-        | '5'
-        | '6'
-        | '7'
-        | '8'
-        | '9'
-        | '10'
-        | 'J'
-        | 'Q'
-        | 'K',
+  color: 'diamond' | 'club' | 'heart' | 'spade',
+  value:
+    | '1'
+    | '2'
+    | '3'
+    | '4'
+    | '5'
+    | '6'
+    | '7'
+    | '8'
+    | '9'
+    | '10'
+    | 'J'
+    | 'Q'
+    | 'K',
 }
 
 export type Card_hidden = { hidden: true }
@@ -33,29 +33,29 @@ export type Card_hidden = { hidden: true }
 export type PlayerMood = 'happy' | 'sad' | 'idle'
 
 export type Player = {
-    ...User,
+  ...User,
 
-    mood: PlayerMood,
+  mood: PlayerMood,
 
-    bank: number,
+  bank: number,
 
-    hand: [Card | Card_hidden, Card | Card_hidden],
+  hand: [Card | Card_hidden, Card | Card_hidden],
 
-    bet: number,
+  bet: number,
 
-    folded: false,
+  folded: false,
 }
 
 export type Game = {
-    cards: [
-        Card | Card_hidden,
-        Card | Card_hidden,
-        Card | Card_hidden,
-        Card | Card_hidden,
-        Card | Card_hidden,
-    ],
+  cards: [
+    Card | Card_hidden,
+    Card | Card_hidden,
+    Card | Card_hidden,
+    Card | Card_hidden,
+    Card | Card_hidden,
+  ],
 
-    speaker: number | null,
+  speaker: number | null,
 
-    players: Player,
+  players: Player,
 }

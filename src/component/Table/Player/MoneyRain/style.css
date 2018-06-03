@@ -1,27 +1,27 @@
 .container {
-    left: 0;
-    top: 0;
-    position: absolute;
-    transform-style: preserve-3d;
-    transition: transform 500ms ease;
+  left: 0;
+  top: 0;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 500ms ease;
 }
 .confettiWrapper {
-    position: absolute;
-    width: 30px;
-    height: 20px;
-    top: -10px;
-    left: -15px;
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  top: -10px;
+  left: -15px;
 }
 .confetti {
-    transform-origin: center;
-    position: absolute;
+  transform-origin: center;
+  position: absolute;
 }
 .tint {
-    z-index: 3;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 70px;
-    height: calc(336 / 800 * 70px);
-    background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: calc(336 / 800 * 70px);
+  background-color: rgba(0, 0, 0, 0.5);
 }

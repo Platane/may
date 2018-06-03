@@ -1,14 +1,14 @@
 .container {
 }
 .world {
-    transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 .card {
-    transition: transform 500ms ease;
-    transform-style: preserve-3d;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 3;
+  transition: transform 500ms ease;
+  transform-style: preserve-3d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
 }

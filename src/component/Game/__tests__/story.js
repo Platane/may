@@ -18,100 +18,100 @@ game0.players[1].hand = [cards[22], cards[35]]
 game0.players[2].hand = [cards[51], cards[45]]
 
 const actions = [
-    { type: 'raise', player: 2, value: 4 },
-    { type: 'call', player: 0 },
-    { type: 'call', player: 1 },
+  { type: 'raise', player: 2, value: 4 },
+  { type: 'call', player: 0 },
+  { type: 'call', player: 1 },
 
-    { type: 'raise', player: 0, value: 4 },
-    { type: 'raise', player: 1, value: 6 },
-    { type: 'raise', player: 2, value: 7 },
-    { type: 'fold', player: 0 },
-    { type: 'raise', player: 1, value: 8 },
-    { type: 'call', player: 2 },
+  { type: 'raise', player: 0, value: 4 },
+  { type: 'raise', player: 1, value: 6 },
+  { type: 'raise', player: 2, value: 7 },
+  { type: 'fold', player: 0 },
+  { type: 'raise', player: 1, value: 8 },
+  { type: 'call', player: 2 },
 
-    { type: 'raise', player: 1, value: 10 },
-    { type: 'call', player: 2 },
+  { type: 'raise', player: 1, value: 10 },
+  { type: 'call', player: 2 },
 
-    { type: 'call', player: 1 },
-    { type: 'call', player: 2 },
+  { type: 'call', player: 1 },
+  { type: 'call', player: 2 },
 ]
 
 class Container extends React.Component {
-    state = { k: 0 }
+  state = { k: 0 }
 
-    setK = k =>
-        this.setState({
-            k: Math.max(0, Math.min(this.props.actions.length, k)),
-        })
+  setK = k =>
+    this.setState({
+      k: Math.max(0, Math.min(this.props.actions.length, k)),
+    })
 
-    render() {
-        const gl = this.props.actions
-            .slice(0, this.state.k)
-            .reduce((game, action) => reduce(game, action), this.props.game0)
+  render() {
+    const gl = this.props.actions
+      .slice(0, this.state.k)
+      .reduce((game, action) => reduce(game, action), this.props.game0)
 
-        const game = toHiddenGame('a', users, gl)
+    const game = toHiddenGame('a', users, gl)
 
-        if (!game) return null
+    if (!game) return null
 
-        return (
-            <div
-                style={{
-                    position: 'fixed',
-                    top: 0,
-                    bottom: 0,
-                    left: 0,
-                    right: 0,
-                }}
-            >
-                <Game
-                    game={game}
-                    width={600}
-                    height={800}
-                    end_turn_at={Date.now() + 20000}
-                    turn_duration={20000}
-                />
-                <input
-                    type="range"
-                    value={this.state.k}
-                    min={0}
-                    max={this.props.actions.length}
-                    step={1}
-                    onChange={e => this.setK(+e.target.value)}
-                    style={{
-                        position: 'fixed',
-                        top: 10,
-                        left: 10,
-                        right: 10,
-                        width: 'calc( 100% - 20px )',
-                    }}
-                />
-                <button
-                    onClick={() => this.setK(0)}
-                    style={{
-                        position: 'fixed',
-                        top: 35,
-                        left: 10,
-                        width: 30,
-                    }}
-                >
-                    {'<<'}
-                </button>
-                <button
-                    onClick={() => this.setK(this.state.k + 1)}
-                    style={{
-                        position: 'fixed',
-                        top: 35,
-                        left: 50,
-                        width: 30,
-                    }}
-                >
-                    {'>'}
-                </button>
-            </div>
-        )
-    }
+    return (
+      <div
+        style={{
+          position: 'fixed',
+          top: 0,
+          bottom: 0,
+          left: 0,
+          right: 0,
+        }}
+      >
+        <Game
+          game={game}
+          width={600}
+          height={800}
+          end_turn_at={Date.now() + 20000}
+          turn_duration={20000}
+        />
+        <input
+          type="range"
+          value={this.state.k}
+          min={0}
+          max={this.props.actions.length}
+          step={1}
+          onChange={e => this.setK(+e.target.value)}
+          style={{
+            position: 'fixed',
+            top: 10,
+            left: 10,
+            right: 10,
+            width: 'calc( 100% - 20px )',
+          }}
+        />
+        <button
+          onClick={() => this.setK(0)}
+          style={{
+            position: 'fixed',
+            top: 35,
+            left: 10,
+            width: 30,
+          }}
+        >
+          {'<<'}
+        </button>
+        <button
+          onClick={() => this.setK(this.state.k + 1)}
+          style={{
+            position: 'fixed',
+            top: 35,
+            left: 50,
+            width: 30,
+          }}
+        >
+          {'>'}
+        </button>
+      </div>
+    )
+  }
 }
 
-storiesOf('Game', module).add('default', () =>
-    <Container actions={actions} game0={game0} />
-)
+storiesOf('Game', module).add('default', () => (
+  <Container actions={actions} game0={game0} />
+))

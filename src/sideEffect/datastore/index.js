@@ -5,170 +5,164 @@ import { tableUpdate } from '../../action/index'
 
 import type { User } from '../../type'
 import type {
-    Action,
-    Game_Running,
-    Game_Over,
+  Action,
+  Game_Running,
+  Game_Over,
 } from '../../service/gameSolver/type'
 
 type Table_Played = {
-    state: 'played',
-    users: User[],
-    game: Game_Over,
+  state: 'played',
+  users: User[],
+  game: Game_Over,
 
-    game0: Game_Running,
-    actions: Action[],
+  game0: Game_Running,
+  actions: Action[],
 }
 type Table_Playing = {
-    state: 'playing',
-    users: User[],
-    game: Game_Running,
+  state: 'playing',
+  users: User[],
+  game: Game_Running,
 
-    game0: Game_Running,
-    actions: Array<{ date: number, action: Action }>,
+  game0: Game_Running,
+  actions: Array<{ date: number, action: Action }>,
 
-    tic: number,
+  tic: number,
 
-    previous_played_table: Table_Played[],
+  previous_played_table: Table_Played[],
 }
 type Table_Waiting = {
-    state: 'waiting',
-    start_at: number,
-    pending_players: { [string]: { user: User, bank: number, tic: number } },
-    previous_played_table: Table_Played[],
+  state: 'waiting',
+  start_at: number,
+  pending_players: { [string]: { user: User, bank: number, tic: number } },
+  previous_played_table: Table_Played[],
 }
 type Table = Table_Waiting | Table_Playing
 
 const initWaitingTable = (): Table_Waiting => ({
-    state: 'waiting',
-    start_at: Date.now() + 30000,
-    pending_players: {},
-    previous_played_table: [],
+  state: 'waiting',
+  start_at: Date.now() + 30000,
+  pending_players: {},
+  previous_played_table: [],
 })
 
 const parseTable = (table: any): Table | null =>
-    (table &&
-    table.state === 'waiting' && { ...initWaitingTable(), ...table }) ||
-    (table &&
+  (table && table.state === 'waiting' && { ...initWaitingTable(), ...table }) ||
+  (table &&
     table.state === 'playing' && {
-        actions: [],
-        previous_played_table: [],
-        tic: 0,
-        ...table,
+      actions: [],
+      previous_played_table: [],
+      tic: 0,
+      ...table,
     }) ||
-    null
+  null
 
 const onUpdate = async (store, ref, update, table) => {
-    if (!ref) return
+  if (!ref) return
 
-    table = parseTable(table)
+  table = parseTable(table)
 
-    if (!table) return await ref.set(initWaitingTable())
+  if (!table) return await ref.set(initWaitingTable())
 
-    const me = store.getState().me
+  const me = store.getState().me
 
-    if (!me) return
+  if (!me) return
 
-    // xxx arthur : check equality first ?
-    store.dispatch(tableUpdate(table))
+  // xxx arthur : check equality first ?
+  store.dispatch(tableUpdate(table))
 
-    switch (table.state) {
-        case 'waiting':
-            // start the game if possible
-            {
-                // player that are ready
-                const playersReady = Object.keys(table.pending_players)
-                    .map(key => table.pending_players[key])
-                    .filter(player => player.bank > 10)
-                    .filter(player => player.tic > Date.now() - 10000)
-                    .sort((a, b) => (a.tic > b.tic ? 1 : -1))
+  switch (table.state) {
+    case 'waiting':
+      // start the game if possible
+      {
+        // player that are ready
+        const playersReady = Object.keys(table.pending_players)
+          .map(key => table.pending_players[key])
+          .filter(player => player.bank > 10)
+          .filter(player => player.tic > Date.now() - 10000)
+          .sort((a, b) => (a.tic > b.tic ? 1 : -1))
 
-                // delay is ok
-                let shouldStartIn = table.start_at - Date.now()
+        // delay is ok
+        let shouldStartIn = table.start_at - Date.now()
 
-                if (
-                    shouldStartIn < 0 &&
-                    playersReady.length > 1 &&
-                    playersReady[0].user.id === me.id
-                ) {
-                    // should start the game
+        if (
+          shouldStartIn < 0 &&
+          playersReady.length > 1 &&
+          playersReady[0].user.id === me.id
+        ) {
+          // should start the game
 
-                    const game0 = initGame(
-                        playersReady.map(player => player.bank),
-                        1
-                    )
-                    return await ref.set({
-                        tic: Date.now(),
-                        state: 'playing',
-                        game: game0,
-                        game0,
-                        action: [],
-                        users: playersReady.map(player => player.user),
-                        previous_played_table: table.previous_played_table,
-                    })
-                } else if (shouldStartIn > 0) {
-                    update(shouldStartIn)
-                }
-            }
+          const game0 = initGame(playersReady.map(player => player.bank), 1)
+          return await ref.set({
+            tic: Date.now(),
+            state: 'playing',
+            game: game0,
+            game0,
+            action: [],
+            users: playersReady.map(player => player.user),
+            previous_played_table: table.previous_played_table,
+          })
+        } else if (shouldStartIn > 0) {
+          update(shouldStartIn)
+        }
+      }
 
-            // should tic every X second to notify that I am ready
-            {
-                const player = table.pending_players[me.id]
+      // should tic every X second to notify that I am ready
+      {
+        const player = table.pending_players[me.id]
 
-                let shouldReportReadyIn = !player
-                    ? -1
-                    : player.tic + 5000 - Date.now()
+        let shouldReportReadyIn = !player ? -1 : player.tic + 5000 - Date.now()
 
-                if (shouldReportReadyIn < 0) {
-                    shouldReportReadyIn = 5000
+        if (shouldReportReadyIn < 0) {
+          shouldReportReadyIn = 5000
 
-                    await ref
-                        .child(`pending_players/${me.id}`)
-                        .update({ user: me, tic: Date.now(), bank: 100 })
-                }
+          await ref
+            .child(`pending_players/${me.id}`)
+            .update({ user: me, tic: Date.now(), bank: 100 })
+        }
 
-                update(shouldReportReadyIn)
-            }
-            break
+        update(shouldReportReadyIn)
+      }
+      break
 
-        case 'playing':
-            let action = null
+    case 'playing':
+      let action = null
 
-            // fold players if it did not play in time
-            {
-                const DELAY = 40000
-                let shouldPlayIn = table.tic + DELAY - Date.now()
+      // fold players if it did not play in time
+      {
+        const DELAY = 40000
+        let shouldPlayIn = table.tic + DELAY - Date.now()
 
-                if (shouldPlayIn < 0) {
-                    action = { type: 'fold', player: table.game.speaker }
+        if (shouldPlayIn < 0) {
+          action = { type: 'fold', player: table.game.speaker }
 
-                    shouldPlayIn = DELAY
-                }
+          shouldPlayIn = DELAY
+        }
 
-                update(shouldPlayIn)
-            }
+        update(shouldPlayIn)
+      }
 
-            if (action) {
-                const newTable = {
-                    game: solveGame(table.game, action),
-                    actions: [...table.actions, { date: Date.now(), action }],
-                }
+      if (action) {
+        const newTable = {
+          game: solveGame(table.game, action),
+          actions: [...table.actions, { date: Date.now(), action }],
+        }
 
-                if (newTable.game.state === 'over') {
-                    await ref.set({
-                        ...initWaitingTable(),
-                        previous_played_table: [
-                            { ...newTable, users: table.users },
-                            ...table.previous_played_table,
-                        ],
-                    })
-                } else {
-                    await ref.update({
-                        tic: Date.now(),
-                        ...newTable,
-                    })
-                }
-            }
-    }
+        if (newTable.game.state === 'over') {
+          await ref.set({
+            ...initWaitingTable(),
+            previous_played_table: [
+              { ...newTable, users: table.users },
+              ...table.previous_played_table,
+            ],
+          })
+        } else {
+          await ref.update({
+            tic: Date.now(),
+            ...newTable,
+          })
+        }
+      }
+  }
 }
 
 /**
@@ -178,75 +172,75 @@ const onUpdate = async (store, ref, update, table) => {
  * will call once the previous execution is over
  */
 const createQueue = fn => {
-    let pending = null
+  let pending = null
 
-    let callAfter = false
+  let callAfter = false
 
-    const call = async () => {
-        if (!pending) {
-            pending = true
+  const call = async () => {
+    if (!pending) {
+      pending = true
 
-            await fn()
+      await fn()
 
-            pending = false
+      pending = false
 
-            if (callAfter) {
-                callAfter = false
-                call()
-            }
-        } else {
-            callAfter = true
-        }
+      if (callAfter) {
+        callAfter = false
+        call()
+      }
+    } else {
+      callAfter = true
     }
+  }
 
-    return call
+  return call
 }
 
 const callAfter = fn => {
-    let timeout = null
-    let date = Infinity
+  let timeout = null
+  let date = Infinity
 
-    const call = () => {
-        date = Infinity
-        fn()
+  const call = () => {
+    date = Infinity
+    fn()
+  }
+
+  return (delay = 0) => {
+    const nextDate = Date.now() + delay
+
+    if (nextDate < date) {
+      date = nextDate
+
+      clearTimeout(timeout)
+      timeout = setTimeout(call, delay)
     }
-
-    return (delay = 0) => {
-        const nextDate = Date.now() + delay
-
-        if (nextDate < date) {
-            date = nextDate
-
-            clearTimeout(timeout)
-            timeout = setTimeout(call, delay)
-        }
-    }
+  }
 }
 
 export const init = (store: Store) => {
-    let listeningTo = null
+  let listeningTo = null
 
-    let table = null
-    let ref = null
-    const update = createQueue(() => onUpdate(store, ref, updateAfter, table))
-    const updateAfter = callAfter(update)
+  let table = null
+  let ref = null
+  const update = createQueue(() => onUpdate(store, ref, updateAfter, table))
+  const updateAfter = callAfter(update)
 
-    const whenStoreChange = () => {
-        const tableId = store.getState().appState.tableToJoin
+  const whenStoreChange = () => {
+    const tableId = store.getState().appState.tableToJoin
 
-        if (tableId && !listeningTo) {
-            listeningTo = tableId
+    if (tableId && !listeningTo) {
+      listeningTo = tableId
 
-            ref = firebase.database().ref(`/table/${tableId}`)
+      ref = firebase.database().ref(`/table/${tableId}`)
 
-            ref.on('value', snapshot => {
-                table = snapshot.val()
-                update()
-            })
-        }
+      ref.on('value', snapshot => {
+        table = snapshot.val()
+        update()
+      })
     }
+  }
 
-    whenStoreChange()
+  whenStoreChange()
 
-    return store.subscribe(whenStoreChange)
+  return store.subscribe(whenStoreChange)
 }

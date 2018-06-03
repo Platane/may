@@ -1,4 +1,4 @@
 .container {
-    transition: transform 500ms ease;
-    position: absolute;
+  transition: transform 500ms ease;
+  position: absolute;
 }

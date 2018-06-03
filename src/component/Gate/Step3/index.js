@@ -5,13 +5,13 @@ import { Text } from '../../Text'
 import style from './style.css'
 
 export type Props = {
-    minimized: boolean,
-    submit: () => void,
+  minimized: boolean,
+  submit: () => void,
 }
 
 export const Step3 = ({ submit, minimized }: Props) =>
-    minimized
-        ? null
-        : <Button onClick={submit}>
-              <Text>Submit</Text>
-          </Button>
+  minimized ? null : (
+    <Button onClick={submit}>
+      <Text>Submit</Text>
+    </Button>
+  )

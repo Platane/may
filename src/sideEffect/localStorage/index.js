@@ -6,17 +6,17 @@ import type { Store } from '../reducer/type'
 const LABEL = 'user'
 
 export const init = store => {
-    let prevUser = null
+  let prevUser = null
 
-    const update = () => {
-        const newUser = store.getState().me
+  const update = () => {
+    const newUser = store.getState().me
 
-        if (newUser != prevUser) write(LABEL, (prevUser = newUser))
-    }
+    if (newUser != prevUser) write(LABEL, (prevUser = newUser))
+  }
 
-    store.dispatch(localStorageRead(read('user')))
+  store.dispatch(localStorageRead(read('user')))
 
-    update()
+  update()
 
-    return store.subscribe(update)
+  return store.subscribe(update)
 }

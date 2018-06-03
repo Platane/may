@@ -1,9 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Button default 1`] = `
+exports[`components snapshots Button default 1`] = `
 <div
   className="_47e2a032"
-  onClick={undefined}
 >
   <div
     className="_918d5541"
@@ -13,7 +12,7 @@ exports[`Storyshots Button default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Card all cards 1`] = `
+exports[`components snapshots Card all cards 1`] = `
 <div>
   <div
     style={
@@ -5910,7 +5909,7 @@ exports[`Storyshots Card all cards 1`] = `
 </div>
 `;
 
-exports[`Storyshots Card all cards swapping 1`] = `
+exports[`components snapshots Card all cards swapping 1`] = `
 <div>
   <div
     style={
@@ -11807,7 +11806,7 @@ exports[`Storyshots Card all cards swapping 1`] = `
 </div>
 `;
 
-exports[`Storyshots Card hide 1`] = `
+exports[`components snapshots Card hide 1`] = `
 <div>
   <input
     onChange={[Function]}
@@ -11949,7 +11948,7 @@ exports[`Storyshots Card hide 1`] = `
 </div>
 `;
 
-exports[`Storyshots Card size 1`] = `
+exports[`components snapshots Card size 1`] = `
 <div>
   <div
     style={
@@ -19934,7 +19933,7 @@ exports[`Storyshots Card size 1`] = `
 </div>
 `;
 
-exports[`Storyshots Dollar default 1`] = `
+exports[`components snapshots Dollar default 1`] = `
 <div>
   <div
     style={
@@ -20119,7 +20118,7 @@ exports[`Storyshots Dollar default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Game default 1`] = `
+exports[`components snapshots Game default 1`] = `
 <div
   style={
     Object {
@@ -20962,9 +20961,7 @@ exports[`Storyshots Game default 1`] = `
                   }
                 }
               >
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -20980,9 +20977,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -20998,9 +20993,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21016,9 +21009,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21034,9 +21025,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21052,9 +21041,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21070,9 +21057,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21088,9 +21073,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21106,9 +21089,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21124,9 +21105,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21142,9 +21121,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21160,9 +21137,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21178,9 +21153,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21196,9 +21169,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21214,9 +21185,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21232,9 +21201,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21549,9 +21516,7 @@ exports[`Storyshots Game default 1`] = `
                   }
                 }
               >
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21567,9 +21532,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21585,9 +21548,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21603,9 +21564,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21621,9 +21580,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21639,9 +21596,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21657,9 +21612,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21675,9 +21628,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21693,9 +21644,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21711,9 +21660,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21729,9 +21676,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21747,9 +21692,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21765,9 +21708,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21783,9 +21724,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21801,9 +21740,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -21819,9 +21756,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -22100,9 +22035,7 @@ exports[`Storyshots Game default 1`] = `
                   }
                 }
               >
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -22118,9 +22051,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -22136,9 +22067,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -22154,9 +22083,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -22172,9 +22099,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -22190,9 +22115,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -22208,9 +22131,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -22226,9 +22147,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -22244,9 +22163,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -22262,9 +22179,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -22280,9 +22195,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -22298,9 +22211,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -22316,9 +22227,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -22334,9 +22243,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -22352,9 +22259,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -22370,9 +22275,7 @@ exports[`Storyshots Game default 1`] = `
                     }
                   />
                 </div>
-                <div
-                  className={undefined}
-                >
+                <div>
                   <div
                     style={
                       Object {
@@ -22454,7 +22357,7 @@ exports[`Storyshots Game default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Gate step 1 1`] = `
+exports[`components snapshots Gate step 1 1`] = `
 <div
   style={
     Object {
@@ -22472,19 +22375,14 @@ exports[`Storyshots Gate step 1 1`] = `
     <div
       className="ff8d4a49"
     >
-      <div
-        className={undefined}
-      >
-        <div
-          className={undefined}
-        >
+      <div>
+        <div>
           <div
             className="_918d5541"
           >
             Hi, what's your name ?
           </div>
           <input
-            className={undefined}
             onBlur={[Function]}
             onChange={[Function]}
             type="text"
@@ -22506,7 +22404,7 @@ exports[`Storyshots Gate step 1 1`] = `
 </div>
 `;
 
-exports[`Storyshots Gate step 2 1`] = `
+exports[`components snapshots Gate step 2 1`] = `
 <div
   style={
     Object {
@@ -22524,9 +22422,7 @@ exports[`Storyshots Gate step 2 1`] = `
     <div
       className="ff8d4a49 _91c56d22"
     >
-      <div
-        className={undefined}
-      >
+      <div>
         <div
           className="_918d5541"
         >
@@ -22583,7 +22479,7 @@ exports[`Storyshots Gate step 2 1`] = `
 </div>
 `;
 
-exports[`Storyshots Gate step 3 1`] = `
+exports[`components snapshots Gate step 3 1`] = `
 <div
   style={
     Object {
@@ -22601,9 +22497,7 @@ exports[`Storyshots Gate step 3 1`] = `
     <div
       className="ff8d4a49 _91c56d22"
     >
-      <div
-        className={undefined}
-      >
+      <div>
         <div
           className="_918d5541"
         >
@@ -22636,7 +22530,6 @@ exports[`Storyshots Gate step 3 1`] = `
     >
       <div
         className="_47e2a032"
-        onClick={undefined}
       >
         <div
           className="_918d5541"
@@ -22652,7 +22545,7 @@ exports[`Storyshots Gate step 3 1`] = `
 </div>
 `;
 
-exports[`Storyshots Gate with state 1`] = `
+exports[`components snapshots Gate with state 1`] = `
 <div
   style={
     Object {
@@ -22670,19 +22563,14 @@ exports[`Storyshots Gate with state 1`] = `
     <div
       className="ff8d4a49"
     >
-      <div
-        className={undefined}
-      >
-        <div
-          className={undefined}
-        >
+      <div>
+        <div>
           <div
             className="_918d5541"
           >
             Hi, what's your name ?
           </div>
           <input
-            className={undefined}
             onBlur={[Function]}
             onChange={[Function]}
             type="text"
@@ -22704,7 +22592,7 @@ exports[`Storyshots Gate with state 1`] = `
 </div>
 `;
 
-exports[`Storyshots ImageInput default 1`] = `
+exports[`components snapshots ImageInput default 1`] = `
 <div
   style={
     Object {
@@ -22741,7 +22629,7 @@ exports[`Storyshots ImageInput default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Player dynamic rotate 1`] = `
+exports[`components snapshots Player dynamic rotate 1`] = `
 <div
   style={
     Object {
@@ -23189,9 +23077,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
           }
         }
       >
-        <div
-          className={undefined}
-        >
+        <div>
           <div
             style={
               Object {
@@ -23207,9 +23093,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
             }
           />
         </div>
-        <div
-          className={undefined}
-        >
+        <div>
           <div
             style={
               Object {
@@ -23225,9 +23109,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
             }
           />
         </div>
-        <div
-          className={undefined}
-        >
+        <div>
           <div
             style={
               Object {
@@ -23243,9 +23125,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
             }
           />
         </div>
-        <div
-          className={undefined}
-        >
+        <div>
           <div
             style={
               Object {
@@ -23261,9 +23141,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
             }
           />
         </div>
-        <div
-          className={undefined}
-        >
+        <div>
           <div
             style={
               Object {
@@ -23279,9 +23157,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
             }
           />
         </div>
-        <div
-          className={undefined}
-        >
+        <div>
           <div
             style={
               Object {
@@ -23297,9 +23173,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
             }
           />
         </div>
-        <div
-          className={undefined}
-        >
+        <div>
           <div
             style={
               Object {
@@ -23315,9 +23189,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
             }
           />
         </div>
-        <div
-          className={undefined}
-        >
+        <div>
           <div
             style={
               Object {
@@ -23333,9 +23205,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
             }
           />
         </div>
-        <div
-          className={undefined}
-        >
+        <div>
           <div
             style={
               Object {
@@ -23351,9 +23221,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
             }
           />
         </div>
-        <div
-          className={undefined}
-        >
+        <div>
           <div
             style={
               Object {
@@ -23369,9 +23237,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
             }
           />
         </div>
-        <div
-          className={undefined}
-        >
+        <div>
           <div
             style={
               Object {
@@ -23387,9 +23253,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
             }
           />
         </div>
-        <div
-          className={undefined}
-        >
+        <div>
           <div
             style={
               Object {
@@ -23405,9 +23269,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
             }
           />
         </div>
-        <div
-          className={undefined}
-        >
+        <div>
           <div
             style={
               Object {
@@ -23423,9 +23285,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
             }
           />
         </div>
-        <div
-          className={undefined}
-        >
+        <div>
           <div
             style={
               Object {
@@ -23441,9 +23301,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
             }
           />
         </div>
-        <div
-          className={undefined}
-        >
+        <div>
           <div
             style={
               Object {
@@ -23459,9 +23317,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
             }
           />
         </div>
-        <div
-          className={undefined}
-        >
+        <div>
           <div
             style={
               Object {
@@ -23496,7 +23352,7 @@ exports[`Storyshots Player dynamic rotate 1`] = `
 </div>
 `;
 
-exports[`Storyshots Table 2 players 1`] = `
+exports[`components snapshots Table 2 players 1`] = `
 <div
   style={
     Object {
@@ -24362,9 +24218,7 @@ exports[`Storyshots Table 2 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -24380,9 +24234,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -24398,9 +24250,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -24416,9 +24266,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -24434,9 +24282,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -24452,9 +24298,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -24470,9 +24314,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -24488,9 +24330,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -24506,9 +24346,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -24524,9 +24362,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -24931,9 +24767,7 @@ exports[`Storyshots Table 2 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -24949,9 +24783,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -24967,9 +24799,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -24985,9 +24815,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -25003,9 +24831,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -25021,9 +24847,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -25039,9 +24863,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -25057,9 +24879,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -25075,9 +24895,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -25093,9 +24911,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -25111,9 +24927,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -25129,9 +24943,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -25147,9 +24959,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -25165,9 +24975,7 @@ exports[`Storyshots Table 2 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -25204,7 +25012,7 @@ exports[`Storyshots Table 2 players 1`] = `
 </div>
 `;
 
-exports[`Storyshots Table 3 players 1`] = `
+exports[`components snapshots Table 3 players 1`] = `
 <div
   style={
     Object {
@@ -26074,9 +25882,7 @@ exports[`Storyshots Table 3 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26092,9 +25898,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26110,9 +25914,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26128,9 +25930,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26146,9 +25946,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26164,9 +25962,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26182,9 +25978,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26200,9 +25994,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26218,9 +26010,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26236,9 +26026,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26643,9 +26431,7 @@ exports[`Storyshots Table 3 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26661,9 +26447,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26679,9 +26463,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26697,9 +26479,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26715,9 +26495,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26733,9 +26511,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26751,9 +26527,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26769,9 +26543,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26787,9 +26559,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26805,9 +26575,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26823,9 +26591,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26841,9 +26607,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26859,9 +26623,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -26877,9 +26639,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -27244,9 +27004,7 @@ exports[`Storyshots Table 3 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -27262,9 +27020,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -27280,9 +27036,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -27298,9 +27052,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -27316,9 +27068,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -27334,9 +27084,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -27352,9 +27100,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -27370,9 +27116,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -27388,9 +27132,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -27406,9 +27148,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -27424,9 +27164,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -27442,9 +27180,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -27460,9 +27196,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -27478,9 +27212,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -27496,9 +27228,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -27514,9 +27244,7 @@ exports[`Storyshots Table 3 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -27553,7 +27281,7 @@ exports[`Storyshots Table 3 players 1`] = `
 </div>
 `;
 
-exports[`Storyshots Table 4 players 1`] = `
+exports[`components snapshots Table 4 players 1`] = `
 <div
   style={
     Object {
@@ -28427,9 +28155,7 @@ exports[`Storyshots Table 4 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -28445,9 +28171,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -28463,9 +28187,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -28481,9 +28203,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -28499,9 +28219,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -28517,9 +28235,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -28535,9 +28251,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -28553,9 +28267,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -28571,9 +28283,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -28589,9 +28299,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -28996,9 +28704,7 @@ exports[`Storyshots Table 4 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29014,9 +28720,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29032,9 +28736,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29050,9 +28752,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29068,9 +28768,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29086,9 +28784,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29104,9 +28800,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29122,9 +28816,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29140,9 +28832,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29158,9 +28848,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29176,9 +28864,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29194,9 +28880,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29212,9 +28896,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29230,9 +28912,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29597,9 +29277,7 @@ exports[`Storyshots Table 4 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29615,9 +29293,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29633,9 +29309,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29651,9 +29325,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29669,9 +29341,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29687,9 +29357,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29705,9 +29373,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29723,9 +29389,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29741,9 +29405,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29759,9 +29421,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29777,9 +29437,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29795,9 +29453,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29813,9 +29469,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29831,9 +29485,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29849,9 +29501,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -29867,9 +29517,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -30292,9 +29940,7 @@ exports[`Storyshots Table 4 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -30310,9 +29956,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -30328,9 +29972,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -30346,9 +29988,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -30364,9 +30004,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -30382,9 +30020,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -30400,9 +30036,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -30418,9 +30052,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -30436,9 +30068,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -30454,9 +30084,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -30472,9 +30100,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -30490,9 +30116,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -30508,9 +30132,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -30526,9 +30148,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -30544,9 +30164,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -30562,9 +30180,7 @@ exports[`Storyshots Table 4 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -30601,7 +30217,7 @@ exports[`Storyshots Table 4 players 1`] = `
 </div>
 `;
 
-exports[`Storyshots Table 7 players 1`] = `
+exports[`components snapshots Table 7 players 1`] = `
 <div
   style={
     Object {
@@ -31487,9 +31103,7 @@ exports[`Storyshots Table 7 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -31505,9 +31119,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -31523,9 +31135,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -31541,9 +31151,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -31559,9 +31167,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -31577,9 +31183,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -31595,9 +31199,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -31613,9 +31215,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -31631,9 +31231,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -31649,9 +31247,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32056,9 +31652,7 @@ exports[`Storyshots Table 7 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32074,9 +31668,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32092,9 +31684,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32110,9 +31700,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32128,9 +31716,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32146,9 +31732,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32164,9 +31748,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32182,9 +31764,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32200,9 +31780,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32218,9 +31796,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32236,9 +31812,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32254,9 +31828,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32272,9 +31844,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32290,9 +31860,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32657,9 +32225,7 @@ exports[`Storyshots Table 7 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32675,9 +32241,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32693,9 +32257,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32711,9 +32273,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32729,9 +32289,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32747,9 +32305,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32765,9 +32321,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32783,9 +32337,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32801,9 +32353,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32819,9 +32369,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32837,9 +32385,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32855,9 +32401,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32873,9 +32417,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32891,9 +32433,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32909,9 +32449,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -32927,9 +32465,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -33352,9 +32888,7 @@ exports[`Storyshots Table 7 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -33370,9 +32904,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -33388,9 +32920,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -33406,9 +32936,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -33424,9 +32952,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -33442,9 +32968,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -33460,9 +32984,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -33478,9 +33000,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -33496,9 +33016,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -33514,9 +33032,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -33532,9 +33048,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -33550,9 +33064,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -33568,9 +33080,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -33586,9 +33096,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -33604,9 +33112,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -33622,9 +33128,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -33995,9 +33499,7 @@ exports[`Storyshots Table 7 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34013,9 +33515,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34031,9 +33531,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34049,9 +33547,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34067,9 +33563,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34085,9 +33579,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34103,9 +33595,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34121,9 +33611,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34139,9 +33627,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34157,9 +33643,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34175,9 +33659,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34193,9 +33675,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34211,9 +33691,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34229,9 +33707,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34247,9 +33723,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34265,9 +33739,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34716,9 +34188,7 @@ exports[`Storyshots Table 7 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34734,9 +34204,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34752,9 +34220,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34770,9 +34236,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34788,9 +34252,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34806,9 +34268,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34824,9 +34284,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34842,9 +34300,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34860,9 +34316,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34878,9 +34332,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34896,9 +34348,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34914,9 +34364,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34932,9 +34380,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34950,9 +34396,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34968,9 +34412,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -34986,9 +34428,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -35515,9 +34955,7 @@ exports[`Storyshots Table 7 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -35533,9 +34971,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -35551,9 +34987,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -35569,9 +35003,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -35587,9 +35019,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -35605,9 +35035,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -35623,9 +35051,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -35641,9 +35067,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -35659,9 +35083,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -35677,9 +35099,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -35695,9 +35115,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -35713,9 +35131,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -35731,9 +35147,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -35749,9 +35163,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -35767,9 +35179,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -35785,9 +35195,7 @@ exports[`Storyshots Table 7 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -35824,7 +35232,7 @@ exports[`Storyshots Table 7 players 1`] = `
 </div>
 `;
 
-exports[`Storyshots Table 8 players 1`] = `
+exports[`components snapshots Table 8 players 1`] = `
 <div
   style={
     Object {
@@ -36714,9 +36122,7 @@ exports[`Storyshots Table 8 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -36732,9 +36138,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -36750,9 +36154,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -36768,9 +36170,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -36786,9 +36186,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -36804,9 +36202,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -36822,9 +36218,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -36840,9 +36234,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -36858,9 +36250,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -36876,9 +36266,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37283,9 +36671,7 @@ exports[`Storyshots Table 8 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37301,9 +36687,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37319,9 +36703,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37337,9 +36719,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37355,9 +36735,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37373,9 +36751,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37391,9 +36767,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37409,9 +36783,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37427,9 +36799,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37445,9 +36815,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37463,9 +36831,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37481,9 +36847,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37499,9 +36863,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37517,9 +36879,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37884,9 +37244,7 @@ exports[`Storyshots Table 8 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37902,9 +37260,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37920,9 +37276,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37938,9 +37292,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37956,9 +37308,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37974,9 +37324,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -37992,9 +37340,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38010,9 +37356,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38028,9 +37372,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38046,9 +37388,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38064,9 +37404,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38082,9 +37420,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38100,9 +37436,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38118,9 +37452,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38136,9 +37468,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38154,9 +37484,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38579,9 +37907,7 @@ exports[`Storyshots Table 8 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38597,9 +37923,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38615,9 +37939,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38633,9 +37955,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38651,9 +37971,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38669,9 +37987,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38687,9 +38003,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38705,9 +38019,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38723,9 +38035,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38741,9 +38051,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38759,9 +38067,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38777,9 +38083,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38795,9 +38099,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38813,9 +38115,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38831,9 +38131,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -38849,9 +38147,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -39222,9 +38518,7 @@ exports[`Storyshots Table 8 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -39240,9 +38534,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -39258,9 +38550,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -39276,9 +38566,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -39294,9 +38582,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -39312,9 +38598,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -39330,9 +38614,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -39348,9 +38630,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -39366,9 +38646,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -39384,9 +38662,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -39402,9 +38678,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -39420,9 +38694,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -39438,9 +38710,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -39456,9 +38726,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -39474,9 +38742,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -39492,9 +38758,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -39943,9 +39207,7 @@ exports[`Storyshots Table 8 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -39961,9 +39223,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -39979,9 +39239,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -39997,9 +39255,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40015,9 +39271,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40033,9 +39287,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40051,9 +39303,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40069,9 +39319,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40087,9 +39335,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40105,9 +39351,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40123,9 +39367,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40141,9 +39383,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40159,9 +39399,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40177,9 +39415,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40195,9 +39431,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40213,9 +39447,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40742,9 +39974,7 @@ exports[`Storyshots Table 8 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40760,9 +39990,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40778,9 +40006,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40796,9 +40022,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40814,9 +40038,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40832,9 +40054,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40850,9 +40070,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40868,9 +40086,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40886,9 +40102,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40904,9 +40118,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40922,9 +40134,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40940,9 +40150,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40958,9 +40166,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40976,9 +40182,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -40994,9 +40198,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -41012,9 +40214,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -41489,9 +40689,7 @@ exports[`Storyshots Table 8 players 1`] = `
               }
             }
           >
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -41507,9 +40705,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -41525,9 +40721,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -41543,9 +40737,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -41561,9 +40753,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -41579,9 +40769,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -41597,9 +40785,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -41615,9 +40801,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -41633,9 +40817,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -41651,9 +40833,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -41669,9 +40849,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -41687,9 +40865,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -41705,9 +40881,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -41723,9 +40897,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -41741,9 +40913,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -41759,9 +40929,7 @@ exports[`Storyshots Table 8 players 1`] = `
                 }
               />
             </div>
-            <div
-              className={undefined}
-            >
+            <div>
               <div
                 style={
                   Object {
@@ -41798,7 +40966,7 @@ exports[`Storyshots Table 8 players 1`] = `
 </div>
 `;
 
-exports[`Storyshots Text default 1`] = `
+exports[`components snapshots Text default 1`] = `
 <div
   className="_918d5541"
 >
@@ -41806,7 +40974,7 @@ exports[`Storyshots Text default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Timer default 1`] = `
+exports[`components snapshots Timer default 1`] = `
 <div
   style={
     Object {
@@ -41832,7 +41000,7 @@ exports[`Storyshots Timer default 1`] = `
 </div>
 `;
 
-exports[`Storyshots WaitingRoom default 1`] = `
+exports[`components snapshots WaitingRoom default 1`] = `
 <div
   style={
     Object {
@@ -41936,7 +41104,7 @@ exports[`Storyshots WaitingRoom default 1`] = `
 </div>
 `;
 
-exports[`Storyshots World3d default 1`] = `
+exports[`components snapshots World3d default 1`] = `
 <div>
   <input
     max={18.84955592153876}

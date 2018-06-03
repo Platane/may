@@ -1,5 +1,5 @@
 .container {
-    position: absolute;
-    transform-style: preserve-3d;
-    transform-origin: left;
+  position: absolute;
+  transform-style: preserve-3d;
+  transform-origin: left;
 }
